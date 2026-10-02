@@ -94,7 +94,7 @@ public class SpikeBall : Attractable
         // Stops the coroutine that keeps moving this towards the invoker
         if(collidedWithPlayer) {
             StopCoroutine("MoveToDestination");
-            FindObjectOfType<PlayerController>().IsDisabled = true;
+            FindAnyObjectByType<PlayerController>().IsDisabled = true;
         }
 
         this.PlaySound(this.explosionClip);

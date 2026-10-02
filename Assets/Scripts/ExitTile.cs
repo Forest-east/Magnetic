@@ -101,7 +101,7 @@ public class ExitTile : Tile
         }
 
         // Register the switches events to know when a switch is activated/deactivated
-        foreach(SwitchTile switchTile in FindObjectsOfType<SwitchTile>()) {
+        foreach(SwitchTile switchTile in FindObjectsByType<SwitchTile>()) {
             this.totalSwitches++;
             switchTile.SwitchActivatedEvent += this.OnSwitchOn;
             switchTile.SwitchDeactivatedEvent += this.OnSwitchOff;
@@ -172,7 +172,7 @@ public class ExitTile : Tile
         yield return new WaitForSeconds(time);
 
         if(sceneName == "MainMenu") {
-            FindObjectOfType<LevelController>().MainMenu();
+            FindAnyObjectByType<LevelController>().MainMenu();
         } else {
             SceneManager.LoadScene(sceneName);
         }        

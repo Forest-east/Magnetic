@@ -78,8 +78,8 @@ public class PlayerController : MonoBehaviour, IMagnetic
     /// True when the player was waiting for attacheables and they
     /// are all attached
     /// </summary>
-    [SerializeField]
-    bool doneWaitingForAttachables = false;
+  //  [SerializeField]
+   // bool doneWaitingForAttachables = false;
 
     /// <summary>
     /// The last position the player was when they invoked the "attraction" action
@@ -173,7 +173,7 @@ public class PlayerController : MonoBehaviour, IMagnetic
     /// </summary>
     void Start ()
     {
-        this.levelController = FindObjectOfType<LevelController>();
+        this.levelController = FindAnyObjectByType<LevelController>();
         this.destination = this.transform.position;
         this.audioSource = GetComponent<AudioSource>();
         this.unitsPerTile = this.levelController.unitsPerTile;
@@ -468,10 +468,6 @@ public class PlayerController : MonoBehaviour, IMagnetic
     /// <param name="clip"></param>
     void PlayLoopSound(AudioClip clip)
     {
-
-        this.PlaySound(clip);
-        return;
-
         this.audioSource.loop = true;
 
         // Not the current sound

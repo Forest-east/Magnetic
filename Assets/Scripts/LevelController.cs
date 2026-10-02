@@ -69,7 +69,7 @@ public class LevelController : MonoBehaviour
     void Start ()
     {
         Cursor.visible = false;
-        Tile[] tiles = FindObjectsOfType<Tile>() as Tile[];
+        Tile[] tiles = FindObjectsByType<Tile>() as Tile[];
         foreach(Tile tile in tiles) {
             // Ignore y axis as it needs to be 0
             Vector3 position = new Vector3(

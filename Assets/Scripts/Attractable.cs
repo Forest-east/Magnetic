@@ -112,7 +112,7 @@ public class Attractable : MonoBehaviour, IAttractable, IRespawnable
     {
         get
         {
-            return this.rigidBody.velocity.y < 0;
+            return this.rigidBody.linearVelocity.y < 0;
         }
     }
 
@@ -140,7 +140,7 @@ public class Attractable : MonoBehaviour, IAttractable, IRespawnable
         this.rigidBody = GetComponent<Rigidbody>();
         this.animator = GetComponent<Animator>();
         this.audioSource = GetComponent<AudioSource>();
-        this.levelController = FindObjectOfType<LevelController>();
+        this.levelController = FindAnyObjectByType<LevelController>();
         this.particle = GetComponentInChildren<ParticleSystem>();
         this.origin = this.lastPosition = this.destination = this.transform.position;
         this.unitsPerTile = this.levelController.unitsPerTile;

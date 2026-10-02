@@ -71,7 +71,7 @@ public class LevelMenu : MonoBehaviour
         Cursor.visible = true;
         this.menuIsOpened = true;
         this.menuGO.SetActive(true);
-        FindObjectOfType<PlayerController>().IsDisabled = true;
+        FindAnyObjectByType<PlayerController>().IsDisabled = true;
     }
 
     /// <summary>
@@ -88,6 +88,6 @@ public class LevelMenu : MonoBehaviour
         Cursor.visible = false;
         this.menuIsOpened = false;
         this.menuGO.SetActive(false);
-        FindObjectOfType<PlayerController>().IsDisabled = false;
+        FindAnyObjectByType<PlayerController>().IsDisabled = false;
     }
 }
