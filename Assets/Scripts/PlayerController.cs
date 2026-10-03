@@ -212,8 +212,8 @@ public class PlayerController : MonoBehaviour, IMagnetic
     /// </summary>
     void Start ()
     {
-        this.levelController = FindObjectOfType<LevelController>();
-        this.dpad = FindObjectOfType<VirtualDPadController>();
+        this.levelController = FindAnyObjectByType<LevelController>();
+        this.dpad = FindAnyObjectByType<VirtualDPadController>();
         this.destination = this.transform.position;
         this.audioSource = GetComponent<AudioSource>();
         this.unitsPerTile = this.levelController.unitsPerTile;

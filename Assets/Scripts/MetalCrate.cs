@@ -32,7 +32,7 @@ public class MetalCrate : Attractable
 
     void FixedUpdate()
     {
-        int speed = (int)this.rigidBody.velocity.y;
+        int speed = (int)this.rigidBody.linearVelocity.y;
         if(speed <= this.fallSpeedTrigger && !this.soundPlayed) {
             this.soundPlayed = true;
             this.PlaySound(this.fallingClip);
@@ -52,7 +52,7 @@ public class MetalCrate : Attractable
     /// </summary>
     public override void Respawn()
     {
-        this.rigidBody.velocity = Vector3.zero;
+        this.rigidBody.linearVelocity = Vector3.zero;
         this.soundPlayed = false;
         base.Respawn();
     }

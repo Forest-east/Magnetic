@@ -1,0 +1,1358 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS" at "2026-10-03T02:24:18.9632068Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32189 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-03T02:24:18Z
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 64004, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-TS"
+[Licensing::IpcConnector] LicenseClient-TS channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-TS-6000.5.5 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 63096)
+
+COMMAND LINE ARGUMENTS:
+D:\Unity6.5\Unity6.50f1\Editor\Unity.exe
+-projectpath
+D:\Magnetic
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-TS
+-hubSessionId
+230919b0-bed0-11f1-bb44-99ee0d77aa6e
+Successfully changed project path to: D:\Magnetic
+D:/Magnetic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [99884]  Target information:
+
+Player connection [99884]  * "[IP] 192.168.31.237 [Port] 55504 [Flags] 2 [Guid] 254167018 [EditorId] 254167018 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-E4B0OE1M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [99884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [99884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS-6000.5.5" at "2026-10-03T02:24:19.3531159Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 63096, path: "D:/Unity6.5/Unity6.50f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Package Manager] Connected to IPC stream "Upm-84680" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              3ad9fbcbebe04c3894f519d8aaf2e375
+  Correlation Id:          deec36f6a298315b6a0683607ae33be5
+  External correlation Id: 4795042882249863922
+  Machine Id:              FUsKpifI5BIn3GVS4TXSqZs/aJw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-TS-6000.5.5" (connect: 0.37s, validation: 0.21s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS-6000.5.5-notifications" at "2026-10-03T02:24:19.6076111Z"
+[Licensing::Module] Connected to LicensingClient (PId: 63096, launch time: 0.01, total connection time: 0.63s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:14:28Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:14:28Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 0.68s
+[Licensing::Module] Licensing is initialized (took 0.17s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:14:28Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Active build profile path: ``
+Artifact Garbage Collection - Removed 22 unused hashed content files
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path D:/Unity6.5/Unity6.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Magnetic/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.15.9201
+Initialize mono
+Mono path[0] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity6.5/Unity6.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity6.5/Unity6.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001037 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.282 seconds
+Domain Reload Profiling: 712ms
+	BeginReloadAssembly (158ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (138ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
+	FinalizeReload (285ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:24:20Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: D:\Magnetic\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: D:\Magnetic\Library\PackageCache\com.unity.ugui@f2d87ebaaa32)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Magnetic\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+AcceleratorClientConnectionCallback - disconnected - :0
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Magnetic
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 20.6670ms
+Starting: D:\Unity6.5\Unity6.50f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Magnetic
+ExitCode: 0 Duration: 0s73ms
+*** Tundra build success (0.04 seconds), 0 items updated, 239 evaluated
+AssetDatabase: script compilation time: 0.373183s
+Begin MonoManager ReloadAssembly
+Importing 'GUID: 00000000000000002000000000000000 - Path: ProjectSettings/InputManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000002000000000000000' -> (Import Result ID: '5eb5ebdd04b54405817898d7bad27ff3') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=0290babc70dea6fa2c98f564a251f1f8 DependenciesID=852bfb3a0ca4f7b9d7d8357af0341389 StaticDependenciesID=2fc9ecf56824632cc46c92be48f6d7f8 
+Importing 'GUID: 00000000000000003000000000000000 - Path: ProjectSettings/TagManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000003000000000000000' -> (Import Result ID: 'b9c57b62960c05964bfcf3ea293ba02d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=fd6696bcbef029973bb12ace65e33982 DependenciesID=0c2f3630c55d4b2944295a7c29806297 StaticDependenciesID=3f1520a712932046224dcfce594d85bf 
+Importing 'GUID: 00000000000000006000000000000000 - Path: ProjectSettings/AudioManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000006000000000000000' -> (Import Result ID: '267fe03007c6632b7379b56c633b722d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=acca44841ee8003c72d524064efb6e35 DependenciesID=a71a58753d87cd72fe767341614d2166 StaticDependenciesID=e96d5e218a01b19b3672dd88e6cf87a1 
+Importing 'GUID: 00000000000000007000000000000000 - Path: ProjectSettings/TimeManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000007000000000000000' -> (Import Result ID: '0a60df3c20d93b723ae0b35ded6c2a63') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=bcbe57e6eed4f14d697ceae3e9a4ee48 DependenciesID=50b65264b9bb240314e092a3620af00b StaticDependenciesID=47e7cd4ba931b595a0bce618b57fd01d 
+Importing 'GUID: 00000000000000008000000000000000 - Path: ProjectSettings/DynamicsManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000008000000000000000' -> (Import Result ID: 'e16cb771b6902e08ac7a8774410a4b79') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=af765d07e318cf68f695edacf91778bd DependenciesID=a4f2167c3bda7186376e2481e51b4b79 StaticDependenciesID=80381ac455a363803123dc607dbebecd 
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'b267c16115d24502c73a9e7a6d42e6f7') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=7b12711da11c94ad897442b4820d3f7b DependenciesID=217046a7ffc14b05399de0d6f5b9ba56 StaticDependenciesID=f9bd99c2a30d87c207cff4388a80621d 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '5f49cd3be851ab5a3db98e8e7d06c9e7') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=d7be5bbe3ca415a2929ee460024ee151 StaticDependenciesID=a2c11c35a2f85f4c4a96cbfb1b519264 
+Importing 'GUID: 0000000000000000c000000000000000 - Path: ProjectSettings/EditorSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000c000000000000000' -> (Import Result ID: '987f81dd717d15a68f4ecb3bf9ffd351') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=fc08cc28cef36a03227c22ef67b54535 DependenciesID=761479b0f825b0997bdb331fed837a3b StaticDependenciesID=8c78102cc640f6068f2c949cee79a83f 
+Importing 'GUID: 00000000000000004100000000000000 - Path: ProjectSettings/NavMeshAreas.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004100000000000000' -> (Import Result ID: 'e31f50702c7b8e68dd2168fe8bd964ea') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=90afd57cd2fd79df9534381ff5673272 DependenciesID=1ac24e485698ab387aef910ba13b9e8f StaticDependenciesID=a2a3ab8c7d0fbb3870236fae267ea2f9 
+Importing 'GUID: 00000000000000005100000000000000 - Path: ProjectSettings/Physics2DSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000005100000000000000' -> (Import Result ID: '049ffe5db53d48a904369ddca3e096d2') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=51a8098361d5b0c1ab07bfc06e51f152 DependenciesID=cc3dd8fcbf054fcea69dad8e15632650 StaticDependenciesID=0c9ef63a1dce230e60764cdac945ef90 
+Importing 'GUID: 00000000000000006100000000000000 - Path: ProjectSettings/GraphicsSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000006100000000000000' -> (Import Result ID: 'bb7804f8451adff5c539faf70a64e152') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f9600466f06a676b7a4f639f6629ea48 DependenciesID=bc7263fa241f884f85fe99d8fa4e4d2c StaticDependenciesID=3ccf967caf428d40cee265ccff0107fd 
+Importing 'GUID: 00000000000000007100000000000000 - Path: ProjectSettings/ClusterInputManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000007100000000000000' -> (Import Result ID: '98df8fe07f74a43636e12ba0b1dff325') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=8ce0cedd10b8cd8471ed9838bfc872ed DependenciesID=301d2e79b9cea8c2e09ddfe7eb603702 StaticDependenciesID=a4e674332c32893975d6fb27021957ee 
+Importing 'GUID: 0000000000000000a100000000000000 - Path: ProjectSettings/UnityConnectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000a100000000000000' -> (Import Result ID: '2634e3eb62b3fca8d90b10940f3b2c5e') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=1989c27f310e62ee2c72d63f16a698d0 DependenciesID=17dacb10d1b65a95821e1a79ebdbcde5 StaticDependenciesID=bc8eee46cb26771f9c0a8ef851e008b6 
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 727ms
+	BeginReloadAssembly (291ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (101ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (311ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Starting new worker id: 0 with log in D:/Magnetic/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=390e10a9efe6dcc4dae8150b6239297a): Total: 1.337 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=13 (actual=13, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=434 ms
+		Asset DB Callback time: managed=50 ms, native=23 ms
+		Scripting: domain reloads=1, domain reload time=443 ms, compile time=376 ms, other=6 ms
+		Project Asset Count: scripts=233, non-scripts=391
+		Asset File Changes: new=0, changed=13, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 22.089ms
+	ApplyChangesToAssetFolders: 0.609ms
+	Scan: 38.036ms
+	Collect global state as custom dependencies: 0.612ms
+	OnSourceAssetsModified: 0.694ms
+	CategorizeScriptCompilationAssets: 0.864ms
+	ProcessAssetsWithTransientArtifactChanges: 5.716ms
+	CategorizeAssets: 3.740ms
+	CompileScripts: 376.262ms
+	ImportOutOfDateAssets: 346.347ms (313.143ms without children)
+		ImportManagerImport: 20.857ms (2.921ms without children)
+		UnloadImportedAssets: 0.101ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.068ms
+		ImportSchedulerStart: 12.175ms
+	PostProcessAllAssets: 51.681ms
+		VCAutoAddAssetPostprocess 1.093ms
+		MonoPostProcessAllAssets: 50.118ms
+			AssetPostprocessor.OnPostprocessAllAssets 10.454ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 9.896ms
+			AssetChangedListener.OnPostprocessAllAssets 6.184ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.998ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.746ms
+			SyncVS.PostprocessSyncProject 2.245ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.508ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.915ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.849ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.701ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.348ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.292ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.225ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.191ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.184ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.180ms
+			AssetEvents.OnPostprocessAllAssets 0.146ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.107ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.083ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.079ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.074ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.053ms
+	PostAssetChangesProfiler: 2.430ms
+	UnloadStreamsBegin: 1.324ms
+	PersistCurrentRevisions: 0.207ms
+	GenerateScriptTypeHashes: 0.965ms
+	GenerateScriptTypeSerializationHashes: 1.644ms
+	Untracked: 481.254ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 9.498ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Magentic
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Scenes/Level_1/LightingData.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 469]
+
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
+
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/Level_1.unity'
+	Deserialize:            3.386 ms
+	Integration:            373.146 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   376.560 ms
+Unloading 466 unused Assets / (0.5 MB). Loaded Objects now: 2246.
+Memory consumption went from 258.1 MB to 257.6 MB.
+Total: 3.610200 ms (FindLiveObjects: 0.107900 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.129900 ms  DeleteObjects: 0.283200 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout D:\Magnetic\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/TS/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 4.482 seconds
+	Project init time: 				3.211 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.401 seconds
+		Asset Database init time: 		0.259 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			0.756 seconds
+		Unity extensions init time: 	0.001 seconds
+		Asset Database refresh time: 	1.337 seconds
+	Scene opening time: 			0.990 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790994263417,"processId":84680,"projectLoad":4.4818619,"projectInit":3.2106109,"templateInit":0.0,"packageManagerInit":0.4007808,"assetDatabaseInit":0.2586002,"globalIlluminationInit":0.0038265,"assembliesLoad":0.7556473,"unityExtensionsInit":0.0011975,"assetDatabaseRefresh":1.3371866,"sceneOpening":0.9895193}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790994263417,"processId":84680,"editorVersion":"6000.5.5f1 (d16e074b49fd)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=da57a9a5371dba24f836666485091d55): Total: 0.032 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/TS/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.050s, timestamps: [5.534 - 5.584]
+Asset Pipeline Refresh (id=455ce245f16ada9478508b5e50282cd7): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Starting new worker id: 1 with log in D:/Magnetic/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: fdc71aa00e19e014bbdda2195c753cce - Path: Assets/Editor/ResaveProjectSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '91c62f6cbea11c5054f8e7d759028ce5') in 0.0722095 seconds
+Worker ready: AssetImportWorkerHW1 1
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=d499747c45da80149baedeea7137fd89): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Installing AI Packages.
+com.unity.ai.assistant
+com.unity.ai.inference
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Toolbars.AIDropdownContent:OnClicked ()
+UnityEngine.UIElements.Clickable:Invoke (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.Clickable:ProcessUpEvent (UnityEngine.UIElements.EventBase,UnityEngine.Vector2,int)
+UnityEngine.UIElements.Clickable:OnPointerUp (UnityEngine.UIElements.PointerUpEvent)
+UnityEngine.UIElements.EventCallbackFunctor`1<UnityEngine.UIElements.PointerUpEvent>:Invoke (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventCallbackRegistry/DynamicCallbackList:Invoke (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerUpEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+Asset Pipeline Refresh (id=4389aa811d0545a43b3ed4230f48c8f8): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: c5c62a3bba6b85c41bdecd3ee27be0de - Path: Assets/Scenes/Level_1.unity - Importer: PreviewImporter -> (ImportResultId: 'cfd855bfa2fb84a5bd95302c7e92425e') in 0.0008106 seconds
+Opening scene 'Assets/Scenes/Level_1.unity'
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Level_1.unity'
+	Deserialize:            1.548 ms
+	Integration:            12.658 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   14.229 ms
+Unloading 61 unused Assets / (17.1 MB). Loaded Objects now: 3360.
+Memory consumption went from 477.5 MB to 460.4 MB.
+Total: 9.577500 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.110600 ms MarkObjects: 6.219800 ms  DeleteObjects: 3.092700 ms)
+
+Opening scene 'Assets/Scenes/Level_1.unity'
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Level_1.unity'
+	Deserialize:            1.578 ms
+	Integration:            12.722 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   14.311 ms
+Unloading 8 unused Assets / (17.2 KB). Loaded Objects now: 3360.
+Memory consumption went from 459.9 MB to 459.9 MB.
+Total: 6.505000 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.075500 ms MarkObjects: 6.251800 ms  DeleteObjects: 0.020100 ms)
+
+[Worker0] Imported GUID: 1e312d25ef13b824a810119935226aae - Path: Assets/Scenes/Level_2.unity - Importer: PreviewImporter -> (ImportResultId: '4b7fd9a259767e1fb114c991f4f33bce') in 0.0004855 seconds
+Opening scene 'Assets/Scenes/Level_2.unity'
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/Level_2.unity'
+	Deserialize:            2.302 ms
+	Integration:            13.839 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   16.162 ms
+Unloading 11 unused Assets / (27.4 KB). Loaded Objects now: 3396.
+Memory consumption went from 460.2 MB to 460.2 MB.
+Total: 6.274400 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.070800 ms MarkObjects: 6.022500 ms  DeleteObjects: 0.030100 ms)
+
+Opening scene 'Assets/Scenes/Level_1.unity'
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/Level_1.unity'
+	Deserialize:            1.565 ms
+	Integration:            13.277 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   14.855 ms
+Unloading 10 unused Assets / (34.3 KB). Loaded Objects now: 3360.
+Memory consumption went from 460.7 MB to 460.7 MB.
+Total: 6.317000 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.075600 ms MarkObjects: 6.036800 ms  DeleteObjects: 0.028000 ms)
+
+Asset Pipeline Refresh (id=716d90da6a5ee7f47bbbeabc9126e5b5): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Opening scene 'Assets/Scenes/Level_1.unity'
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Level_1.unity'
+	Deserialize:            1.821 ms
+	Integration:            12.237 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   14.081 ms
+Unloading 8 unused Assets / (48.7 KB). Loaded Objects now: 3360.
+Memory consumption went from 460.7 MB to 460.7 MB.
+Total: 6.370800 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.068300 ms MarkObjects: 6.127900 ms  DeleteObjects: 0.022300 ms)
+
+Asset Pipeline Refresh (id=0b90c24282c5ca84e9ddfb4ab2a67aae): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+
+Asset Pipeline Refresh (id=cb7afae8a25444344a98f68e03c49576): Total: 0.896 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=895 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=233, non-scripts=391
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.437ms
+	ApplyChangesToAssetFolders: 0.069ms
+	Scan: 35.644ms
+	UnloadStreamsBegin: 0.161ms
+	UnloadStreamsEnd: 0.185ms
+	Untracked: 858.739ms
+
+[00:00:33] Precompute started.
+[BakePipeline::Driver] Extracted OOTS snapshot with 0 instances, 0 geometries, 0 meshes, 0 materials, 0 lights, 0 cookies in 0.45ms.
+[BakePipeline::Driver] Transformed OOTS snapshot into LightBaker scene input (00000237557D44B0) in 2.34ms. Size: 1.50MB.
+[00:00:33] Builtin Sky manager started.
+[BakePipeline::PreprocessStage] Background thread started.
+[PathTracer] Finished packing lightmaps in 0.000004 seconds.
+[00:00:33] Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[BakePipeline::BakeStage] Background thread started. Calling LightBaker.
+[BakePipeline::BakeStage] LightBaker bake took 0.00ms and succeeded.
+[00:00:33] Finished 1 Layout Systems job (0.15s execute, 0.00s integrate, 0.16s wallclock)
+[BakePipeline::PostProcessStage] Started.
+[00:00:33] Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[00:00:33] Precompute took 0.208673 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[BakePipeline::Run] Completed succesfully.
+Starting cubemap convolution for '' (size 128)
+...took 0.032 seconds
+[00:00:33] LightingDataAsset started.
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Scenes/Level_1/LightingData.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=1f09f3e0209c91e499de7f50617e70ad): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Scenes/Level_1/LightingData.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: '23f9ba3129f8394d4e0cd2a9048cc669') in 0.027 seconds [static dependencies only]. Details - ImportResultOutputID=49b9459f7a7c065ff5a40874e3d97d80 DependenciesID=046b8f7eaf14a1fb94741bb84cde453c StaticDependenciesID=1e3a2b8c1cde05d15966c8af735d95b2 
+Asset Pipeline Refresh (id=9b73feb1a78047f48bdc86994a89439a): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=432ab6048425efc43bdfd643635bca96): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4778a2b2c50bed840b8544505b31a18b): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=41a57bd0578817048944eaafde24e7fb): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '33bd63817d522dce9d58d6a7cfc6270f') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93866d7294eb3ad6fd4edfc88dfb96f3 DependenciesID=af8402c8cd697405315e26db964e762d StaticDependenciesID=3397de70e3c98efbf3b04da36d772bc7 
+Asset Pipeline Refresh (id=8e15e5c72a5c9504f8041be091b10285): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Starting cubemap convolution for '' (size 128)
+...took 0.028 seconds
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '47aac51904b7025e1994e22d6cb20ba5') in 0.096 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d60ce5915daa2490ec9a16b4850e8df DependenciesID=b6d2f52f792148f03a4b838cb0f54668 StaticDependenciesID=d44ae2c93cedb8f842c3d12272e03653 
+Asset Pipeline Refresh (id=a26739e3dd8b9e84cbdb8b9b5a6b3d15): Total: 0.119 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+> Collecting Enlighten data
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: '5c8c24fcf044da32354cb71846d75ba7') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=cf5df922773119153692f937dde753df DependenciesID=e115ae41df07a34d6f2f3d842a2bc23e StaticDependenciesID=411d4d9d1be87a5cc33e67957139c22a 
+Asset Pipeline Refresh (id=d2e56c4eb3addef45b995e70fc792df5): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[BakePipeline::Driver] Extracted OOTS snapshot with 0 instances, 0 geometries, 0 meshes, 0 materials, 0 lights, 0 cookies in 0.05ms.
+[BakePipeline::Driver] Transformed OOTS snapshot into LightBaker scene input (000002375DD1C0F0) in 3.11ms. Size: 1.50MB.
+[BakePipeline::PreprocessStage] Background thread started.
+[PathTracer] Finished packing lightmaps in 0.000001 seconds.
+[BakePipeline::BakeStage] Background thread started. Calling LightBaker.
+[BakePipeline::BakeStage] LightBaker bake took 0.00ms and succeeded.
+[BakePipeline::PostProcessStage] Started.
+[BakePipeline::Run] Completed succesfully.
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=5c164b537a5022e4abc07d894ff47f2c): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: 'd57c4b6b89abe6fdb040cf21ff6dedb6') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d2d87596c2658454e7d0d6f24a2264bc DependenciesID=9df34c12dcafd6ea32957e00aacc5078 StaticDependenciesID=430da73262d072a3a3314a6766f23a78 
+Asset Pipeline Refresh (id=193530396c221304b9853e76f583cc2c): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=3f04cd46c54a44d489c8032c5d23de3c): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=27364bbbacbcb2b4086a48673645264d): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9a113a0f8e784d84dbc1a97bc26bc695): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '33bd63817d522dce9d58d6a7cfc6270f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93866d7294eb3ad6fd4edfc88dfb96f3 DependenciesID=af8402c8cd697405315e26db964e762d StaticDependenciesID=3397de70e3c98efbf3b04da36d772bc7 
+Asset Pipeline Refresh (id=600b1fed7a82da843b5683c72cd3e249): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Starting cubemap convolution for '' (size 128)
+...took 0.030 seconds
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '47aac51904b7025e1994e22d6cb20ba5') in 0.092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d60ce5915daa2490ec9a16b4850e8df DependenciesID=b6d2f52f792148f03a4b838cb0f54668 StaticDependenciesID=d44ae2c93cedb8f842c3d12272e03653 
+Asset Pipeline Refresh (id=c3ec7892881668f4aa4693f6299ba1c8): Total: 0.107 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+> Collecting Enlighten data
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: 'edeeceb47da276460e3a86f184158048') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cf5df922773119153692f937dde753df DependenciesID=5a0d5c6b859a6f0a8529d26ef53668ad StaticDependenciesID=2559567b1c7e77a2bc9de47c2744ad7e 
+Asset Pipeline Refresh (id=58dee7ce90ab9c34baa8f8ec2de22b05): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=fa222fbf6a442a04284df680e4029a38): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Asset Pipeline Refresh (id=8520faf502861684a96ec372e5b651ab): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: 'd57c4b6b89abe6fdb040cf21ff6dedb6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d2d87596c2658454e7d0d6f24a2264bc DependenciesID=9df34c12dcafd6ea32957e00aacc5078 StaticDependenciesID=430da73262d072a3a3314a6766f23a78 
+Asset Pipeline Refresh (id=fcaf4f713b5a8dd4da780b245aa26ece): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.LightingWindow:DoClear ()
+UnityEditor.LightingWindow:BakeDropDownCallback (object)
+UnityEditor.GenericMenu:CatchMenu (object,string[],int)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Asset Pipeline Refresh (id=aed51ad6b1de366448b8d398ed6d4656): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[00:01:13] Precompute started.
+[BakePipeline::Driver] Extracted OOTS snapshot with 0 instances, 0 geometries, 0 meshes, 0 materials, 0 lights, 0 cookies in 0.06ms.
+[BakePipeline::Driver] Transformed OOTS snapshot into LightBaker scene input (000002375EDC5140) in 3.22ms. Size: 1.50MB.
+[BakePipeline::PreprocessStage] Background thread started.
+[PathTracer] Finished packing lightmaps in 0.000001 seconds.
+[00:01:13] Finished 1 Layout Systems job (0.02s execute, 0.00s integrate, 0.05s wallclock)
+[00:01:13] Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[00:01:13] Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[00:01:13] Precompute took 0.101992 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[BakePipeline::BakeStage] Background thread started. Calling LightBaker.
+[BakePipeline::BakeStage] LightBaker bake took 0.00ms and succeeded.
+[BakePipeline::PostProcessStage] Started.
+[BakePipeline::Run] Completed succesfully.
+Asset Pipeline Refresh (id=222c4758ad400ac4695cd8183165df32): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=7677950c276504246844912b43ae4d1f): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '33bd63817d522dce9d58d6a7cfc6270f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93866d7294eb3ad6fd4edfc88dfb96f3 DependenciesID=af8402c8cd697405315e26db964e762d StaticDependenciesID=3397de70e3c98efbf3b04da36d772bc7 
+Asset Pipeline Refresh (id=0c223f7206c867e4bb6514c80cf4bf1a): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr' with importer (TextureImporter)
+Starting cubemap convolution for '' (size 128)
+...took 0.029 seconds
+Imported 'GUID: a4a0a1ec25cc86e48b70f59f68bd856e' -> (Import Result ID: '47aac51904b7025e1994e22d6cb20ba5') in 0.095 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d60ce5915daa2490ec9a16b4850e8df DependenciesID=b6d2f52f792148f03a4b838cb0f54668 StaticDependenciesID=d44ae2c93cedb8f842c3d12272e03653 
+Asset Pipeline Refresh (id=5ffb587da58add54ab88778970c19b81): Total: 0.110 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+> Collecting Enlighten data
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: 'e5b9c016fc1cfae24564711532f88ef7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cf5df922773119153692f937dde753df DependenciesID=5c5a2bb93ca704e317147cc010b5ceab StaticDependenciesID=4a5d072a34a06733debb22145c258966 
+Asset Pipeline Refresh (id=4a7e966e809739741942f3f56f6ec7ee): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '364de0a3073938895839e28e9254608b') in 0.0051964 seconds
+[Worker1] Imported GUID: a4a0a1ec25cc86e48b70f59f68bd856e - Path: Assets/Scenes/Level_1/ReflectionProbe-0.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '74693f9917a8b3ebd3bb58544281ca7d') in 0.0842868 seconds
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:ExecuteMenuItemInternal (string,bool)
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+UnityEditor.ShortcutManagement.MenuItemEntryDiscoveryInfo:<.ctor>b__7_0 (UnityEditor.ShortcutManagement.ShortcutArguments)
+UnityEditor.ShortcutManagement.Trigger:ExecuteShortcut (UnityEditor.ShortcutManagement.ShortcutEntry,UnityEditor.ShortcutManagement.ShortcutStage,object,bool)
+UnityEditor.ShortcutManagement.Trigger:HandleKeyEvent (UnityEngine.Event,UnityEditor.ShortcutManagement.IContextManager)
+UnityEditor.ShortcutManagement.ShortcutController:HandleKeyEvent (UnityEngine.Event)
+UnityEditor.ShortcutManagement.ShortcutIntegration:EventHandler ()
+UnityEditor.EditorApplication:Internal_CallGlobalEventHandler ()
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:ExecuteMenuItemInternal (string,bool)
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+UnityEditor.ShortcutManagement.MenuItemEntryDiscoveryInfo:<.ctor>b__7_0 (UnityEditor.ShortcutManagement.ShortcutArguments)
+UnityEditor.ShortcutManagement.Trigger:ExecuteShortcut (UnityEditor.ShortcutManagement.ShortcutEntry,UnityEditor.ShortcutManagement.ShortcutStage,object,bool)
+UnityEditor.ShortcutManagement.Trigger:HandleKeyEvent (UnityEngine.Event,UnityEditor.ShortcutManagement.IContextManager)
+UnityEditor.ShortcutManagement.ShortcutController:HandleKeyEvent (UnityEngine.Event)
+UnityEditor.ShortcutManagement.ShortcutIntegration:EventHandler ()
+UnityEditor.EditorApplication:Internal_CallGlobalEventHandler ()
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:ExecuteMenuItemInternal (string,bool)
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+UnityEditor.ShortcutManagement.MenuItemEntryDiscoveryInfo:<.ctor>b__7_0 (UnityEditor.ShortcutManagement.ShortcutArguments)
+UnityEditor.ShortcutManagement.Trigger:ExecuteShortcut (UnityEditor.ShortcutManagement.ShortcutEntry,UnityEditor.ShortcutManagement.ShortcutStage,object,bool)
+UnityEditor.ShortcutManagement.Trigger:HandleKeyEvent (UnityEngine.Event,UnityEditor.ShortcutManagement.IContextManager)
+UnityEditor.ShortcutManagement.ShortcutController:HandleKeyEvent (UnityEngine.Event)
+UnityEditor.ShortcutManagement.ShortcutIntegration:EventHandler ()
+UnityEditor.EditorApplication:Internal_CallGlobalEventHandler ()
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Importing 'GUID: c5c62a3bba6b85c41bdecd3ee27be0de - Path: Assets/Scenes/Level_1.unity' with importer (DefaultImporter)
+Imported 'GUID: c5c62a3bba6b85c41bdecd3ee27be0de' -> (Import Result ID: '10d95c08f64aa97aacaf0372e247e184') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2f34753eb665ae48b9e3f7d7ae105895 DependenciesID=2718c0b821b219681b354f32a94206bd StaticDependenciesID=9e98b66495e73909cde11501ccfa9252 
+Asset Pipeline Refresh (id=dcff9f58c988b1b4aa906baac5243dee): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: c5c62a3bba6b85c41bdecd3ee27be0de - Path: Assets/Scenes/Level_1.unity - Importer: PreviewImporter -> (ImportResultId: '54bdbf755e86bebd61b9bc52db5d1794') in 0.0007368 seconds
+[Worker0] Imported GUID: c5c62a3bba6b85c41bdecd3ee27be0de - Path: Assets/Scenes/Level_1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '53dd59202c726e02e8b7cabb2b9b687b') in 0.0035443 seconds
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:24:22Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1176ms
+	BeginReloadAssembly (278ms)
+		DisableScriptedObjects (73ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (103ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (781ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (49ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+		AwakeInstancesAfterBackupRestoration (404ms)
+
+Asset Pipeline Refresh (id=27dbe805671c5c344aa0282c06c98722): Total: 1.279 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=819 ms
+		Asset DB Callback time: managed=27 ms, native=9 ms
+		Scripting: domain reloads=1, domain reload time=420 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=233, non-scripts=391
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.315ms
+	ApplyChangesToAssetFolders: 0.168ms
+	Collect global state as custom dependencies: 0.089ms
+	ProcessAssetsWithTransientArtifactChanges: 7.629ms
+	CategorizeAssets: 2.501ms
+	CompileScripts: 1.968ms
+	ImportOutOfDateAssets: 785.087ms (782.073ms without children)
+		UnloadImportedAssets: 1.741ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.054ms
+		ImportSchedulerStart: 1.203ms
+	PostProcessAllAssets: 30.005ms
+		PostProcessCallbackCreateDeferredMaterials 0.568ms
+		PostprocessAssetsUpdateCachedIcon 0.455ms
+		ShaderAssetModifiedCallback 0.304ms
+		RaytracingShaderImportPostprocess 0.161ms
+		ComputeShaderImportPostprocess 0.161ms
+		SpeedTreeImporter.PostprocessAllAssets 0.140ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.076ms
+		BlockShaderImporter.PostprocessAllAssets 0.072ms
+		AssemblyValidation.PostprocessAllAssets 0.069ms
+		MonoPostProcessAllAssets: 25.744ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.358ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.897ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.758ms
+			SyncVS.PostprocessSyncProject 1.601ms
+			AssetChangedListener.OnPostprocessAllAssets 1.550ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.954ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.796ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.614ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.394ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.232ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.195ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.192ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.165ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.141ms
+			AssetEvents.OnPostprocessAllAssets 0.127ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.113ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.104ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.101ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.099ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.086ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.083ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 6.850ms
+	UnloadStreamsBegin: 1.559ms
+	GenerateScriptTypeHashes: 0.346ms
+	GenerateScriptTypeSerializationHashes: 0.769ms
+	Untracked: 437.264ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            15.161 ms
+	Integration:            93.010 ms
+	Integration of assets:  0.049 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   108.235 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.243 ms
+	Integration:            13.653 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   18.918 ms
+Unloading 318 unused Assets / (7.2 KB). Loaded Objects now: 3388.
+Memory consumption went from 459.4 MB to 459.4 MB.
+Total: 6.073200 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.099500 ms MarkObjects: 5.711200 ms  DeleteObjects: 0.069700 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:24:22Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=a61ff2446c17e2e45bfb10a2b7df9718): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings\NetworkManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget (string)
+ResaveProjectSettings:Resave () (at Assets/Editor/ResaveProjectSettings.cs:40)
+
+[Assets/Editor/ResaveProjectSettings.cs line 40]
+
+未能读取，已跳过：ProjectSettings\NetworkManager.asset
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+ResaveProjectSettings:Resave () (at Assets/Editor/ResaveProjectSettings.cs:45)
+
+(Filename: Assets/Editor/ResaveProjectSettings.cs Line: 45)
+
+ScriptableSingleton already exists. Did you query the singleton in a constructor?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.ScriptableSingleton`1<UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettings>:.ctor ()
+UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettings:.ctor ()
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget (string)
+ResaveProjectSettings:Resave () (at Assets/Editor/ResaveProjectSettings.cs:40)
+
+(Filename: Assets/Editor/ResaveProjectSettings.cs Line: 40)
+
+已重新保存 21 个设置文件。备份目录：ProjectSettings_Backup_20261003_103008_832。请重启 Unity。
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ResaveProjectSettings:Resave () (at Assets/Editor/ResaveProjectSettings.cs:63)
+
+(Filename: Assets/Editor/ResaveProjectSettings.cs Line: 63)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+Asset Pipeline Refresh (id=0403ffc94e0ab97458b0c4ac15b28ada): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:24:22Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/MonoManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/InspectorExpandedItems.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Library/AnnotationManager"
+ScriptableSingleton already exists. Did you query the singleton in a constructor?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.ScriptableSingleton`1<UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettings>:.ctor ()
+UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettings:.ctor ()
+
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (309ms)
+		DisableScriptedObjects (75ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (106ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (811ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+		AwakeInstancesAfterBackupRestoration (411ms)
+
+Asset Pipeline Refresh (id=971299a11d338104dacc2d7491a9a062): Total: 1.326 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=840 ms
+		Asset DB Callback time: managed=14 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=467 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=233, non-scripts=391
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.433ms
+	ApplyChangesToAssetFolders: 0.175ms
+	Collect global state as custom dependencies: 0.088ms
+	CategorizeAssets: 2.546ms
+	CompileScripts: 2.027ms
+	ImportOutOfDateAssets: 813.443ms (811.665ms without children)
+		UnloadImportedAssets: 0.265ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.059ms
+		ImportSchedulerStart: 1.433ms
+	PostProcessAllAssets: 14.851ms
+		MonoPostProcessAllAssets: 14.847ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.038ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.897ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.758ms
+			AssetChangedListener.OnPostprocessAllAssets 1.550ms
+			SyncVS.PostprocessSyncProject 1.526ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.954ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.796ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.560ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.394ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.232ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.207ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.200ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.192ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.141ms
+			AssetEvents.OnPostprocessAllAssets 0.127ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.103ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.102ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.101ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.099ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.086ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.062ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.050ms
+	GenerateScriptTypeHashes: 0.348ms
+	GenerateScriptTypeSerializationHashes: 0.755ms
+	Untracked: 486.328ms
+
+ADTM: Inconsistent enable/disable of realtime thread
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            8.499 ms
+	Integration:            39.200 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   47.711 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.162 ms
+	Integration:            13.626 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   18.824 ms
+Unloading 29 unused Assets / (42.8 MB). Loaded Objects now: 3392.
+Memory consumption went from 463.1 MB to 420.2 MB.
+Total: 30.146500 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.088500 ms MarkObjects: 5.370800 ms  DeleteObjects: 24.520100 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:24:22Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+ADTM: Attempting to update control while a mix is ongoing, but realtime thread is disabled will lead to a deadlock
+Crash!!!
+SymInit: Symbol-SearchPath: 'D:/Unity6.5/Unity6.50f1/Editor/Data/Mono;.;D:\Magnetic;D:\Magnetic\Library\BurstCache\JIT;D:\Unity6.5\Unity6.50f1\Editor;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'TS'
+OS-Version: 10.0.0
+D:\Unity6.5\Unity6.50f1\Editor\Unity.exe:Unity.exe (00007FF6938D0000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.5.5.28167
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFDB7E40000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFDB60E0000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFDB54C0000), size: 4202496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFDB7C20000), size: 1896448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFDB5490000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFDB69D0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFDB5A30000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFDB5100000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFDB58D0000), size: 1359872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFDB5B60000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+D:\Unity6.5\Unity6.50f1\Editor\Unity.dll:Unity.dll (00007FFCE1290000), size: 98902016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.5.5.28167
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFDB74F0000), size: 770048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFDB7440000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.9444
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFDB5BB0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFDB5DD0000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+D:\Unity6.5\Unity6.50f1\Editor\OpenRL.dll:OpenRL.dll (0000000180000000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFDB6B00000), size: 1679360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\combase.dll:combase.dll (00007FFDB7640000), size: 3690496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFDB62B0000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFDB6CA0000), size: 7962624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+D:\Unity6.5\Unity6.50f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFCDE1F0000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFDB6A00000), size: 1028096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+D:\Unity6.5\Unity6.50f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFD1F000000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFDB79D0000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFDB5240000), size: 1564672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFDB6920000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+D:\Unity6.5\Unity6.50f1\Editor\etccompress.dll:etccompress.dll (00007FFCE0DB0000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFD01490000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFDB51B0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFDB61D0000), size: 888832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+D:\Unity6.5\Unity6.50f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFD01330000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFD47600000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2403.8001
+D:\Unity6.5\Unity6.50f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFD01000000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9278_none_3e0d1ba8e3303201\COMCTL32.dll:COMCTL32.dll (00007FFD8E720000), size: 2686976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.26100.9278
+C:\Windows\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFDB4F30000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+D:\Unity6.5\Unity6.50f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFCDE9A0000), size: 24559616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.0.0.0
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFDB0180000), size: 2490368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\d3d12.dll:d3d12.dll (00007FFD623F0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFDB19B0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFDB17E0000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFDB3230000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFDB2E50000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFD4ED80000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFDABAB0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005D210000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005D130000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+D:\Unity6.5\Unity6.50f1\Editor\embree.dll:embree.dll (00007FFCDD200000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFD935B0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFD93B70000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFD93670000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+D:\Unity6.5\Unity6.50f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFD006D0000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFDAB740000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFDADC20000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFD4DFF0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFD8E5C0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+D:\Unity6.5\Unity6.50f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFD1EE90000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.0.0.0
+C:\Windows\SYSTEM32\MSVCP140_CODECVT_IDS.dll:MSVCP140_CODECVT_IDS.dll (00007FFD41350000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFDB1F80000), size: 2408448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\powrprof.dll:powrprof.dll (00007FFDB4CE0000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+D:\Unity6.5\Unity6.50f1\Editor\tbb.dll:tbb.dll (00007FFD1EF80000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFDB1920000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+D:\Unity6.5\Unity6.50f1\Editor\FreeImage.dll:FreeImage.dll (00000236DB1F0000), size: 5332992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+D:\Unity6.5\Unity6.50f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000236D9BE0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\Windows\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFDB4BD0000), size: 335872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFDB3DE0000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFDB4CC0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8972
+C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFDB43E0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFDB5040000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFDB3820000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFDB16B0000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll:AudioDevProps2.dll (00007FFD6E3D0000), size: 1257472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.6.31.0
+C:\Windows\SYSTEM32\apphelp.dll:apphelp.dll (00007FFDB14B0000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFDB2590000), size: 9101312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFDB4F60000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\secur32.dll:secur32.dll (00007FFDB1560000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFDB3AE0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFDB7AD0000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFD94E90000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFD94830000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFD8B060000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFD8B240000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFD88CD0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFDB3E90000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26080.4-0\MpOav.dll:MpOav.dll (00007FFDAB180000), size: 671744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.26080.4
+C:\Windows\system32\IconCodecService.dll:IconCodecService.dll (00007FFDB0AD0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFDB40D0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFDAFA80000), size: 2326528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9457
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFDB3780000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFDB40F0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFDADBA0000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFDB6040000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFDA4D30000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFDB5C60000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFDABA40000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFDAB640000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFDB3330000), size: 1409024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\DSPARSE.dll:DSPARSE.dll (00007FFDB3BE0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\Windows\system32\napinsp.dll:napinsp.dll (00007FFD71000000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\System32\winrnr.dll:winrnr.dll (00007FFD70FE0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\nlansp_c.dll:nlansp_c.dll (00007FFD70FB0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\wshbth.dll:wshbth.dll (00007FFDABA70000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8875
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFDAA7D0000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFDABA30000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\Unity6.5\Unity6.50f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFCB8D00000), size: 8843264 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFCDBC10000), size: 1646592 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFCDBAD0000), size: 352256 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFDB5C70000), size: 1421312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FFD8F820000), size: 1028096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFD8B080000), size: 1318912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFDB11E0000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\gpapi.dll:gpapi.dll (00007FFDB3E60000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFDABE20000), size: 3031040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFDAE310000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FFDAB560000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\explorerframe.dll:explorerframe.dll (00007FFD75040000), size: 3244032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFDB17C0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\mfplat.dll:mfplat.dll (00007FFDACAA0000), size: 2248704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FFDACA60000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8972
+C:\Windows\SYSTEM32\mfreadwrite.dll:mfreadwrite.dll (00007FFD48F30000), size: 872448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\Mf.dll:Mf.dll (00007FFD9A3F0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9457
+C:\Windows\SYSTEM32\MFCORE.DLL:MFCORE.DLL (00007FFD96570000), size: 4296704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9457
+C:\Windows\SYSTEM32\CompPkgSup.DLL:CompPkgSup.DLL (00007FFD9D330000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8521
+C:\Windows\System32\Windows.Media.dll:Windows.Media.dll (00007FFD6E510000), size: 6934528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\Windows.ApplicationModel.dll:Windows.ApplicationModel.dll (00007FFD8BC50000), size: 884736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\AppXDeploymentClient.dll:AppXDeploymentClient.dll (00007FFDABC40000), size: 1515520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFD7C8D0000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FFD889C0000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFD9E310000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFDACD60000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFDB4C30000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\SYSTEM32\AudioSes.dll:AudioSes.dll (00007FFD9CDE0000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ProductInfo.dll:ProductInfo.dll (00007FFD5A3F0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.10.15.0
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ASM.Plugin.AudioDevProps2.dll:ASM.Plugin.AudioDevProps2.dll (00007FFD40700000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2.0
+C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFDB1D30000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\Windows\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFDACE10000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvldumdx.dll:nvldumdx.dll (00007FFDAB670000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\SYSTEM32\wldp.dll:wldp.dll (00007FFDB41B0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFDAB3B0000), size: 1548288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvgpucomp64.dll:nvgpucomp64.dll (00007FFDA5A40000), size: 80736256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFD97D80000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFDA44F0000), size: 1245184 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvwgf2umx.dll:nvwgf2umx.dll (00007FFD9E990000), size: 84860928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFD4BA80000), size: 3162112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.2.337
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFDB3950000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvppex.dll:nvppex.dll (00007FFD83860000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFCBA5D0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+D:\Unity6.5\Unity6.50f1\Editor\radeonrays.dll:radeonrays.dll (00007FFCBA570000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC40140000), size: 10760192 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\system32\dataexchange.dll:dataexchange.dll (00007FFD98450000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\system32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFDA4230000), size: 2424832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\Windows\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFD920A0000), size: 4325376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.9278
+C:\Windows\SYSTEM32\OLEACC.dll:OLEACC.dll (00007FFD90100000), size: 479232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.9278
+D:\Unity6.5\Unity6.50f1\Editor\UnityDenoisingPlugin.dll:UnityDenoisingPlugin.dll (00007FFD643F0000), size: 1929216 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity6.5\Unity6.50f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFC38B30000), size: 46874624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.4.2.0
+C:\Windows\SYSTEM32\nvcuda.dll:nvcuda.dll (00007FFCB6C70000), size: 4288512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\system32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvcuda64.dll:nvcuda64.dll (00007FFC9DBA0000), size: 35508224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\SYSTEM32\nvapi64.dll:nvapi64.dll (00007FFD9A810000), size: 5853184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvdxgdmal64.dll:nvdxgdmal64.dll (00007FFD011A0000), size: 630784 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvoptix.dll:nvoptix.dll (00007FFC34FB0000), size: 62353408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.1.0.0
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvrtum64.dll:nvrtum64.dll (00007FFC2A5D0000), size: 97128448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9201
+C:\Windows\SYSTEM32\nvml.dll:nvml.dll (00007FFD5B2E0000), size: 1347584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 8.17.15.9201
+C:\Windows\system32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvml.dll:nvml.dll (00007FFD01E30000), size: 17350656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 8.17.15.9201
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFDB5BA0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8521
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFDAEF80000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.9278
+C:\Windows\System32\Windows.System.Launcher.dll:Windows.System.Launcher.dll (00007FFD7A0F0000), size: 1572864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFD87E30000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9444
+C:\Windows\SYSTEM32\policymanager.dll:policymanager.dll (00007FFDAF400000), size: 745472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFDB55841CA (KERNELBASE) RaiseException
+0x00007FFCE217DD26 (Unity) LaunchBugReporter
+0x00007FFCE29EA8A3 (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FFCE29EB3D7 (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FFCE49BA4F8 (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FFCE49B9D01 (Unity) DebugStringToFile
+0x00007FFCE3144A60 (Unity) audio::DualThreadManager::ControlAcquireRealtimeAccess
+0x00007FFCE31464A4 (Unity) audio::DualThreadManager::ControlUpdate
+0x00007FFCE3152A13 (Unity) AudioManager::Update
+0x00007FFCE28B4D10 (Unity) PlayerLoopController::UpdateSceneIfNeededFromMainLoop
+0x00007FFCE28CC724 (Unity) Application::TickTimer
+0x00007FFCE21AD68C (Unity) MainMessageLoop
+0x00007FFCE21B62B1 (Unity) UnityMain
+0x00007FF6938D2F2A (Unity) __scrt_common_main_seh
+0x00007FFDB610CD87 (KERNEL32) BaseThreadInitThunk
+0x00007FFDB7EECAEC (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/TS/AppData/Local/Temp/Unity/Editor/Crashes
+Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.

@@ -118,7 +118,7 @@ public class Attractable : MonoBehaviour, IAttractable, IRespawnable
     {
         get
         {
-            return this.rigidBody.velocity.y < 0;
+            return this.rigidBody.linearVelocity.y < 0;
         }
     }
 

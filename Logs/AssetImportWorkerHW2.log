@@ -1,0 +1,322 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS" at "2026-10-03T02:38:07.2106044Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-03T02:38:07Z
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 64004, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-TS"
+[Licensing::IpcConnector] LicenseClient-TS channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS-6000.5.5" at "2026-10-03T02:38:07.221744Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 74200, path: "D:/Unity6.5/Unity6.50f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5129ed454ebf4391857e67fbba8df425
+  Correlation Id:          70b92a28d91cfe5c3ae7ee86d896079e
+  External correlation Id: 1663305603590015339
+  Machine Id:              FUsKpifI5BIn3GVS4TXSqZs/aJw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-TS-6000.5.5" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-TS-6000.5.5-notifications" at "2026-10-03T02:38:07.2757962Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+
+COMMAND LINE ARGUMENTS:
+D:\Unity6.5\Unity6.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+D:/Magnetic
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+52468
+-parentPid
+65712
+-analyticsLocalProjectId
+41adef074c7cba842a3126e272eb0603
+-licensingIpc
+LicenseClient-TS
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/Magnetic
+D:/Magnetic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [90580]  Target information:
+
+Player connection [90580]  * "[IP] 192.168.31.237 [Port] 0 [Flags] 2 [Guid] 3610806981 [EditorId] 3610806981 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-E4B0OE1M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [90580] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [90580] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: ``
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path D:/Unity6.5/Unity6.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Magnetic/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:          NVIDIA
+    VRAM:            7899 MB
+    App VRAM Budget: 7131 MB
+    Driver:          32.0.15.9201
+Initialize mono
+Mono path[0] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity6.5/Unity6.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity6.5/Unity6.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity6.5/Unity6.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001044 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 658ms
+	BeginReloadAssembly (141ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (141ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (135ms)
+	FinalizeReload (249ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (64ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-TTCD-DKTU-8844-ZNFX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-13T03:31:13Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 532ms
+	BeginReloadAssembly (162ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (109ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (243ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (51ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+Active build profile path: ``
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 452 unused Assets / (161.5 KB). Loaded Objects now: 1065.
+Memory consumption went from 160.6 MB to 160.4 MB.
+Total: 3.007400 ms (FindLiveObjects: 0.071900 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.738600 ms  DeleteObjects: 0.140700 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:09.6330527Z
+  Time since last request: 1422850.39876680006273 seconds.
+  importAddress: GUID: c820e71be7201eb449cec1547d5732d1 - Path: Assets/Menus/logo.png - Importer: PreviewImporter
+Importing 'GUID: c820e71be7201eb449cec1547d5732d1 - Path: Assets/Menus/logo.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c820e71be7201eb449cec1547d5732d1' -> (Import Result ID: 'd84af90b1caa74e18cd27843252c5f1a') in 0.072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62d1d2c85853f0349bf1c63b18ce6744 DependenciesID=fdae4e51257ec8b4af836f91577c9cd4 StaticDependenciesID=83f98f799ae0708efd66d221917058fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.7082188Z
+  Time since last request: 3.9998768 seconds.
+  importAddress: GUID: d7bf3d5efa5f31d46a465d51fd619879 - Path: Assets/Sounds/button-off.wav - Importer: PreviewImporter
+Importing 'GUID: d7bf3d5efa5f31d46a465d51fd619879 - Path: Assets/Sounds/button-off.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d7bf3d5efa5f31d46a465d51fd619879' -> (Import Result ID: 'b898b138f42b61d0788c1f9a4e8aadbc') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c079b30ebf0d7e0f465f27d6c5441285 DependenciesID=dc9c40d3b71672ff08405f033d8cc423 StaticDependenciesID=2c2f420ae58298792caa1d76daf9a93f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.7603472Z
+  Time since last request: 0.012992 seconds.
+  importAddress: GUID: f0e8d73c598b5d548a142cfd423a15c8 - Path: Assets/Sounds/menu-click-short.wav - Importer: PreviewImporter
+Importing 'GUID: f0e8d73c598b5d548a142cfd423a15c8 - Path: Assets/Sounds/menu-click-short.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f0e8d73c598b5d548a142cfd423a15c8' -> (Import Result ID: '573d6563a593aa845ded5294ebda62db') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=658bb9c703b9c4266d2dffd2397ebda8 DependenciesID=a1b173c5e7255e133d305a244e843d90 StaticDependenciesID=9bdb6d2f3b289063214db59e918e51d9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.7695746Z
+  Time since last request: 0.0005942 seconds.
+  importAddress: GUID: 5c405c4fce4ed1b488693a7d613e8291 - Path: Assets/Sounds/crate-dropped.wav - Importer: PreviewImporter
+Importing 'GUID: 5c405c4fce4ed1b488693a7d613e8291 - Path: Assets/Sounds/crate-dropped.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c405c4fce4ed1b488693a7d613e8291' -> (Import Result ID: '122820027bad6ea8dfbb2edc582f2fce') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=983935a9ae1c3bff6400f73cfefc19c5 DependenciesID=02644029a5f3dc382e071cb1ee35e98b StaticDependenciesID=3412543eaa2770ce2577b5c03218be77 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.7793031Z
+  Time since last request: 0.000564 seconds.
+  importAddress: GUID: 3c4fb20f58141b445b6c29bfe4b4f81e - Path: Assets/Sounds/portal-on.wav - Importer: PreviewImporter
+Importing 'GUID: 3c4fb20f58141b445b6c29bfe4b4f81e - Path: Assets/Sounds/portal-on.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3c4fb20f58141b445b6c29bfe4b4f81e' -> (Import Result ID: '0a509a983cdb0827c72c2b93a1fbb24e') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3efc1aa06c69b6de1cdbcce7c12d30d6 DependenciesID=9730587c65721dd3cf450e99776de00a StaticDependenciesID=1f96b4610f61e95574b588c25c856b2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.7960205Z
+  Time since last request: 0.0004466 seconds.
+  importAddress: GUID: 05b45eb91bb9c2b4cb8afc728c9f723d - Path: Assets/Sounds/menu-click.wav - Importer: PreviewImporter
+Importing 'GUID: 05b45eb91bb9c2b4cb8afc728c9f723d - Path: Assets/Sounds/menu-click.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 05b45eb91bb9c2b4cb8afc728c9f723d' -> (Import Result ID: 'fb3649f5877afd87575b6aa1899e0c63') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e100d0722f3102f8dd1f6e95f1ec8723 DependenciesID=b0a57bf0e046bc529163827be15fc9bf StaticDependenciesID=0d79969b781c5d37194e08d83c24bd27 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:13.8114227Z
+  Time since last request: 0.0005968 seconds.
+  importAddress: GUID: 40f9c16dd44f55c4281b3a486bc22702 - Path: Assets/Sounds/music-level.mp3 - Importer: PreviewImporter
+Importing 'GUID: 40f9c16dd44f55c4281b3a486bc22702 - Path: Assets/Sounds/music-level.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 40f9c16dd44f55c4281b3a486bc22702' -> (Import Result ID: '4fa7286b9163085ed3eb036bc9453866') in 0.325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6571dbb057abddd41860135188757dcb DependenciesID=9bc62e7ed7fec0f54e958377aa061edf StaticDependenciesID=de5c43b0c5fa13c72345ab23873a2763 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-03T02:38:15.3097571Z
+  Time since last request: 1.1709362 seconds.
+  importAddress: GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset - Importer: PreviewImporter
+Importing 'GUID: 8bb672b6df20893458c9aafd011ce040 - Path: Assets/Scenes/Level_1/LightingData.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8bb672b6df20893458c9aafd011ce040' -> (Import Result ID: 'b30a45f6360be5b9cdc0db8da726c647') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e800d8fbe614e8009c5e36c40e93119 DependenciesID=18da61316bd8e725206877065d08abff StaticDependenciesID=e31bb62473399de03a0b64965bb5ec4d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Active build profile path: ``
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (1284ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (1038ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (207ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+	FinalizeReload (346ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 450 unused Assets / (36.8 KB). Loaded Objects now: 1079.
+Memory consumption went from 160.4 MB to 160.4 MB.
+Total: 3.272400 ms (FindLiveObjects: 0.074100 ms CreateObjectMapping: 0.062100 ms MarkObjects: 3.051300 ms  DeleteObjects: 0.084000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

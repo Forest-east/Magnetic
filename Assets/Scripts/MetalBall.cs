@@ -72,7 +72,7 @@ public class MetalBall : Attractable
     /// </summary>
     public override void Respawn()
     {
-        this.rigidBody.velocity = Vector3.zero;
+        this.rigidBody.linearVelocity = Vector3.zero;
         this.soundPlayed = false;
         base.Respawn();
     }

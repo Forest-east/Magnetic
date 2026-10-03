@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e9c3ec9f284b5b842994f052a0f3ffb6
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: c5c62a3bba6b85c41bdecd3ee27be0de
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: 1e312d25ef13b824a810119935226aae
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: e87e20420b485d245ab9b03e45a402bd
+  - enabled: 1
+    path: Assets/Scenes/Level_4.unity
+    guid: 001e4cdb83b7afc40b1b086da6ba561f
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: b75e0b41f5511a74684320e85d2c895e
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: 8e81555f9071a0e49b9663f27273e440
+  - enabled: 1
+    path: Assets/Scenes/Level_7.unity
+    guid: 2fc37fc56d09cee4186b4ee9c173a489
+  - enabled: 1
+    path: Assets/Scenes/Level_8.unity
+    guid: 7f0494f6ffd89af4ab9e7c404d222273
+  - enabled: 1
+    path: Assets/Scenes/Level_9.unity
+    guid: d64bb99284fdeb849a06c88d5f0c66ca
+  - enabled: 1
+    path: Assets/Scenes/Level_10.unity
+    guid: 03d5c277e2480fb449e8e10d656c7d64
+  - enabled: 1
+    path: Assets/Scenes/Level_11.unity
+    guid: 81d12bd6d21bef2418766f37cb2e7365
+  - enabled: 1
+    path: Assets/Scenes/Level_12.unity
+    guid: c533767fabd49c741860dc535367426a
+  - enabled: 1
+    path: Assets/Scenes/Level_13.unity
+    guid: 259b504bff6e7a3498fc2b898d46f391
+  - enabled: 1
+    path: Assets/Scenes/Level_14.unity
+    guid: 8de302deb8f1aae4cbf385fa6364c618
+  - enabled: 1
+    path: Assets/Scenes/Level_15.unity
+    guid: c3190727d68ff544797e20f1d019a7cc
+  - enabled: 1
+    path: Assets/Scenes/Level_16.unity
+    guid: ad818b5c831928044a98c44334b452bf
+  - enabled: 1
+    path: Assets/Scenes/WinMenu.unity
+    guid: 0e89dc4336dcd964d93056639a0e16dc
+  - enabled: 0
+    path: Assets/Scenes/Level_6.unity
+    guid: b7f33bcc43694fb4883490ff121f6619
+  m_configObjects: {}
