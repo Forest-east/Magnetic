@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -79,6 +79,13 @@ public class GameManager : MonoBehaviour
     {
         if(instance == null) {
             instance = this;
+
+            // Fetch the audio source here (not in Start) so that it is ready
+            // before any other script in the same frame calls into this singleton.
+            // MainMenu.Start(), LevelController.Awake() and PlayerController.Start()
+            // all run before GameManager.Start() and would otherwise hit a null.
+            this.audioSource = GetComponent<AudioSource>();
+
             this.SaveFilePath = Application.persistentDataPath + "/magnetic.gd";
             this.LoadGame();
         } else {
@@ -93,7 +100,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        this.audioSource = GetComponent<AudioSource>();
         this.PlayMainMenuMusic();
     }
 
@@ -148,6 +154,12 @@ public class GameManager : MonoBehaviour
     /// <param name="clip"></param>
     void PlayLoopSound(AudioClip clip)
     {
+        // Guard: if the prefab has no AudioSource (or it was stripped),
+        // skip audio instead of throwing every time a level loads.
+        if(this.audioSource == null) {
+            return;
+        }
+
         this.audioSource.loop = true;
 
         // Not the current sound

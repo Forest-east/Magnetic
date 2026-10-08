@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -59,7 +59,11 @@ public class LevelController : MonoBehaviour
     /// </summary>
     void Awake()
     {
-        GameManager.instance.LevelUnlocked(SceneManager.GetActiveScene().name);
+        // Guard: pressing Play directly on a level scene (instead of going
+        // through MainMenu) means no GameManager singleton exists yet.
+        if(GameManager.instance != null) {
+            GameManager.instance.LevelUnlocked(SceneManager.GetActiveScene().name);
+        }
     }
 
     /// <summary>
