@@ -1,0 +1,1470 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31931 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T13:26:05Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-10-08T13:26:05.1551921Z"
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.5.5f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+D:\游戏开发\Magnetic-Unity6
+-executeMethod
+BlendFix.Go
+-logFile
+D:\游戏开发\Magnetic-Unity6\Logs\reimport_verify.log
+Successfully changed project path to: D:\游戏开发\Magnetic-Unity6
+D:/游戏开发/Magnetic-Unity6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [45396]  Target information:
+
+Player connection [45396]  * "[IP] 192.168.2.44 [Port] 55505 [Flags] 2 [Guid] 779307390 [EditorId] 779307390 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45396] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45396] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-46248" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sispu"
+[Licensing::IpcConnector] LicenseClient-sispu channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-10-08T13:26:08.6926717Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 63012, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9e95e6dd85344bbdb270165b949f363c
+  Correlation Id:          0ad7800609f5f9c34e5ccbb1f17ae9aa
+  External correlation Id: 5093833714747981755
+  Machine Id:              jKSa9g6WzqcY9b9GLRjttsE4d1Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-10-08T13:26:08.7132251Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.58s
+[Licensing::Module] Licensing is initialized (took 2.43s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/游戏开发/Magnetic-Unity6/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.5.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008025 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1645ms
+	BeginReloadAssembly (282ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (244ms)
+		AnalyzeDomain (364ms)
+			TypeCache.Refresh (362ms)
+				TypeCache.ScanAssembly (337ms)
+	FinalizeReload (656ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.ugui@f2d87ebaaa32)
+    com.unity.modules.accessibility@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\游戏开发\Magnetic-Unity6\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\Unity\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/游戏开发/Magnetic-Unity6
+DisplayProgressbar: Compiling Scripts
+Starting: D:\Unity\6000.5.5f1\Editor\Data\netcorerun\netcorerun.exe "D:\Unity\6000.5.5f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/游戏开发/Magnetic-Unity6
+ExitCode: 4 Duration: 2s243ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[236/239    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\BuildScript.cs(54,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(78,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(90,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(108,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(112,40): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+*** Tundra requires additional run (2.17 seconds), 1 items updated, 235 evaluated
+ExitCode: 0 Duration: 0s531ms
+Starting: D:\Unity\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/游戏开发/Magnetic-Unity6
+ExitCode: 0 Duration: 0s549ms
+Finished compiling graph: 242 nodes, 2178 flattened edges (2054 ToBuild, 20 ToUse), maximum node priority 118
+[191/239    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[236/239    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\BuildScript.cs(54,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(78,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(90,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(108,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Editor\BuildScript.cs(112,40): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+[237/239    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[238/239    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.49 seconds), 4 items updated, 239 evaluated
+Assets\Editor\BuildScript.cs(54,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(78,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(90,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(108,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(112,40): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(54,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(78,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(90,36): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(108,37): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Editor\BuildScript.cs(112,40): warning CS0618: 'Object.FindObjectsOfType<T>(bool)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'
+AssetDatabase: script compilation time: 4.043980s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (566ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (220ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (12ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (719ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (21ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Importing 'GUID: 308a49733d634bd4fb854bdd0e31c9bd - Path: Assets/Blender/crate-spawner.fbx' with importer (FBXImporter)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Imported 'GUID: 308a49733d634bd4fb854bdd0e31c9bd' -> (Import Result ID: 'b8b07a8d430471375152b2f29a64b1dc') in 0.166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=102052e373c468dbf9caece04e652b3f DependenciesID=9cdd7e1c4de62ffafec9630147e14df6 StaticDependenciesID=eb2e0404a7136e5d811eaf78652285d0 
+Importing 'GUID: 259803338ae0b1240b932f4e8a9de527 - Path: Assets/Blender/crate-hole.fbx' with importer (FBXImporter)
+Imported 'GUID: 259803338ae0b1240b932f4e8a9de527' -> (Import Result ID: 'ba5722f8cdccaca2883e30167a7a877d') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54b874cb835dfc674f20f840408399e3 DependenciesID=74ff952bb8988c6ae7b40e5ab39f8af5 StaticDependenciesID=7499618d9d629b4ac0afdc2791c24de6 
+Importing 'GUID: 45cf358614356854c97bd4654989c6c0 - Path: Assets/Blender/player.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Imported 'GUID: 45cf358614356854c97bd4654989c6c0' -> (Import Result ID: '1202b86cd390713fede7ccd86bc1c0d1') in 0.056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47c1f4d6ab5cfa956bf0f9f3038a9ed8 DependenciesID=88d065726568d949f48de8473d5a7e98 StaticDependenciesID=21ef5816f6a80a6e9ac3f3d5eb129e75 
+Importing 'GUID: 65b104667c2fcc8468506ce971a34bec - Path: Assets/Blender/crate.fbx' with importer (FBXImporter)
+Imported 'GUID: 65b104667c2fcc8468506ce971a34bec' -> (Import Result ID: 'bc0040aea009e7a9724954e83241f0e8') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f7e32133744b66dc5f1960645001611 DependenciesID=facad054c8034ef2f19995b8c578bef6 StaticDependenciesID=c1158c1b3ef28139ecb6e1b8999963dc 
+Importing 'GUID: c60ce98e8ac60d44b86105973f4412f6 - Path: Assets/Blender/portal.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Imported 'GUID: c60ce98e8ac60d44b86105973f4412f6' -> (Import Result ID: '3c65420ee307413db6e1c2c939724609') in 0.077 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f24e7bb4db6684edf28cbdbd594f3db DependenciesID=29149b189b349c3e182e0401dd447add StaticDependenciesID=608483f1e422fcb00489a17d7d8be686 
+Importing 'GUID: 894be4164f05cc64b90a8ce45825eccc - Path: Assets/Blender/tile.fbx' with importer (FBXImporter)
+Imported 'GUID: 894be4164f05cc64b90a8ce45825eccc' -> (Import Result ID: 'abdcf5a14ad720070c67a8f9d013dc68') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de0a2c6b4abe3752be67a52ffdd208fc DependenciesID=e4674343120e58185b93b256974e6e08 StaticDependenciesID=5cb859309c779e50373aa3a7a58a24c3 
+Importing 'GUID: 5acc3c6cebdf2834cafd8eec51d01dfe - Path: Assets/Models/magnet.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 4.166667%;
+Keyframe reduction: Ratio: 4.166667%;
+Mesh 'spikeball' was larger than 65k vertices but uses 16 bit index format. Split into 2 parts: 'spikeball_MeshPart0', 'spikeball_MeshPart1'.
+Imported 'GUID: 5acc3c6cebdf2834cafd8eec51d01dfe' -> (Import Result ID: 'e26ce695adfcd43b85233e68211c048e') in 0.175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfbdcb5cf352148289bd30f86c3935d9 DependenciesID=dafb7037760a7f6ec9b8b45d353185d3 StaticDependenciesID=2416c49a18104ac14dc2a066de1ed0c7 
+Importing 'GUID: 1d1d3f013d46e2b44b7917e5727fb98c - Path: Assets/Blender/button.fbx' with importer (FBXImporter)
+Imported 'GUID: 1d1d3f013d46e2b44b7917e5727fb98c' -> (Import Result ID: '3f97de434cdbae045c8daf7262f57466') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f26662032469ba9428b2e9e1d3118e90 DependenciesID=98ef03e651b3b2931d95474b425887d4 StaticDependenciesID=aebefae6a5c7b698fd2bc74dbcd77fd8 
+Importing 'GUID: 4dbd3eb676ea54d43953b2ea6e59f2f5 - Path: Assets/Blender/spikeball.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 4.166667%;
+Mesh 'spikeball' was larger than 65k vertices but uses 16 bit index format. Split into 2 parts: 'spikeball_MeshPart0', 'spikeball_MeshPart1'.
+Imported 'GUID: 4dbd3eb676ea54d43953b2ea6e59f2f5' -> (Import Result ID: 'ceb858106a822e1c67876b8d3a61cfc1') in 0.163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53f71ff90efff8e0272a5480be80f88b DependenciesID=634523d9c5efdc617e1459ba69087c43 StaticDependenciesID=c308cf9749c3b1701bc3e152044de31a 
+Importing 'GUID: 88dbc9859af3b85499630b53a17d5412 - Path: Assets/Prefabs/Tiles/ExitTile.prefab' with importer (PrefabImporter)
+Imported 'GUID: 88dbc9859af3b85499630b53a17d5412' -> (Import Result ID: 'cba0d22f4794ae5ef5d59e70f3f26152') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f4e76f0eba363627aa52763942a9396 DependenciesID=09b66b03d2a7aac469b3226bf828febc StaticDependenciesID=e6fe1eea6c1e3cfdb5eb35369adb424a 
+Starting new worker id: 0 with log in D:/游戏开发/Magnetic-Unity6/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=dfab484ac21396043ad145f464b50a55): Total: 7.119 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=10 (actual=10, local cache=0, cache server=0)
+		Asset DB Process Time: managed=11 ms, native=1792 ms
+		Asset DB Callback time: managed=126 ms, native=58 ms
+		Scripting: domain reloads=1, domain reload time=1043 ms, compile time=4053 ms, other=34 ms
+		Project Asset Count: scripts=232, non-scripts=307
+		Asset File Changes: new=1, changed=12, moved=9, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 46.715ms
+	ApplyChangesToAssetFolders: 1.199ms
+	Scan: 105.831ms
+	Collect global state as custom dependencies: 1.551ms
+	OnSourceAssetsModified: 1.501ms
+	CategorizeScriptCompilationAssets: 2.205ms
+	ProcessAssetsWithTransientArtifactChanges: 13.419ms
+	CategorizeAssets: 7.786ms
+	CompileScripts: 4053.242ms
+	ImportOutOfDateAssets: 1547.114ms (722.777ms without children)
+		ImportManagerImport: 803.796ms (5.138ms without children)
+			UpdateCategorizedAssets: 0.129ms
+		UnloadImportedAssets: 0.224ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.142ms
+		ImportSchedulerStart: 20.154ms
+	PostProcessAllAssets: 135.322ms
+		VCAutoAddAssetPostprocess 1.896ms
+		VersionControlSettings.HiddenFilePostprocess 0.238ms
+		PostProcessCallbackCreateDeferredMaterials 0.119ms
+		MonoPostProcessAllAssets: 123.385ms
+			AssetPostprocessor.OnPostprocessAllAssets 38.609ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 25.132ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 13.293ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.405ms
+			SyncVS.PostprocessSyncProject 4.374ms
+			AssetChangedListener.OnPostprocessAllAssets 4.100ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.352ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.843ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.695ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.313ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.023ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.753ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.726ms
+			AssetEvents.OnPostprocessAllAssets 0.631ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.438ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.436ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.308ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.291ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.279ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.190ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.160ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.127ms
+	PostAssetChangesProfiler: 6.269ms
+	UnloadStreamsBegin: 3.161ms
+	PersistCurrentRevisions: 0.196ms
+	GenerateScriptTypeHashes: 1.731ms
+	GenerateScriptTypeSerializationHashes: 3.490ms
+	Untracked: 1178.500ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 7.213ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Magentic
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 468 unused Assets / (0.7 MB). Loaded Objects now: 1107.
+Memory consumption went from 228.0 MB to 227.2 MB.
+Total: 8.412700 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.095800 ms MarkObjects: 7.456600 ms  DeleteObjects: 0.721100 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 1d1d3f013d46e2b44b7917e5727fb98c - Path: Assets/Blender/button.fbx' with importer (FBXImporter)
+Imported 'GUID: 1d1d3f013d46e2b44b7917e5727fb98c' -> (Import Result ID: '3f97de434cdbae045c8daf7262f57466') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f26662032469ba9428b2e9e1d3118e90 DependenciesID=98ef03e651b3b2931d95474b425887d4 StaticDependenciesID=aebefae6a5c7b698fd2bc74dbcd77fd8 
+Asset Pipeline Refresh (id=f8e60be31c5456b4ab38a46e4c7aa437): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 65b104667c2fcc8468506ce971a34bec - Path: Assets/Blender/crate.fbx' with importer (FBXImporter)
+Imported 'GUID: 65b104667c2fcc8468506ce971a34bec' -> (Import Result ID: 'bc0040aea009e7a9724954e83241f0e8') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f7e32133744b66dc5f1960645001611 DependenciesID=facad054c8034ef2f19995b8c578bef6 StaticDependenciesID=c1158c1b3ef28139ecb6e1b8999963dc 
+Asset Pipeline Refresh (id=7e7f8226273908f429c6eb5eeb6020e5): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 259803338ae0b1240b932f4e8a9de527 - Path: Assets/Blender/crate-hole.fbx' with importer (FBXImporter)
+Imported 'GUID: 259803338ae0b1240b932f4e8a9de527' -> (Import Result ID: 'ba5722f8cdccaca2883e30167a7a877d') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54b874cb835dfc674f20f840408399e3 DependenciesID=74ff952bb8988c6ae7b40e5ab39f8af5 StaticDependenciesID=7499618d9d629b4ac0afdc2791c24de6 
+Asset Pipeline Refresh (id=9f794724c384d3546a293c6cb0d4f94a): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 308a49733d634bd4fb854bdd0e31c9bd - Path: Assets/Blender/crate-spawner.fbx' with importer (FBXImporter)
+Imported 'GUID: 308a49733d634bd4fb854bdd0e31c9bd' -> (Import Result ID: 'b8b07a8d430471375152b2f29a64b1dc') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=102052e373c468dbf9caece04e652b3f DependenciesID=9cdd7e1c4de62ffafec9630147e14df6 StaticDependenciesID=eb2e0404a7136e5d811eaf78652285d0 
+Asset Pipeline Refresh (id=17885cf21e4a3744d88a5f334f3809da): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 45cf358614356854c97bd4654989c6c0 - Path: Assets/Blender/player.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611111%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Keyframe reduction: Ratio: 8.611112%;
+Imported 'GUID: 45cf358614356854c97bd4654989c6c0' -> (Import Result ID: '1202b86cd390713fede7ccd86bc1c0d1') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47c1f4d6ab5cfa956bf0f9f3038a9ed8 DependenciesID=88d065726568d949f48de8473d5a7e98 StaticDependenciesID=21ef5816f6a80a6e9ac3f3d5eb129e75 
+Asset Pipeline Refresh (id=d6916ed50591e4443a98b3c8501fa4cb): Total: 0.086 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: c60ce98e8ac60d44b86105973f4412f6 - Path: Assets/Blender/portal.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 8.333333%;
+Keyframe reduction: Ratio: 10.833333%;
+Keyframe reduction: Ratio: 35.000000%;
+Keyframe reduction: Ratio: 8.333333%;
+Imported 'GUID: c60ce98e8ac60d44b86105973f4412f6' -> (Import Result ID: '3c65420ee307413db6e1c2c939724609') in 0.074 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f24e7bb4db6684edf28cbdbd594f3db DependenciesID=29149b189b349c3e182e0401dd447add StaticDependenciesID=608483f1e422fcb00489a17d7d8be686 
+Asset Pipeline Refresh (id=9ae96fae9c5a7c5489ab3f7759aa8111): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 4dbd3eb676ea54d43953b2ea6e59f2f5 - Path: Assets/Blender/spikeball.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 4.166667%;
+Mesh 'spikeball' was larger than 65k vertices but uses 16 bit index format. Split into 2 parts: 'spikeball_MeshPart0', 'spikeball_MeshPart1'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Imported 'GUID: 4dbd3eb676ea54d43953b2ea6e59f2f5' -> (Import Result ID: 'ceb858106a822e1c67876b8d3a61cfc1') in 0.155 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53f71ff90efff8e0272a5480be80f88b DependenciesID=634523d9c5efdc617e1459ba69087c43 StaticDependenciesID=c308cf9749c3b1701bc3e152044de31a 
+Asset Pipeline Refresh (id=0554ee4f1dd68824298c60fe10504523): Total: 0.186 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 894be4164f05cc64b90a8ce45825eccc - Path: Assets/Blender/tile.fbx' with importer (FBXImporter)
+Imported 'GUID: 894be4164f05cc64b90a8ce45825eccc' -> (Import Result ID: 'abdcf5a14ad720070c67a8f9d013dc68') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de0a2c6b4abe3752be67a52ffdd208fc DependenciesID=e4674343120e58185b93b256974e6e08 StaticDependenciesID=5cb859309c779e50373aa3a7a58a24c3 
+Asset Pipeline Refresh (id=df35902872f1c0e4dba78cb01be4ab36): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/InputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TagManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/AudioManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/TimeManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/DynamicsManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/QualitySettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/EditorSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/NavMeshAreas.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/Physics2DSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/GraphicsSettings.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "ProjectSettings/ClusterInputManager.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Importing 'GUID: 5acc3c6cebdf2834cafd8eec51d01dfe - Path: Assets/Models/magnet.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 4.166667%;
+Keyframe reduction: Ratio: 4.166667%;
+Mesh 'spikeball' was larger than 65k vertices but uses 16 bit index format. Split into 2 parts: 'spikeball_MeshPart0', 'spikeball_MeshPart1'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:20)
+
+[Assets/Editor/BlendFix.cs line 20]
+
+Imported 'GUID: 5acc3c6cebdf2834cafd8eec51d01dfe' -> (Import Result ID: 'e26ce695adfcd43b85233e68211c048e') in 0.170 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfbdcb5cf352148289bd30f86c3935d9 DependenciesID=dafb7037760a7f6ec9b8b45d353185d3 StaticDependenciesID=2416c49a18104ac14dc2a066de1ed0c7 
+Asset Pipeline Refresh (id=7e081ccd8a3346e41a485a5761e93b1e): Total: 0.200 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=11b8ac1544747404d9bcbdc43335ee80): Total: 0.006 seconds - Initiated by RefreshV2(ForceUpdate)
+[S] reimported 9 fbx
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:23)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 23)
+
+[S] button.fbx  -> button ext=(1.0000, 1.0000, 5.2397) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] crate.fbx  -> crate ext=(1.0249, 1.0249, 1.0124) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] crate-hole.fbx  -> create-hole ext=(1.0000, 1.0000, 5.2397) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] crate-spawner.fbx  -> crate-spawner ext=(1.0000, 1.0000, 5.2397) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] player.fbx  -> player ext=(1.3982, 1.4150, 1.0000) | player-panel1 ext=(1.0370, 1.0370, 1.0000) | player-panel2 ext=(1.0370, 1.0370, 1.0000) | player-panel3 ext=(1.0370, 1.0370, 1.0000) | player-panel4 ext=(1.0370, 1.0370, 1.0000) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] portal.fbx  -> create-hole ext=(1.0000, 1.0000, 5.2397) | Cylinder ext=(1.0000, 1.0000, 1.0436) | Cylinder.001 ext=(1.1467, 1.1467, 1.0000) | Cylinder.002 ext=(1.1467, 1.1467, 1.0000) | Cylinder.003 ext=(1.1467, 1.1467, 1.0000) | Cylinder.004 ext=(1.1467, 1.1467, 1.0000) | Cylinder.005 ext=(1.0000, 1.0000, 1.0000) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] spikeball.fbx  -> spikeball_MeshPart0 ext=(1.2217, 1.6395, 1.3993) | spikeball_MeshPart1 ext=(1.8252, 1.7361, 1.4794) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] tile.fbx  -> tile ext=(1.0000, 1.0000, 5.2397) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] magnet.fbx  -> Cube ext=(1.0249, 1.0249, 1.0124) | Cube.000 ext=(1.0000, 1.0000, 5.2397) | Cube.001 ext=(1.5100, 1.5100, 1.0000) | Cube.002 ext=(1.0000, 1.0000, 5.2397) | Cube.003 ext=(1.0000, 1.0000, 5.2397) | Cube.005 ext=(1.0000, 1.0000, 5.2397) | Cube.006 ext=(1.0000, 1.0000, 5.2397) | Cube.007 ext=(1.0000, 1.0000, 5.2397) | Cylinder.000 ext=(1.0370, 1.0370, 1.0000) | Cylinder.001 ext=(1.0370, 1.0370, 1.0000) | Cylinder.002 ext=(1.0370, 1.0370, 1.0000) | Cylinder.003 ext=(1.0370, 1.0370, 1.0000) | spikeball_MeshPart0 ext=(1.2217, 1.6395, 1.3993) | spikeball_MeshPart1 ext=(1.8252, 1.7361, 1.4794) | 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:36)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 36)
+
+[S] NormalTile.prefab mesh=tile ext=(1.0000, 1.0000, 5.2397)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlendFix:Go () (at Assets/Editor/BlendFix.cs:43)
+
+(Filename: Assets/Editor/BlendFix.cs Line: 43)
+
+MonoPathRemapper: Attempts to remap: 4493; Successful remaps: 0
+Serialized file version minimum: 17, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-sispu-6000.5.5-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-sispu-6000.5.5 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791465980307,"processId":46248,"allocatedMemory":11886859,"memoryLabels":[{"Default":191802},{"Permanent":15516},{"NewDelete":66451},{"Thread":4197600},{"Manager":38981},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":840883},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":3432},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1621896},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":1032},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":53671},{"StaticString":3808},{"Utility":2675958},{"Curl":2675},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":16168},{"WebRequest":589},{"VR":47114},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":72},{"CoreStats":13688},{"Identifiers":6768},{"Gui":128},{"EditorUtility":85717},{"VersionControl":8},{"Undo":931},{"AssetDatabase":757551},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":38905},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3500},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
