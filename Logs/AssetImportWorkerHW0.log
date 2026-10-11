@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-10-11T06:32:44.520043Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-10-11T07:05:20.5467892Z"
 OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31931 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-11T06:32:44Z
+Date: 2026-10-11T07:05:20Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.5.5f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ D:/游戏开发/Magnetic
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-51953
+57153
 -parentPid
-63504
+55388
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -78,12 +78,12 @@ D:/游戏开发/Magnetic
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [64248]  Target information:
+Player connection [64992]  Target information:
 
-Player connection [64248]  * "[IP] 192.168.2.44 [Port] 0 [Flags] 2 [Guid] 2386557854 [EditorId] 2386557854 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [64992]  * "[IP] 192.168.2.44 [Port] 0 [Flags] 2 [Guid] 2274855672 [EditorId] 2274855672 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [64248] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [64248] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [64992] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [64992] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -95,8 +95,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.71 ms, found 1 plugins.
-Preloading 1 native plugins for Editor in 3.99 ms.
+Refreshing native plugins compatible for Editor in 4.23 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 3.35 ms.
 Initialize engine version: 6000.5.5f1 (d16e074b49fd)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/游戏开发/Magnetic/Assets
@@ -115,12 +115,12 @@ Mono path[0] = 'D:/Unity/6000.5.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007932 seconds.
+Registered in 0.006452 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -128,23 +128,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.860 seconds
-Domain Reload Profiling: 1959ms
-	BeginReloadAssembly (299ms)
-	RebuildCommonClasses (9ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (182ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (280ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (377ms)
-				TypeCache.ScanAssembly (352ms)
-	FinalizeReload (866ms)
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1939ms
+	BeginReloadAssembly (287ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (272ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (382ms)
+	FinalizeReload (869ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (216ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (235ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
 Initializing Unity extensions:
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
@@ -152,19 +152,19 @@ Initializing Unity extensions:
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sispu"
 [Licensing::IpcConnector] LicenseClient-sispu channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-10-11T06:32:48.7745386Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 57320, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-10-11T07:05:24.7568117Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 61948, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              fe045b4267c84373a2c97cef1b715fde
-  Correlation Id:          a9818f50f665329514902beef06664e8
-  External correlation Id: 4862112612656484367
+  Session Id:              23c1127da54d417bab036e98d784e2ab
+  Correlation Id:          01c3fdefa5704bbd4cd9320618e165fa
+  External correlation Id: 8562361384010469052
   Machine Id:              jKSa9g6WzqcY9b9GLRjttsE4d1Y=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-10-11T06:32:48.7995655Z"
-[Licensing::Module] Licensing Background thread has ended after 4.28s
-[Licensing::Module] Licensing is initialized (took 0.09s).
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-10-11T07:05:24.7810127Z"
+[Licensing::Module] Licensing Background thread has ended after 4.23s
+[Licensing::Module] Licensing is initialized (took 0.32s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
@@ -177,12 +177,12 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.74 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.65 ms, found 1 plugins.
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
@@ -252,280 +252,60 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-- Finished resetting the current domain, in  2.782 seconds
-Domain Reload Profiling: 5207ms
-	BeginReloadAssembly (558ms)
+- Finished resetting the current domain, in  3.128 seconds
+Domain Reload Profiling: 5594ms
+	BeginReloadAssembly (498ms)
 		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (278ms)
-	LoadAllAssembliesAndSetupDomain (1524ms)
-		LoadAssemblies (1046ms)
-		AnalyzeDomain (552ms)
-			TypeCache.Refresh (457ms)
-				TypeCache.ScanAssembly (424ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2784ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (1532ms)
-			ProcessInitializeOnLoadMethodAttributes (719ms)
-			AfterProcessingInitializeOnLoad (28ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-AcceleratorClientConnectionCallback - disconnected - :0
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.56 ms, found 1 plugins.
-Unloading 129 Unused Serialized files (Serialized files now loaded: 0)
-Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 4912 unused Assets / (21.4 MB). Loaded Objects now: 5368.
-Memory consumption went from 333.8 MB to 312.4 MB.
-Total: 36.202300 ms (FindLiveObjects: 0.926200 ms CreateObjectMapping: 2.310300 ms MarkObjects: 22.300300 ms  DeleteObjects: 10.660400 ms)
-
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.08 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.62 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.342 seconds
-Domain Reload Profiling: 3833ms
-	BeginReloadAssembly (440ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (117ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (211ms)
-	LoadAllAssembliesAndSetupDomain (791ms)
-		LoadAssemblies (754ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2344ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (227ms)
-			ProcessInitializeOnLoadAttributes (910ms)
-			ProcessInitializeOnLoadMethodAttributes (902ms)
-			AfterProcessingInitializeOnLoad (22ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.06 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4909 unused Assets / (19.8 MB). Loaded Objects now: 5370.
-Memory consumption went from 326.8 MB to 307.0 MB.
-Total: 31.484700 ms (FindLiveObjects: 0.742900 ms CreateObjectMapping: 1.779000 ms MarkObjects: 21.519100 ms  DeleteObjects: 7.441400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.99 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.82 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.354 seconds
-Domain Reload Profiling: 3823ms
-	BeginReloadAssembly (417ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (239ms)
-	LoadAllAssembliesAndSetupDomain (763ms)
-		LoadAssemblies (713ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2356ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (245ms)
+	LoadAllAssembliesAndSetupDomain (1662ms)
+		LoadAssemblies (962ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (570ms)
+				TypeCache.ScanAssembly (532ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (3130ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			BeforeProcessingInitializeOnLoad (223ms)
-			ProcessInitializeOnLoadAttributes (892ms)
-			ProcessInitializeOnLoadMethodAttributes (922ms)
-			AfterProcessingInitializeOnLoad (25ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 6.82 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4909 unused Assets / (20.3 MB). Loaded Objects now: 5372.
-Memory consumption went from 329.1 MB to 308.8 MB.
-Total: 33.694300 ms (FindLiveObjects: 0.703000 ms CreateObjectMapping: 1.842100 ms MarkObjects: 22.444300 ms  DeleteObjects: 8.702100 ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (1777ms)
+			ProcessInitializeOnLoadMethodAttributes (697ms)
+			AfterProcessingInitializeOnLoad (28ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.33 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 4828 unused Assets / (15.7 MB). Loaded Objects now: 5456.
+Memory consumption went from 314.6 MB to 299.0 MB.
+Total: 34.348400 ms (FindLiveObjects: 1.302400 ms CreateObjectMapping: 2.801800 ms MarkObjects: 24.481200 ms  DeleteObjects: 5.757500 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.58 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5456.
+Memory consumption went from 309.2 MB to 298.1 MB.
+Total: 26.383700 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.822000 ms MarkObjects: 23.141200 ms  DeleteObjects: 2.018100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.05 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4902 unused Assets / (21.0 MB). Loaded Objects now: 5374.
-Memory consumption went from 329.5 MB to 308.5 MB.
-Total: 36.443800 ms (FindLiveObjects: 0.931500 ms CreateObjectMapping: 1.959700 ms MarkObjects: 24.094900 ms  DeleteObjects: 9.455300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.52 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.51 ms, found 1 plugins.
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
@@ -595,156 +375,31 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-- Finished resetting the current domain, in  2.585 seconds
-Domain Reload Profiling: 4684ms
-	BeginReloadAssembly (521ms)
-		DisableScriptedObjects (12ms)
-		CreateAndSetChildDomain (135ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (234ms)
-	LoadAllAssembliesAndSetupDomain (1282ms)
-		LoadAssemblies (840ms)
-		AnalyzeDomain (437ms)
-			TypeCache.Refresh (15ms)
-			BuildScriptInfoCaches (414ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2588ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (278ms)
-			ProcessInitializeOnLoadAttributes (985ms)
-			ProcessInitializeOnLoadMethodAttributes (969ms)
-			AfterProcessingInitializeOnLoad (25ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.19 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4911 unused Assets / (21.0 MB). Loaded Objects now: 5376.
-Memory consumption went from 347.3 MB to 326.3 MB.
-Total: 37.137100 ms (FindLiveObjects: 0.801100 ms CreateObjectMapping: 1.928100 ms MarkObjects: 24.818700 ms  DeleteObjects: 9.586100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.37 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 6.11 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.314 seconds
-Domain Reload Profiling: 3759ms
-	BeginReloadAssembly (456ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (127ms)
+- Finished resetting the current domain, in  2.292 seconds
+Domain Reload Profiling: 3754ms
+	BeginReloadAssembly (443ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (118ms)
 	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (180ms)
-	LoadAllAssembliesAndSetupDomain (761ms)
-		LoadAssemblies (729ms)
-		AnalyzeDomain (17ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (187ms)
+	LoadAllAssembliesAndSetupDomain (783ms)
+		LoadAssemblies (744ms)
+		AnalyzeDomain (20ms)
 			TypeCache.Refresh (9ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (2316ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2294ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (243ms)
-			ProcessInitializeOnLoadAttributes (892ms)
-			ProcessInitializeOnLoadMethodAttributes (880ms)
-			AfterProcessingInitializeOnLoad (21ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.37 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4911 unused Assets / (19.3 MB). Loaded Objects now: 5378.
-Memory consumption went from 345.7 MB to 326.4 MB.
-Total: 33.510600 ms (FindLiveObjects: 0.815500 ms CreateObjectMapping: 1.886200 ms MarkObjects: 23.309800 ms  DeleteObjects: 7.496800 ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (887ms)
+			ProcessInitializeOnLoadMethodAttributes (876ms)
+			AfterProcessingInitializeOnLoad (24ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.08 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4826 unused Assets / (15.4 MB). Loaded Objects now: 5458.
+Memory consumption went from 308.7 MB to 293.3 MB.
+Total: 28.975200 ms (FindLiveObjects: 0.699100 ms CreateObjectMapping: 1.817000 ms MarkObjects: 20.966300 ms  DeleteObjects: 5.490200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.95 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 128 unused Assets / (13.9 MB). Loaded Objects now: 5378.
-Memory consumption went from 342.5 MB to 328.6 MB.
-Total: 32.892200 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.948400 ms MarkObjects: 25.877600 ms  DeleteObjects: 5.650200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Editor is closing down
-AcceleratorClientConnectionCallback - disconnected - :0
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
