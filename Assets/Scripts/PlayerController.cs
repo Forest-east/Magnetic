@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -216,7 +216,12 @@ public class PlayerController : MonoBehaviour, IMagnetic
         this.dpad = FindAnyObjectByType<VirtualDPadController>();
         this.destination = this.transform.position;
         this.audioSource = GetComponent<AudioSource>();
-        this.unitsPerTile = this.levelController.unitsPerTile;
+
+        // Guard: without a LevelController in the scene the player cannot move,
+        // but we should not throw on every frame.
+        if(this.levelController != null) {
+            this.unitsPerTile = this.levelController.unitsPerTile;
+        }
 	}
 
     /// <summary>
@@ -430,6 +435,12 @@ public class PlayerController : MonoBehaviour, IMagnetic
     /// </summary>
     void Move()
     {
+        // Guard: no LevelController means we cannot validate tiles,
+        // so leave the player where it is instead of throwing every frame.
+        if(this.levelController == null) {
+            return;
+        }
+
         float distance = Vector3.Distance(this.destination, this.transform.position);
 
         // Made it, snap to destination and update the destination based on player input

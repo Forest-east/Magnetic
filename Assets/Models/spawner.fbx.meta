@@ -1,22 +1,15 @@
 fileFormatVersion: 2
-guid: 6ca67fe09fd06ac49b709ef457c539cf
-timeCreated: 1501126293
+guid: 951fe16e1b9734c4284cd4a8fcfa7080
+timeCreated: 1501126296
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: spikeball_MeshPart0
-    100004: spikeball_MeshPart1
     400000: //RootNode
-    400002: spikeball_MeshPart0
-    400004: spikeball_MeshPart1
-    2300000: spikeball_MeshPart0
-    2300002: spikeball_MeshPart1
-    3300000: spikeball_MeshPart0
-    3300002: spikeball_MeshPart1
-    4300000: spikeball_MeshPart0
-    4300002: spikeball_MeshPart1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube_000
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -43,7 +36,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
