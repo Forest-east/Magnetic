@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -38,11 +38,46 @@ public class SpikeBall : Attractable
     float hoverSpeed = 6f;
 
     /// <summary>
-    /// Rotate this object
+    /// The object currently attracting this ball (normally the player)
+    /// </summary>
+    IMagnetic attractedBy;
+
+    /// <summary>
+    /// True once the explosion sequence has been started
+    /// Prevents the bomb from exploding twice
+    /// </summary>
+    bool explosionStarted = false;
+
+    /// <summary>
+    /// How close this ball has to get to the object pulling it before it counts
+    /// as a hit. Matches roughly the sum of the two collider half sizes.
+    /// </summary>
+    const float contactDistance = 1.7f;
+
+    /// <summary>
+    /// Rotate this object.
+    /// While being attracted, make sure the bomb actually reaches the attractor.
+    /// Relying on the physics trigger alone is not reliable: the ball only starts
+    /// moving after the "Engaged" animation event, so if the player stops holding
+    /// (or the animation is interrupted) it never travels, ends up parked next to
+    /// the player and can be pushed away harmlessly. That made grabbing a spike
+    /// ball sometimes safe and sometimes fatal.
     /// </summary>
     void LateUpdate()
     {
         this.transform.Rotate(new Vector3(0f, this.rotationSpeed * Time.deltaTime, 0f));
+
+        if(this.explosionStarted || !this.isBeingAttracted || this.attractedBy == null) {
+            return;
+        }
+
+        Vector3 attractorPosition = this.attractedBy.gameObject.transform.position;
+        bool touching = Vector3.Distance(this.transform.position, attractorPosition) <= contactDistance;
+
+        // Reached the attractor, or ended up attached to it instead of exploding
+        if(touching || this.IsAttached) {
+            this.Explode(true);
+        }
     }
 
     /// <summary>
@@ -52,6 +87,7 @@ public class SpikeBall : Attractable
     /// <param name="invoker"></param>
     public override void Attract(IMagnetic invoker)
     {
+        this.attractedBy = invoker;
         base.Attract(invoker);
         this.destination = invoker.gameObject.transform.position;
     }
@@ -87,6 +123,13 @@ public class SpikeBall : Attractable
     /// <param name="collidedWithPlayer"></param>
     void Explode(bool collidedWithPlayer = false)
     {
+        // Only ever explode once. LateUpdate may also fire the explosion, so this
+        // guards against a double trigger when the physics collider reports first.
+        if(this.explosionStarted) {
+            return;
+        }
+        this.explosionStarted = true;
+
         this.playerCollision = collidedWithPlayer;
 
         // Prevent physics from happening
