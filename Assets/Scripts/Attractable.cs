@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -388,13 +388,36 @@ public class Attractable : MonoBehaviour, IAttractable, IRespawnable
     protected virtual void PlayAttractedSound(){}
 
     /// <summary>
+    /// True while a respawn is already in progress.
+    /// DeathPlane uses OnTriggerStay (not OnTriggerEnter), so Respawn() gets
+    /// called every single frame while the object sits inside it. Without this
+    /// guard each call starts another RespawnWhenAvailable coroutine and the
+    /// coroutines fight over the transform, making the object bounce between
+    /// the death plane and its origin (visible as endless up/down jitter).
+    /// </summary>
+    bool isRespawning = false;
+
+    /// <summary>
     /// Disables the rigidbody to prevent continous falling
     /// Puts the object really high in the air so that it is not visible
     /// while it waits for its origin to be available and "re-spawn"
     /// </summary>
     public virtual void Respawn()
     {
+        // Already respawning, ignore the per-frame calls coming from DeathPlane
+        if(this.isRespawning) {
+            return;
+        }
+        this.isRespawning = true;
+
         this.rigidBody.useGravity = false;
+
+        // Clear the velocity left over from the fall. Without this the object
+        // keeps travelling downwards after being put back at its origin and
+        // drops straight through the death plane again, forever.
+        this.rigidBody.linearVelocity = Vector3.zero;
+        this.rigidBody.angularVelocity = Vector3.zero;
+
         this.transform.position = new Vector3(0f, -10f, 0f);
         StartCoroutine("RespawnWhenAvailable");
     }
@@ -412,6 +435,12 @@ public class Attractable : MonoBehaviour, IAttractable, IRespawnable
 
         // Makes the object "re-appear" where it started
         this.transform.position = this.lastPosition = this.origin;
+
+        // Make sure it comes to rest here instead of carrying the old fall speed
+        this.rigidBody.linearVelocity = Vector3.zero;
+        this.rigidBody.angularVelocity = Vector3.zero;
+
+        this.isRespawning = false;
 
         // Play the particles
         if(this.spawnerTile != null) {
