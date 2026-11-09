@@ -202,6 +202,26 @@ public class PlayerController : MonoBehaviour, IMagnetic
     ParticleSystem particles;
 
     /// <summary>
+    /// Replaces the particle system used for the attracting effect.
+    /// The one serialized in the prefab no longer renders (legacy 2017 data),
+    /// so AttractParticles builds a fresh system at runtime and installs it here.
+    /// </summary>
+    /// <param name="system"></param>
+    public void SetAttractParticles(ParticleSystem system)
+    {
+        if(system == null) {
+            return;
+        }
+
+        // Stop the old one so it cannot keep emitting invisible particles
+        if(this.particles != null && this.particles != system) {
+            this.particles.Stop();
+        }
+
+        this.particles = system;
+    }
+
+    /// <summary>
     /// True when the attraction was cancelled
     /// Helps to trigger only once
     /// </summary>
@@ -244,13 +264,15 @@ public class PlayerController : MonoBehaviour, IMagnetic
         }
 
         // Show the effects of attracting
-        if(this.isAttracting) {
-            // Show the attracting effect
-            if(!this.particles.isPlaying) {
-                this.particles.Play();
+        if(this.particles != null) {
+            if(this.isAttracting) {
+                // Show the attracting effect
+                if(!this.particles.isPlaying) {
+                    this.particles.Play();
+                }
+            } else {
+                this.particles.Stop();
             }
-        } else {
-            this.particles.Stop();
         }
 
         // Play the sounds that match the new player actions
