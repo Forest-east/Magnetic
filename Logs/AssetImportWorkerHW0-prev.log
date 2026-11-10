@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-11-10T12:21:46.9620757Z"
 Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-10-11T06:32:44.520043Z"
 OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31931 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-11T06:32:44Z
+Date: 2026-11-10T12:21:46Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.5.5f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ D:/游戏开发/Magnetic
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-51953
+64128
 -parentPid
-63504
+68128
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -78,12 +78,12 @@ D:/游戏开发/Magnetic
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [64248]  Target information:
+Player connection [37680]  Target information:
 
-Player connection [64248]  * "[IP] 192.168.2.44 [Port] 0 [Flags] 2 [Guid] 2386557854 [EditorId] 2386557854 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37680]  * "[IP] 113.54.247.16 [Port] 0 [Flags] 2 [Guid] 2424066257 [EditorId] 2424066257 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [64248] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [64248] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37680] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -95,8 +95,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.71 ms, found 1 plugins.
-Preloading 1 native plugins for Editor in 3.99 ms.
+Refreshing native plugins compatible for Editor in 4.13 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 3.08 ms.
 Initialize engine version: 6000.5.5f1 (d16e074b49fd)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/游戏开发/Magnetic/Assets
@@ -115,12 +115,12 @@ Mono path[0] = 'D:/Unity/6000.5.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007932 seconds.
+Registered in 0.006032 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -128,43 +128,43 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.860 seconds
-Domain Reload Profiling: 1959ms
-	BeginReloadAssembly (299ms)
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1857ms
+	BeginReloadAssembly (282ms)
 	RebuildCommonClasses (9ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (182ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (280ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (377ms)
-				TypeCache.ScanAssembly (352ms)
-	FinalizeReload (866ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (573ms)
+		LoadAssemblies (267ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (391ms)
+				TypeCache.ScanAssembly (368ms)
+	FinalizeReload (821ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (216ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (235ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (230ms)
 Initializing Unity extensions:
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sispu"
 [Licensing::IpcConnector] LicenseClient-sispu channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-10-11T06:32:48.7745386Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 57320, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-11-10T12:21:51.0437256Z"
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67568, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              fe045b4267c84373a2c97cef1b715fde
-  Correlation Id:          a9818f50f665329514902beef06664e8
-  External correlation Id: 4862112612656484367
+  Session Id:              9930a280421249f5a6747c7c8e9326ae
+  Correlation Id:          13226e51b5d8a5e78fa6569286880f5f
+  External correlation Id: 7987947323551352204
   Machine Id:              jKSa9g6WzqcY9b9GLRjttsE4d1Y=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-10-11T06:32:48.7995655Z"
-[Licensing::Module] Licensing Background thread has ended after 4.28s
-[Licensing::Module] Licensing is initialized (took 0.09s).
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-11-10T12:21:51.0667445Z"
+[Licensing::Module] Licensing Background thread has ended after 4.11s
+[Licensing::Module] Licensing is initialized (took 0.01s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
@@ -177,12 +177,12 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 5.93 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.78 ms, found 1 plugins.
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
@@ -252,498 +252,296 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-- Finished resetting the current domain, in  2.782 seconds
-Domain Reload Profiling: 5207ms
-	BeginReloadAssembly (558ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (278ms)
-	LoadAllAssembliesAndSetupDomain (1524ms)
-		LoadAssemblies (1046ms)
-		AnalyzeDomain (552ms)
-			TypeCache.Refresh (457ms)
-				TypeCache.ScanAssembly (424ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2784ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (1532ms)
-			ProcessInitializeOnLoadMethodAttributes (719ms)
-			AfterProcessingInitializeOnLoad (28ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-AcceleratorClientConnectionCallback - disconnected - :0
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.56 ms, found 1 plugins.
-Unloading 129 Unused Serialized files (Serialized files now loaded: 0)
-Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 4912 unused Assets / (21.4 MB). Loaded Objects now: 5368.
-Memory consumption went from 333.8 MB to 312.4 MB.
-Total: 36.202300 ms (FindLiveObjects: 0.926200 ms CreateObjectMapping: 2.310300 ms MarkObjects: 22.300300 ms  DeleteObjects: 10.660400 ms)
-
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.08 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.62 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.342 seconds
-Domain Reload Profiling: 3833ms
-	BeginReloadAssembly (440ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (117ms)
+- Finished resetting the current domain, in  2.412 seconds
+Domain Reload Profiling: 4456ms
+	BeginReloadAssembly (418ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (65ms)
 	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (211ms)
-	LoadAllAssembliesAndSetupDomain (791ms)
-		LoadAssemblies (754ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2344ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (227ms)
-			ProcessInitializeOnLoadAttributes (910ms)
-			ProcessInitializeOnLoadMethodAttributes (902ms)
-			AfterProcessingInitializeOnLoad (22ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.06 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4909 unused Assets / (19.8 MB). Loaded Objects now: 5370.
-Memory consumption went from 326.8 MB to 307.0 MB.
-Total: 31.484700 ms (FindLiveObjects: 0.742900 ms CreateObjectMapping: 1.779000 ms MarkObjects: 21.519100 ms  DeleteObjects: 7.441400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.99 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.82 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.354 seconds
-Domain Reload Profiling: 3823ms
-	BeginReloadAssembly (417ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (239ms)
-	LoadAllAssembliesAndSetupDomain (763ms)
-		LoadAssemblies (713ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2356ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			BeforeProcessingInitializeOnLoad (223ms)
-			ProcessInitializeOnLoadAttributes (892ms)
-			ProcessInitializeOnLoadMethodAttributes (922ms)
-			AfterProcessingInitializeOnLoad (25ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 6.82 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4909 unused Assets / (20.3 MB). Loaded Objects now: 5372.
-Memory consumption went from 329.1 MB to 308.8 MB.
-Total: 33.694300 ms (FindLiveObjects: 0.703000 ms CreateObjectMapping: 1.842100 ms MarkObjects: 22.444300 ms  DeleteObjects: 8.702100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.05 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4902 unused Assets / (21.0 MB). Loaded Objects now: 5374.
-Memory consumption went from 329.5 MB to 308.5 MB.
-Total: 36.443800 ms (FindLiveObjects: 0.931500 ms CreateObjectMapping: 1.959700 ms MarkObjects: 24.094900 ms  DeleteObjects: 9.455300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.77 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.585 seconds
-Domain Reload Profiling: 4684ms
-	BeginReloadAssembly (521ms)
-		DisableScriptedObjects (12ms)
-		CreateAndSetChildDomain (135ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (234ms)
-	LoadAllAssembliesAndSetupDomain (1282ms)
-		LoadAssemblies (840ms)
-		AnalyzeDomain (437ms)
-			TypeCache.Refresh (15ms)
-			BuildScriptInfoCaches (414ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (2588ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (278ms)
-			ProcessInitializeOnLoadAttributes (985ms)
-			ProcessInitializeOnLoadMethodAttributes (969ms)
-			AfterProcessingInitializeOnLoad (25ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.19 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4911 unused Assets / (21.0 MB). Loaded Objects now: 5376.
-Memory consumption went from 347.3 MB to 326.3 MB.
-Total: 37.137100 ms (FindLiveObjects: 0.801100 ms CreateObjectMapping: 1.928100 ms MarkObjects: 24.818700 ms  DeleteObjects: 9.586100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 3.37 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 6.11 ms, found 1 plugins.
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-[McpToolRegistry] Discovered 20 MCP tools
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
-Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Idle]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
-Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
-Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
-Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
-Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
-Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
-Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
-Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
-Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
-
-- Finished resetting the current domain, in  2.314 seconds
-Domain Reload Profiling: 3759ms
-	BeginReloadAssembly (456ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (127ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (180ms)
-	LoadAllAssembliesAndSetupDomain (761ms)
-		LoadAssemblies (729ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (9ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (188ms)
+	LoadAllAssembliesAndSetupDomain (1392ms)
+		LoadAssemblies (775ms)
+		AnalyzeDomain (549ms)
+			TypeCache.Refresh (475ms)
+				TypeCache.ScanAssembly (445ms)
+			BuildScriptInfoCaches (68ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (2316ms)
+	FinalizeReload (2414ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (243ms)
-			ProcessInitializeOnLoadAttributes (892ms)
-			ProcessInitializeOnLoadMethodAttributes (880ms)
-			AfterProcessingInitializeOnLoad (21ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.37 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4911 unused Assets / (19.3 MB). Loaded Objects now: 5378.
-Memory consumption went from 345.7 MB to 326.4 MB.
-Total: 33.510600 ms (FindLiveObjects: 0.815500 ms CreateObjectMapping: 1.886200 ms MarkObjects: 23.309800 ms  DeleteObjects: 7.496800 ms)
+			BeforeProcessingInitializeOnLoad (285ms)
+			ProcessInitializeOnLoadAttributes (1372ms)
+			ProcessInitializeOnLoadMethodAttributes (477ms)
+			AfterProcessingInitializeOnLoad (22ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 4830 unused Assets / (15.6 MB). Loaded Objects now: 5458.
+Memory consumption went from 312.5 MB to 296.9 MB.
+Total: 26.518200 ms (FindLiveObjects: 0.736200 ms CreateObjectMapping: 1.722100 ms MarkObjects: 19.476300 ms  DeleteObjects: 4.577200 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 4.20 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5458.
+Memory consumption went from 307.0 MB to 295.9 MB.
+Total: 22.116200 ms (FindLiveObjects: 0.367900 ms CreateObjectMapping: 0.695000 ms MarkObjects: 19.006000 ms  DeleteObjects: 2.045800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:57.7272439Z
+  Time since last request: 597055.10837579995859 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '21d63343b3963ed39dee0b999b852859') in 0.213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=231e736153dff1919e159f9bdbf29b40 DependenciesID=cfd056b4aebbcbce42872876121b2404 StaticDependenciesID=1e3e25cf16181cf20e93907a6ad44083 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.760317Z
+  Time since last request: 1.8142068 seconds.
+  importAddress: GUID: 50656ad0e7825c743903d54e9faba195 - Path: Assets/Prefabs/_CameraRig.prefab - Importer: PreviewImporter
+Importing 'GUID: 50656ad0e7825c743903d54e9faba195 - Path: Assets/Prefabs/_CameraRig.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 50656ad0e7825c743903d54e9faba195' -> (Import Result ID: '6c7beff57d6171647d48a956b8e70e62') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ceb0f5b3b4ed3ffabd811710b070c0f5 DependenciesID=1ab0c0b58c859e3a43db09a3de3f9316 StaticDependenciesID=f6394b5bbd726845aa30449dac4fcd49 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.8001205Z
+  Time since last request: 0.0006746 seconds.
+  importAddress: GUID: d84248d2cc7bd194b89b168755db7039 - Path: Assets/Prefabs/MenuButton.prefab - Importer: PreviewImporter
+Importing 'GUID: d84248d2cc7bd194b89b168755db7039 - Path: Assets/Prefabs/MenuButton.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d84248d2cc7bd194b89b168755db7039' -> (Import Result ID: 'bdac535559e765b04cde0d580cdc2294') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d7db9bb48f1940b94d4838cb9f5ec60 DependenciesID=4267ba79f24e2cd3e3d1e51fd547c871 StaticDependenciesID=dcacc02384cccfb08280c9a594888c79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.8069275Z
+  Time since last request: 0.0005745 seconds.
+  importAddress: GUID: 31183e815486ef94fb48d2dd38996009 - Path: Assets/Prefabs/LevelMusic.prefab - Importer: PreviewImporter
+Importing 'GUID: 31183e815486ef94fb48d2dd38996009 - Path: Assets/Prefabs/LevelMusic.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31183e815486ef94fb48d2dd38996009' -> (Import Result ID: '44183f621525b508cfd8e5f08f7aa1f4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd9ae87e122b9e65e170aa268fc0a1db DependenciesID=1c0b8f5754b9719b82b17a0503c625a3 StaticDependenciesID=a892098840b5423891f457aa08dafb68 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.8118098Z
+  Time since last request: 0.0006422 seconds.
+  importAddress: GUID: 9cc5674f628f9674b8939171c5c8ad49 - Path: Assets/Prefabs/MenuMusic.prefab - Importer: PreviewImporter
+Importing 'GUID: 9cc5674f628f9674b8939171c5c8ad49 - Path: Assets/Prefabs/MenuMusic.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9cc5674f628f9674b8939171c5c8ad49' -> (Import Result ID: 'bf86ccdeb8e74d7f29621dc9faf8fd04') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a0664ae8ea406fb397bec530e7050a5 DependenciesID=7e47159234396cb1836ffabff1266ab7 StaticDependenciesID=43ce121c641122b6c13ae8057f703ea8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.8159632Z
+  Time since last request: 0.0003425 seconds.
+  importAddress: GUID: b8222041390a8f4409e4f997d249a1ae - Path: Assets/Prefabs/LevelController.prefab - Importer: PreviewImporter
+Importing 'GUID: b8222041390a8f4409e4f997d249a1ae - Path: Assets/Prefabs/LevelController.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b8222041390a8f4409e4f997d249a1ae' -> (Import Result ID: 'b872bcaf5a1d1600fe507aa411dc02b5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76a0567431b7d97417f1ffdef8699ff4 DependenciesID=0e2463a738545df8ba65865b07dcf8bb StaticDependenciesID=75ad7e3c6b7e3af1ebd48ad81795b15c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.8220337Z
+  Time since last request: 0.0005177 seconds.
+  importAddress: GUID: 8af93c6d4f0127a41adfa5c936d38090 - Path: Assets/Prefabs/Spikeball.prefab - Importer: PreviewImporter
+Importing 'GUID: 8af93c6d4f0127a41adfa5c936d38090 - Path: Assets/Prefabs/Spikeball.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8af93c6d4f0127a41adfa5c936d38090' -> (Import Result ID: 'da10743dae4e1bc6f34835fbcdf840cf') in 0.145 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b2e42263507e885d2ce392c4af69705 DependenciesID=7b4890a29dc9ef53a489c033e4c43062 StaticDependenciesID=08c862d1c9a77b12af63ef9f13a8e037 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:21:59.9727418Z
+  Time since last request: 0.0000364 seconds.
+  importAddress: GUID: 8398c31d48ef84d45bf99a83ac04cbb5 - Path: Assets/Prefabs/MetalBall.prefab - Importer: PreviewImporter
+Importing 'GUID: 8398c31d48ef84d45bf99a83ac04cbb5 - Path: Assets/Prefabs/MetalBall.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8398c31d48ef84d45bf99a83ac04cbb5' -> (Import Result ID: 'e0457fa667b45a70f87e362662656e11') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00b59938d48fadc389b5e1eddbb153b2 DependenciesID=8f1da543746137c6f175cf1c6461e536 StaticDependenciesID=0a1e6d47ec9f43c7cb15bb9233242700 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:00.02018Z
+  Time since last request: 0.0002087 seconds.
+  importAddress: GUID: b3baaa63274156e42a7a353bf5140852 - Path: Assets/Prefabs/GameManager.prefab - Importer: PreviewImporter
+Importing 'GUID: b3baaa63274156e42a7a353bf5140852 - Path: Assets/Prefabs/GameManager.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b3baaa63274156e42a7a353bf5140852' -> (Import Result ID: '6ff96460a6b9a08d08c4ec103df04993') in 0.757 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8be527dcc8202b15e20ba74051ab08d7 DependenciesID=79b1487cc4dd36305be9ce2e8fc9fdf7 StaticDependenciesID=c2d00192be11328ddab3be3e6c25c992 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:00.7847482Z
+  Time since last request: 0.0000338 seconds.
+  importAddress: GUID: 6dd865dbface5cd4c9387276bb88bb70 - Path: Assets/Prefabs/BackgroundCamera.prefab - Importer: PreviewImporter
+Importing 'GUID: 6dd865dbface5cd4c9387276bb88bb70 - Path: Assets/Prefabs/BackgroundCamera.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6dd865dbface5cd4c9387276bb88bb70' -> (Import Result ID: 'a5ce683bc9fd244fd4a8f05643247878') in 0.171 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=406f9372db4f6cae7b4784e54a88c27d DependenciesID=e5932c9e8bee7aeba39aa375c2026e40 StaticDependenciesID=8ea2cb5be73a699ef1dd3726ec2fd320 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:00.9582847Z
+  Time since last request: 0.0006359 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '0de6f460a9b106a2ba325e22ecb01752') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=33ec9f27b3c4390bc0af62d570c0dbab StaticDependenciesID=7140292d0c9d0ccecd0e578a5b3fb447 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:00.9699886Z
+  Time since last request: 0.0001946 seconds.
+  importAddress: GUID: a8299aa430f4fb34a8ee485aaf6eca2b - Path: Assets/Prefabs/Player.prefab - Importer: PreviewImporter
+Importing 'GUID: a8299aa430f4fb34a8ee485aaf6eca2b - Path: Assets/Prefabs/Player.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a8299aa430f4fb34a8ee485aaf6eca2b' -> (Import Result ID: 'c8cce055e7ca678468b0fd46ef460336') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8154792203933c34a23e98a15fa2b88 DependenciesID=02e5a31bf01a439e14235e3f1e273722 StaticDependenciesID=8eb8377598f29b27aebbace7e13cc568 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:01.0180847Z
+  Time since last request: 0.0000875 seconds.
+  importAddress: GUID: bf3595af0fe59cf478537bff69555249 - Path: Assets/Prefabs/DeathPlane.prefab - Importer: PreviewImporter
+Importing 'GUID: bf3595af0fe59cf478537bff69555249 - Path: Assets/Prefabs/DeathPlane.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bf3595af0fe59cf478537bff69555249' -> (Import Result ID: '70e2f16451e562b41db08da88afbe833') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0a3325b5719d2a7fe3f8ac3de7bbdee DependenciesID=590374910ee3a2164696bfd845cc4c95 StaticDependenciesID=daeb812d9f3603968a898acc0fb95e4e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:01.0413098Z
+  Time since last request: 0.0003899 seconds.
+  importAddress: GUID: ae40216a01bfa164eb3d30dca141f266 - Path: Assets/Prefabs/LevelSelectButton.prefab - Importer: PreviewImporter
+Importing 'GUID: ae40216a01bfa164eb3d30dca141f266 - Path: Assets/Prefabs/LevelSelectButton.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae40216a01bfa164eb3d30dca141f266' -> (Import Result ID: 'e0ba8e76251299c47b57aebc2479a90f') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7841d72dfb66ee1a52ce9469f35cdf8f DependenciesID=5645da035a81ec20124d989e85548054 StaticDependenciesID=6e2fd48d65368c3522859697932e76fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:01.0724677Z
+  Time since last request: 0.0001538 seconds.
+  importAddress: GUID: db35ddb9185729f43afaa28be7c4ef3b - Path: Assets/Prefabs/MetalCrate.prefab - Importer: PreviewImporter
+Importing 'GUID: db35ddb9185729f43afaa28be7c4ef3b - Path: Assets/Prefabs/MetalCrate.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db35ddb9185729f43afaa28be7c4ef3b' -> (Import Result ID: '297d545785c3736b198ae715be2e6c26') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79020b80aa405de8982e4b3a6471aa41 DependenciesID=05ceda30a736c4906ae01d6b13a60efa StaticDependenciesID=26e1d4ed80c502220e669b5cf64bd765 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:01.1097356Z
+  Time since last request: 0.0002325 seconds.
+  importAddress: GUID: 7b373ba0038e1a44cbe0fb120c55f5ba - Path: Assets/Prefabs/LevelLight.prefab - Importer: PreviewImporter
+Importing 'GUID: 7b373ba0038e1a44cbe0fb120c55f5ba - Path: Assets/Prefabs/LevelLight.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7b373ba0038e1a44cbe0fb120c55f5ba' -> (Import Result ID: 'c01238029fc091c6c0b6dfa808feed56') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc1717088cf9894ad0b4eb2b05d0f8cf DependenciesID=0ad00bf7a895db1f918eea25925592d7 StaticDependenciesID=cec2708957430266aed9776a950bda2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:01.9160628Z
+  Time since last request: 0.80048 seconds.
+  importAddress: GUID: c94e30b244636f54c86fe6a6a926ede6 - Path: Assets/Prefabs/UI - Importer: PreviewImporter
+Importing 'GUID: c94e30b244636f54c86fe6a6a926ede6 - Path: Assets/Prefabs/UI - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c94e30b244636f54c86fe6a6a926ede6' -> (Import Result ID: 'd53185b84e9dde381ab2774b67194813') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d149a30f7489356e2bf4e2905108414c DependenciesID=b98d849cc3038cedd5fe65345a95fa13 StaticDependenciesID=1518ee5bfe30f9ab66bbb2c26d6435ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:02.0783641Z
+  Time since last request: 0.1591063 seconds.
+  importAddress: GUID: ef227b749a33fc74cae90a2ab1904866 - Path: Assets/Prefabs/UI/Virtual_DPad.prefab - Importer: PreviewImporter
+Importing 'GUID: ef227b749a33fc74cae90a2ab1904866 - Path: Assets/Prefabs/UI/Virtual_DPad.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ef227b749a33fc74cae90a2ab1904866' -> (Import Result ID: 'f382c42d16c79067ecfbe8c02169ef37') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12a70a5a0e4d94a176b1311c4134ec98 DependenciesID=25f71322ea1b2a9e35049ead02dbaed0 StaticDependenciesID=a49a197a80afcc3fffeda0122fe7dd2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 4.23 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (11.2 MB). Loaded Objects now: 5472.
+Memory consumption went from 312.7 MB to 301.5 MB.
+Total: 24.189600 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.692300 ms MarkObjects: 20.703000 ms  DeleteObjects: 2.388000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.95 ms, found 1 plugins.
-Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 128 unused Assets / (13.9 MB). Loaded Objects now: 5378.
-Memory consumption went from 342.5 MB to 328.6 MB.
-Total: 32.892200 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.948400 ms MarkObjects: 25.877600 ms  DeleteObjects: 5.650200 ms)
+Refreshing native plugins compatible for Editor in 3.97 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5472.
+Memory consumption went from 313.5 MB to 302.3 MB.
+Total: 27.060000 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.645700 ms MarkObjects: 23.802700 ms  DeleteObjects: 2.214500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.54 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5472.
+Memory consumption went from 314.3 MB to 303.1 MB.
+Total: 23.640900 ms (FindLiveObjects: 0.402700 ms CreateObjectMapping: 0.704400 ms MarkObjects: 20.485600 ms  DeleteObjects: 2.046400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.1251235Z
+  Time since last request: 259.03729170000003 seconds.
+  importAddress: GUID: 83d5c1a8c4870e94f9a3a7a7c5f913d1 - Path: Assets/Models/crate.fbx - Importer: PreviewImporter
+Importing 'GUID: 83d5c1a8c4870e94f9a3a7a7c5f913d1 - Path: Assets/Models/crate.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 83d5c1a8c4870e94f9a3a7a7c5f913d1' -> (Import Result ID: 'f97b373d6858e9889bbe44f120df9701') in 0.109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95a70b28b2eb6ca51bed1e3999e6b86e DependenciesID=d33326ebd4b28079904b53b31ab62417 StaticDependenciesID=d53fe14b42b2aa624285f08dc583283e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.2406373Z
+  Time since last request: 0.0000417 seconds.
+  importAddress: GUID: bee0c160360a16f46a6ca9b9dd86a7e4 - Path: Assets/Models/tile.fbx - Importer: PreviewImporter
+Importing 'GUID: bee0c160360a16f46a6ca9b9dd86a7e4 - Path: Assets/Models/tile.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bee0c160360a16f46a6ca9b9dd86a7e4' -> (Import Result ID: '57414beb4a34c8aff5e20abd0437e486') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8230a18023171b0021af9433d39b2a2f DependenciesID=7d429219bbdbe1f74f9870d335f069ec StaticDependenciesID=044fe298d470e2bede8b524a3ac4fcd2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.2753909Z
+  Time since last request: 0.0005554 seconds.
+  importAddress: GUID: b4d4ec743c4388f4da483b381fd361e5 - Path: Assets/Models/player.fbx - Importer: PreviewImporter
+Importing 'GUID: b4d4ec743c4388f4da483b381fd361e5 - Path: Assets/Models/player.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b4d4ec743c4388f4da483b381fd361e5' -> (Import Result ID: '8ceba229ddfb5b3e3bc54a5624adea80') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=299f7f5963cdac86fb4d1e5627962b7b DependenciesID=83be3b3d68307725812a4a58266c698b StaticDependenciesID=7c45f6d7b3c17bf62999efd398e46ba2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.3093399Z
+  Time since last request: 0.0005643 seconds.
+  importAddress: GUID: 951fe16e1b9734c4284cd4a8fcfa7080 - Path: Assets/Models/spawner.fbx - Importer: PreviewImporter
+Importing 'GUID: 951fe16e1b9734c4284cd4a8fcfa7080 - Path: Assets/Models/spawner.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 951fe16e1b9734c4284cd4a8fcfa7080' -> (Import Result ID: 'd780c497d45d894616cfdc684f634f5f') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e47ffddf85e1b33ef6f28c00be7ca8eb DependenciesID=00b59d468bfdb1ce55621552d304b242 StaticDependenciesID=adf71a69b5f4bd1bd5e73ffdf8f39cc8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.3446506Z
+  Time since last request: 0.0005999 seconds.
+  importAddress: GUID: 6ca67fe09fd06ac49b709ef457c539cf - Path: Assets/Models/spikeball.fbx - Importer: PreviewImporter
+Importing 'GUID: 6ca67fe09fd06ac49b709ef457c539cf - Path: Assets/Models/spikeball.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ca67fe09fd06ac49b709ef457c539cf' -> (Import Result ID: '6138dd7b0237944f9c206ca11985c86f') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e0593f8d219c7e2c0e81a2aaad44e33 DependenciesID=b10837c21ab21fc8b43d2c6e50333017 StaticDependenciesID=7cb2e7c97030c5e1cb986fc317352a44 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.3802601Z
+  Time since last request: 0.0005028 seconds.
+  importAddress: GUID: bd50136336a22cf469983e8819c96e88 - Path: Assets/Models/hole.fbx - Importer: PreviewImporter
+Importing 'GUID: bd50136336a22cf469983e8819c96e88 - Path: Assets/Models/hole.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bd50136336a22cf469983e8819c96e88' -> (Import Result ID: '8645d7172214dc5f3f7b77eed1f05378') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d9852df4c768996cec1e4515df652fd DependenciesID=41175f6cf2d81ffff3819b2452cbc114 StaticDependenciesID=e43f427604efc27e853453f27a849ec4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 Editor requested this worker to shutdown with reason: Editor is closing down
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting

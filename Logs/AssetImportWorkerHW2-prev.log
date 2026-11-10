@@ -1,0 +1,841 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-11-10T12:21:59.9848577Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31931 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-10T12:21:59Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.5.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+D:/游戏开发/Magnetic
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+64128
+-parentPid
+68128
+-analyticsCloudUserId
+33263210069851
+-analyticsCloudProjectId
+fe6c33ca-ece0-4580-969d-85ed4e1bf517
+-analyticsLocalProjectId
+41adef074c7cba842a3126e272eb0603
+-licensingIpc
+LicenseClient-sispu
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/游戏开发/Magnetic
+D:/游戏开发/Magnetic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30772]  Target information:
+
+Player connection [30772]  * "[IP] 113.54.247.16 [Port] 0 [Flags] 2 [Guid] 918133728 [EditorId] 918133728 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30772] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30772] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.85 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 3.19 ms.
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/游戏开发/Magnetic/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.16.1071
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.5.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005955 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1623ms
+	BeginReloadAssembly (247ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (181ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (234ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (319ms)
+	FinalizeReload (669ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sispu"
+[Licensing::IpcConnector] LicenseClient-sispu channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-11-10T12:22:03.5381247Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67568, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9c8fa49ade384c9cba4bad83ecc73b19
+  Correlation Id:          13226e51b5d8a5e78fa6569286880f5f
+  External correlation Id: 5999449728022730711
+  Machine Id:              jKSa9g6WzqcY9b9GLRjttsE4d1Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-11-10T12:22:03.5552523Z"
+[Licensing::Module] Licensing Background thread has ended after 3.57s
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.31 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.34 ms, found 1 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[McpToolRegistry] Discovered 20 MCP tools
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
+Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
+Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
+Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
+Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
+Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
+Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
+Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:201)
+Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
+
+[McpToolRegistry] Available tools: Unity_ApplyTextEdits, Unity_CreateScript, Unity_DeleteScript, Unity_FindInFile, Unity_GetSha, Unity_ImportExternalModel, Unity_ListResources, Unity_ManageAsset, Unity_ManageEditor, Unity_ManageGameObject, Unity_ManageMenuItem, Unity_ManageScene, Unity_ManageScript, Unity_ManageScript_capabilities, Unity_ManageShader, Unity_ReadConsole, Unity_ReadResource, Unity_RunCommand, Unity_ScriptApplyEdits, Unity_ValidateScript
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
+Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
+Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
+Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
+Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
+Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
+Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
+Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:RefreshTools () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:204)
+Unity.AI.MCP.Editor.ToolRegistry.McpToolRegistry:Initialize () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/ToolRegistry/McpToolRegistry.cs:177)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Idle]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:313)
+Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
+Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
+Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
+Unity.AI.Tracing.TraceLogger:Emit (string,string,string,string,Unity.AI.Tracing.TraceEventOptions,object,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:105)
+Unity.AI.Tracing.TraceLogger:Info (string,string,string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceLogger.cs:35)
+Unity.AI.MCP.Editor.Helpers.McpLog:Log (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Helpers/McpLog.cs:15)
+Unity.AI.MCP.Editor.Bridge:LogBreadcrumb (string) (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:2055)
+Unity.AI.MCP.Editor.Bridge:OnAfterAssemblyReload () (at ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.MCP.Editor/Bridge.cs:1899)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
+
+- Finished resetting the current domain, in  2.204 seconds
+Domain Reload Profiling: 3914ms
+	BeginReloadAssembly (336ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (1158ms)
+		LoadAssemblies (684ms)
+		AnalyzeDomain (454ms)
+			TypeCache.Refresh (394ms)
+				TypeCache.ScanAssembly (366ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2206ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (1276ms)
+			ProcessInitializeOnLoadMethodAttributes (481ms)
+			AfterProcessingInitializeOnLoad (20ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 4830 unused Assets / (15.6 MB). Loaded Objects now: 5458.
+Memory consumption went from 316.7 MB to 301.1 MB.
+Total: 29.292800 ms (FindLiveObjects: 0.800700 ms CreateObjectMapping: 1.547200 ms MarkObjects: 22.103600 ms  DeleteObjects: 4.836600 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.53 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5458.
+Memory consumption went from 311.2 MB to 300.0 MB.
+Total: 24.060400 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.619200 ms MarkObjects: 20.647300 ms  DeleteObjects: 2.409600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:23.0211601Z
+  Time since last request: 597080.40229210001417 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '2f6b57c8d23805dcab501fbdcd1298ed') in 0.083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=fe44c68680e183d3159fef6c5a3bd034 StaticDependenciesID=e0a8084005df3b169864da37a0dd1ee3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:24.7612351Z
+  Time since last request: 1.6524228 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'd7da6bc383b393ad4a321de026800323') in 0.183 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08058e71255d2b8196a5b1d98a1652dc DependenciesID=934b98c558bc47f82e56195a13a15678 StaticDependenciesID=70c286d94b8817581e74bf38ec2e674c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:28.6559046Z
+  Time since last request: 3.7085526 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'b5c6cf114a0670fa68d48a5a16f6c5b7') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=c13b57778543c235768089e1fb9c76c2 StaticDependenciesID=69f6441ff3578893407e89500b38f68b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:29.6171798Z
+  Time since last request: 0.9508452 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '15e10e46b506f1bc3c12a23b084622cd') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3563ab55cef8680ff45e14e1e0f4344 DependenciesID=a4883cb31a86f79e5f4d585a78e94a2a StaticDependenciesID=670c81e0ba61a2177e4af4adb996bd58 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:40.6523789Z
+  Time since last request: 11.0171363 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1ea0f0e56ba2065abb8c2c3c861edf60') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=770777b962a05e81232793821d3752bf StaticDependenciesID=be3109dc320f20764b3212e9f70c88e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:41.5926054Z
+  Time since last request: 0.929007 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'fb9049e541837b3ba41834afdcea8a86') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ff9c34ed30eb663f12c0bcdfeb5ccee DependenciesID=60a61b4306b4e4ea93e03c9df09e3002 StaticDependenciesID=e4240d00f341fc42964fa7a0bc85cb17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:42.7021126Z
+  Time since last request: 1.0899006 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'aeb62bc29cc9a2a04d2cd4a05c659067') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=d4ca1bf7279d883974573436979f12bb StaticDependenciesID=f5ea38e08b081fde60d92253f741e605 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:43.6688952Z
+  Time since last request: 0.9559981 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'be85bcaae13e7d65a23e2b490155222f') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3dcbec901b2481ac03d249d995ce21a2 DependenciesID=0bad624ab11f702e4c12ce4d314a4d18 StaticDependenciesID=fcac1b24e7a644353c9c90fd6dc2c8ee 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:48.760578Z
+  Time since last request: 5.070421 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '0b6fc7cc52263b660f75bbf525b9b65f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=0cc6a6b25d31062c8a211bf3de030f8b StaticDependenciesID=4e153468600de8f091989f1f9e2051ef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:49.7259404Z
+  Time since last request: 0.9548 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '91fa7e0ca4dbe53d64b9a0c1511e362e') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=566a33f652ff69d63694591c9ffb5e27 DependenciesID=16d9958ace4004b94e8f261f9eb2fddb StaticDependenciesID=75180dae6053fd7e2956ec01546b00cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:54.0178251Z
+  Time since last request: 4.2731108 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '36dca2c26f994b62ab6d12949a7d611a') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=3d64c6d2a3b69e5d98906b12455579fb StaticDependenciesID=301f6aaf2109a40987ef0753f5c78a96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:54.9849097Z
+  Time since last request: 0.9548843 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '0bc24feaab19eb97d1709d594fb60d56') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d5ed6cdc3d2f3f8367f825d342023c6 DependenciesID=0a4794656629e0cb5a7de6d378b631a0 StaticDependenciesID=07bc7a86a7c8d08063471c592369e705 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:57.8918804Z
+  Time since last request: 2.8893426 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9727793d92f4bf5ec0d2dbb64dfb73fd') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=622c1013e0f55171c059d7cf2df523a2 StaticDependenciesID=b8f0c5c3cac5c47f2ff65553c38032f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:22:58.8516747Z
+  Time since last request: 0.9491373 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'd139779648ab2d5e06fd20fb4383b71f') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64df8fc207ea662c8a407a6e05f8e913 DependenciesID=4202a20b32394119c3e31174bc51b45c StaticDependenciesID=0888c854bfd5a6a6dd9214490b4da1bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:03.5530218Z
+  Time since last request: 4.6839947 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '66bf3af793e9b5040856a7205dea95fc') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=9d49ebd5bdb3da984fb9611fbf19988c StaticDependenciesID=00bd0bb0c1d3d3c98d4e770dfc027121 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:04.5165228Z
+  Time since last request: 0.9527659 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'cb3fc29a690e0ca170610ab551fc15bf') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=392f8d257d8f5266565449dbb9502507 DependenciesID=0eaae316bf606d652bf37db967890786 StaticDependenciesID=2e4769d88895d7daa20a8e446d6a077b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:06.3845051Z
+  Time since last request: 1.8468031 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '11bb1d7a586b1559a318146181b05d72') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=bd41f02a4a1ec7da44185fc84ba221fa StaticDependenciesID=0d84da1544e447992eb590bd7a6bab93 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:07.3511271Z
+  Time since last request: 0.9561322 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'bb0fba3d8d94d3fb30518a13884b92a8') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f69ded3f8391d91e6ab6959e5de4460 DependenciesID=38427e0babbcac82815d19bfb171c148 StaticDependenciesID=68cc097f1087521c599b1ff8d7a2f821 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:10.426609Z
+  Time since last request: 3.0541103 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'e2effd236f24b2d01d53e5ab9754623b') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=c6e8e24e2cac90b006f6bdc1dc78cce0 StaticDependenciesID=74bc489549d6155bdb11ce9246e54db4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:11.3922283Z
+  Time since last request: 0.9538543 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '16240c154d9e03ece06224e2b28ee166') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bffa2b8c70bd2a966cb6c74409c95d5 DependenciesID=e32707a10d664e13ff343ead19acf5a6 StaticDependenciesID=a5c5423046464603a8ec035fef96f39f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:13.8663335Z
+  Time since last request: 2.4572661 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '814562926655b9959755db8efa2a7a16') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=05c897b7bd409b1c824b7ee6691fe46c StaticDependenciesID=8194a1bb3993d5c1bb350376aa0d40e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:14.836139Z
+  Time since last request: 0.9587808 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'c6c3d5281bb9dcaf4308cd19651eac3e') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ce97c491b5b5587c597d4f0ddeb2e51 DependenciesID=44b420e96bbfca42c88d696ab0638a60 StaticDependenciesID=f3bcf0f799b3a8aa13cb244af1db0ae9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:17.5048871Z
+  Time since last request: 2.6481695 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'b4e7bcb7105e244abb2401c0ace37e08') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=737476bb3649f90aeea46d3e946ea9b5 StaticDependenciesID=f8ee7a11801288518ada2ab28767337d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:18.4708557Z
+  Time since last request: 0.9557394 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '8f38d5c9d20e0c10227a0b974c66ea72') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2faf57e6fc7133e731bc422df8ebaeca DependenciesID=8d0ea038b34151c4d7e1a40acadeb946 StaticDependenciesID=d20f1dcb3fe9c1b0149e3eca61b1b486 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:25.1805583Z
+  Time since last request: 6.6895286 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '2d79d7991ba8b4cc0fffccf4ed0ca1bf') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=8ce2cc34dfc6de1be76ae023e708c65c StaticDependenciesID=36c44d2cb4757964f1554c76f67e9756 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:26.1456802Z
+  Time since last request: 0.9543251 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '5def8139a4fbebab3011497e9fb78fab') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac406bb39edda5b1b1d8b48198d03c89 DependenciesID=ecf115ecc10d3ebb30e8ccdf53af2cc5 StaticDependenciesID=d9ff1fbb71e95698a9313fd0f7bd281d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:32.8461158Z
+  Time since last request: 6.6809186 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'a948e059774a28cdb78591e43e0f231a') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=9256454a5f33ed157f0698fea8a8df7b StaticDependenciesID=e071e4f217398f2ed00310f2bac5d4e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:23:33.8123094Z
+  Time since last request: 0.9542932 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '7dc01238bb9682a5823c2b4815226050') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c95e5b1ff9b66a1891a1c6e26634e3f DependenciesID=2ac651b0a50d79034f0c5e5c284bd2ce StaticDependenciesID=c1690458ccf8f788fb336f6dcba2ae07 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:05.8563427Z
+  Time since last request: 32.025342 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '27cb4f94aa65e85d86a76772a477700a') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=3dd7d93f8021ca62f3a7a2f13b014708 StaticDependenciesID=728406a0bc242410b07b49850c70b7d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:06.8238407Z
+  Time since last request: 0.9558105 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'e926d4bc41f16f08bebf6cc89ec90dd6') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c777a631e380207dd4a437c06814406 DependenciesID=bbf3ed683430abbdaaaa50e62ca65414 StaticDependenciesID=a182e566b24e0727e3cddeef3147b63f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:08.5333997Z
+  Time since last request: 1.690643 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9ae8fe658357ab241b940c9d794a7b21') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=ee321c0d20d44e4c5e2698d7a541ca76 StaticDependenciesID=58ae20eb3e90f795a30ad1fc37cd8eb7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:09.4988727Z
+  Time since last request: 0.9548013 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '047125cffbe3af040f27e3639c6f6a7c') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ec594be4b574a7df65fd8e4bed1934a DependenciesID=e0eb51bc200dc8c0a5b4a09f209585c1 StaticDependenciesID=8e89d71b89ebe9f64dedb2121f101c39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:11.3808168Z
+  Time since last request: 1.860334 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '35a268a8e43ef2000eaf2a6346f2fe21') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=b6c19bd74cd5379c29701a31ba656171 StaticDependenciesID=310e139d9ec583d2c0a39234472f36fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:12.347495Z
+  Time since last request: 0.9550228 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1747e2df72310399a884da627543ebfc') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=098f61c2a94ef68ef345ca92505420b4 DependenciesID=67d5568b5bc6063d93641f5b103bc7a5 StaticDependenciesID=4ff6f262299925d3dab978edad36cff4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:14.2301696Z
+  Time since last request: 1.861403 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'ed459f162322447a6b5fc9aad1e57b37') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=da7d215d64ad62765d76ce93c75c99be StaticDependenciesID=a024985063bb7164cc0cb203a707ac01 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:15.1942917Z
+  Time since last request: 0.9524438 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'd7d684c494593b8f2cc15acc72240f19') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6499deab12cfa6b399001ce99d5de80b DependenciesID=a600edc974d79eef0794e8534e4ad01d StaticDependenciesID=43bebeb8542c4ed2d6ff182e22226fac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:16.8575801Z
+  Time since last request: 1.644237 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9493bcfefd9c07e9bc028be37296b703') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=a0e7e0fa43c6a72aa5fa3321eef548dc StaticDependenciesID=70ea70dae0aff9baf4a2601f2783b94f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:17.8250089Z
+  Time since last request: 0.9569446 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1d4ef5d9b5d8e5e7971c4a3861581a66') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e891de141d2e388e08ba7fd9805a8c0 DependenciesID=fd1346076d94bb558986ec51da736589 StaticDependenciesID=616d42cca9ad657dcbbf92019cb28338 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:18.8811193Z
+  Time since last request: 1.0382901 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'e83744ded3f3922e60adc05581f7247d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=7ae6c02976174fa0e7e5849de9ed6d5b StaticDependenciesID=7cd9718e30a9a2f43de14028b0877663 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:19.8442767Z
+  Time since last request: 0.9512528 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '3aff3c613a6ff632f17d882e6041f633') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20cb37788ce8fc4a380f664c12e7e813 DependenciesID=407307fb96d03f354f4befe5b6e18906 StaticDependenciesID=e57d86fa9dce49eccb75db1b1cdbee05 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:24.9506009Z
+  Time since last request: 5.0880485 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '729278f35e064e1f72a8f8b54545ee85') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d8588c134f62ffcb43988d4d45a5fd DependenciesID=5d1923a0248453bbf2d9d86e17fe2954 StaticDependenciesID=fc5afd9bf20710ade1d530301584b825 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:25.911779Z
+  Time since last request: 0.9497566 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '2c140e3cf081590157e9a55426111485') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63a29af1ae21d1a1a2c9c88f2a18a745 DependenciesID=39a3a19fbcaffbf6758db03a78df2711 StaticDependenciesID=1e1d326c337cf1698bb01db0fbbdcbfc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 4.17 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5461.
+Memory consumption went from 315.6 MB to 304.4 MB.
+Total: 26.893400 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.615100 ms MarkObjects: 23.637800 ms  DeleteObjects: 2.250400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:24:39.818644Z
+  Time since last request: 13.887265 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '935f8df154fb86ac29c5ab1c15db3a41') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef72a1f83af19ec55836137f023d613c DependenciesID=933e89fc6389ef22c532a733b370628c StaticDependenciesID=7b4add4975fdb31ed06d726426112f6c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:02.8097Z
+  Time since last request: 22.9688523 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1c03bcf1c7ab661b8b1855be35868743') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3dacd84f930f09137494e85bbab9fe6 DependenciesID=6853b12eb96a6aee50e57699f9a6da19 StaticDependenciesID=c8084796469a42957500c9517db14ca4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:07.0211404Z
+  Time since last request: 4.1881308 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '3176a8826a5198d88651d5f3215f6e95') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc5f2665d7508e278fd5a25dc904c42c DependenciesID=0447b8e815ee3f70dbb66406fe06627e StaticDependenciesID=a686b9516e666afd919e184c41156407 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:15.0355631Z
+  Time since last request: 7.9966346 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '45e7a303f8d1f2db19b871f7c3089a40') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d23ffd21df7c0e7428aef60bd188b374 DependenciesID=cdd9e4f270f7487cc99ea3dce8b92afc StaticDependenciesID=e4d7d6faa1921219c105d672c14c0914 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.47 ms, found 1 plugins.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (11.2 MB). Loaded Objects now: 5461.
+Memory consumption went from 315.6 MB to 304.4 MB.
+Total: 24.536100 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.608600 ms MarkObjects: 21.441300 ms  DeleteObjects: 2.113000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:26.573961Z
+  Time since last request: 11.5167087 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '631f41db38a2aed7c59b329c909723bc') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=311515500a672de48ba71e1f47b9908d DependenciesID=315ef700ac406bf3c99856e5eafeac2a StaticDependenciesID=b2196a5cf50fec596c7a98adbbe24568 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:30.0137801Z
+  Time since last request: 3.4186111 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '8d8b36785a2ce71c72b63ae43d3a576d') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d32df39167712ad1d6d6b12f86943d3 DependenciesID=07c5dd56bc05a8b323d8f33accb6d143 StaticDependenciesID=8236bc31b11c78ee10cddaea6febf53e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:32.0406642Z
+  Time since last request: 2.0059787 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1b2ad34117b338e188d552223bc36ac2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ea8d62af3e3f79436802d92c04a5121 DependenciesID=3cc360e491458398464805ee5e1c3b75 StaticDependenciesID=520dece5a89e714ab9634347fb21eb0c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:35.0881286Z
+  Time since last request: 3.0277505 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '7f21dbd49aa97562ea660244474577a1') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=130a079cd4ac38f20386b34c9555a29e DependenciesID=0f3401ebafb56994848db1b32c6faed6 StaticDependenciesID=4b7f0f7147a63ea40eb06b9057d47710 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:37.106152Z
+  Time since last request: 1.997756 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '4690e4b5c3bbef660694773a6860ef9d') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6071ac84d59e56bd50357f9e6ca2bbaf DependenciesID=86ac270095b038f5a825de83f267dcfe StaticDependenciesID=7d94f9cda4bfa47ac625295aeed3bb1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:43.3666096Z
+  Time since last request: 6.2403599 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'fba03d3c9335c6d28d296fe589fc41aa') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a6408cfc0bee8edce654e0ab1262711 DependenciesID=163d1f8198b046d787aeeef2f19273d8 StaticDependenciesID=6e083ec5696753bcf42567cb6a6d3231 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:45.8068378Z
+  Time since last request: 2.4213321 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'b2ba9414f963a49d9e0adce069ea5db0') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2c9bc8aa64b16ad6e0e66771e98cb69 DependenciesID=57c7a515eb28a6a08e11bec43cf1c9a1 StaticDependenciesID=8a0986c54e1c547d70fad93c43f880c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:50.4437538Z
+  Time since last request: 4.6141016 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'c1ef0f6d784bd619ec89821db9bd0942') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53adb4ad836d292ec1ccb92b8dbe9465 DependenciesID=21a7b21e4b0b1599165457296b213c40 StaticDependenciesID=d2a26b0e1d11dc9c3ee0923d636fb870 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:25:57.5161462Z
+  Time since last request: 7.0521574 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '6ad62bec12316e0a75a29c41244b82db') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e114f3457ec14150a35ef369c9b6b9fc DependenciesID=df92f5adff9b98dcd3f6fee1e30b4b81 StaticDependenciesID=1af835db26bf3c258db0a6c98c6a9b14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:07.0255463Z
+  Time since last request: 9.489849 seconds.
+  importAddress: GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '646f76e93d97e75c8e5409b5ecccbcaf') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93e55680965da3c21d174867a0b60c77 DependenciesID=2b34c3763955eab814d024d6cd297f09 StaticDependenciesID=6e0b3231781066b96f9bd2d1827ecb19 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.123813Z
+  Time since last request: 14.0781304 seconds.
+  importAddress: GUID: 1bc049922fb112d4697276ac0e2d9342 - Path: Assets/Models/button.fbx - Importer: PreviewImporter
+Importing 'GUID: 1bc049922fb112d4697276ac0e2d9342 - Path: Assets/Models/button.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1bc049922fb112d4697276ac0e2d9342' -> (Import Result ID: '1d35e4c88519d3d9b6a58ca07ba47755') in 0.284 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75c857a83cfc24c03f93add9ef68faf9 DependenciesID=c05127c5f99833e0c1ee4aea198534f3 StaticDependenciesID=67149ab0ee7378905783b417f06a7843 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-10T12:26:21.4131808Z
+  Time since last request: 0.0000329 seconds.
+  importAddress: GUID: 26824a53cc52d6a49bdde286e4bce82d - Path: Assets/Models/portal.fbx - Importer: PreviewImporter
+Importing 'GUID: 26824a53cc52d6a49bdde286e4bce82d - Path: Assets/Models/portal.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 26824a53cc52d6a49bdde286e4bce82d' -> (Import Result ID: '7daf3784104dc7dcbee2972035452917') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=685cb3329557c58d7a5ec98c1927c706 DependenciesID=2d196c526935e894fc8b97e1f73d4149 StaticDependenciesID=8a152f4342e30c955028a6dd21c984e2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

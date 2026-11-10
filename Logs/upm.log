@@ -1,47 +1,32 @@
-[2026-10-11T07:05:01.964Z][INFO] Command-line: D:\\Unity\\6000.5.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 55388 --ipc-path Unity-Upm-55388 -l 2 --log-file D:\\游戏开发\\Magnetic/Logs/upm.log
-[2026-10-11T07:05:01.968Z][INFO] Detected environment variables:
-  HTTPS_PROXY=http://127.0.0.1:7897/
-  HTTP_PROXY=http://127.0.0.1:7897/
-  NO_PROXY=localhost,127.*,10.*,172.16.*,172.17.*,172.18.*,172.19.*,172.20.*,172.21.*,172.22.*,172.23.*,172.24.*,172.25.*,172.26.*,172.27.*,172.28.*,172.29.*,172.30.*,172.31.*,192.168.*,127.0.0.1,::1
-[2026-10-11T07:05:02.056Z][INFO] IPC server started (IPC path=Unity-Upm-55388).
-[2026-10-11T07:05:02.057Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-55388.
-[2026-10-11T07:05:08.665Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:05.806Z][INFO] Command-line: D:\\Unity\\6000.5.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 35536 --ipc-path Unity-Upm-35536 -l 2 --log-file D:\\游戏开发\\Magnetic/Logs/upm.log
+[2026-11-10T13:02:05.893Z][INFO] IPC server started (IPC path=Unity-Upm-35536).
+[2026-11-10T13:02:05.894Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-35536.
+[2026-11-10T13:02:11.772Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:08.881Z][INFO] config:project:get-registries <-- Request received
+[2026-11-10T13:02:11.927Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-11T07:05:08.901Z][INFO] config:project:get-registries --> 200 (20 ms)
-[2026-10-11T07:05:08.911Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:11.953Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:09.123Z][INFO] project:list-packages --> 200 (458 ms)
-[2026-10-11T07:05:09.342Z][INFO] project:list-packages --> 200 (431 ms)
-[2026-10-11T07:05:14.191Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:11.997Z][INFO] config:project:get-registries --> 200 (71 ms)
+[2026-11-10T13:02:12.311Z][INFO] project:list-packages --> 200 (540 ms)
+[2026-11-10T13:02:12.441Z][INFO] project:list-packages --> 200 (488 ms)
+[2026-11-10T13:02:17.204Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:14.252Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:17.249Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:14.623Z][INFO] project:list-packages --> 200 (432 ms)
-[2026-10-11T07:05:14.637Z][INFO] project:list-packages --> 200 (384 ms)
-[2026-10-11T07:05:20.070Z][INFO] config:project:get-registries <-- Request received
+[2026-11-10T13:02:17.591Z][INFO] project:list-packages --> 200 (388 ms)
+[2026-11-10T13:02:17.604Z][INFO] project:list-packages --> 200 (355 ms)
+[2026-11-10T13:02:22.706Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-11T07:05:20.077Z][INFO] config:project:get-registries --> 200 (7 ms)
-[2026-10-11T07:05:24.935Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:22.712Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-11-10T13:02:28.202Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:25.191Z][INFO] project:list-packages --> 200 (256 ms)
-[2026-10-11T07:05:27.558Z][INFO] packages:get-packageinfo <-- Request received
+[2026-11-10T13:02:28.461Z][INFO] project:list-packages --> 200 (260 ms)
+[2026-11-10T13:02:30.854Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.ai.assistant"
 }
-[2026-10-11T07:05:28.558Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:02:31.977Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-11T07:05:28.878Z][INFO] packages:get-packageinfo --> 200 (1321 ms)
-[2026-10-11T07:05:31.247Z][INFO] project:list-packages --> 200 (2689 ms)
-[2026-10-11T07:06:00.292Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-11T07:06:00.459Z][INFO] project:list-packages --> 200 (167 ms)
-[2026-10-11T07:06:01.653Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-10-11T07:06:01.660Z][INFO] config:project:get-registries --> 200 (7 ms)
-[2026-10-11T07:06:05.674Z][INFO] packages:get-packageinfo <-- Request received
-params: {
-  "packageId": "com.unity.ai.assistant"
-}
-[2026-10-11T07:06:07.232Z][INFO] packages:get-packageinfo --> 200 (1558 ms)
+[2026-11-10T13:02:32.432Z][INFO] packages:get-packageinfo --> 200 (1578 ms)
+[2026-11-10T13:02:34.402Z][INFO] project:list-packages --> 200 (2426 ms)
