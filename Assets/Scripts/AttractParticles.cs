@@ -5,7 +5,11 @@ using UnityEngine;
 ///
 /// The ParticleSystem serialized in Player.prefab (authored in Unity 2017, resaved into the
 /// current binary format) no longer renders at all, whatever parameters or material it gets.
-/// This component builds a fresh system at scene root and keeps it on top of the player.
+/// This component rebuilds the same idea - particles spawned on a ring that converge inward
+/// towards the player - but brighter and bigger so the effect actually reads on screen.
+///
+/// NOTE: every curve below is a plain constant on purpose. Two-constant MinMaxCurves
+/// (MinMaxCurve(min, max)) end up rendering nothing in a build, so they are avoided.
 /// </summary>
 [RequireComponent(typeof(PlayerController))]
 public class AttractParticles : MonoBehaviour
@@ -13,11 +17,44 @@ public class AttractParticles : MonoBehaviour
     [SerializeField]
     Material particleMaterial;
 
+    /// <summary>
+    /// Bright, slightly cyan white so the additive particles glow on the dark floor
+    /// </summary>
     [SerializeField]
-    Color tint = new Color(0.55f, 0.9f, 1f, 1f);
+    Color tint = new Color(0.80f, 0.95f, 1f, 1f);
 
     [SerializeField]
-    float heightOffset = 1.2f;
+    float heightOffset = 0.9f;
+
+    /// <summary>
+    /// Radius the particles spawn at, before converging on the player
+    /// </summary>
+    [SerializeField]
+    float spawnRadius = 1.9f;
+
+    /// <summary>
+    /// Inward speed. Negative values pull the particles towards the centre.
+    /// </summary>
+    [SerializeField]
+    float convergeSpeed = -2.6f;
+
+    /// <summary>
+    /// How long a particle lives. Long enough to travel from the ring to the centre.
+    /// </summary>
+    [SerializeField]
+    float lifetime = 0.75f;
+
+    /// <summary>
+    /// Particle size in world units (the original effect used 0.2, which was too small to read)
+    /// </summary>
+    [SerializeField]
+    float size = 0.45f;
+
+    /// <summary>
+    /// Particles per second (the original used 20, which was too sparse)
+    /// </summary>
+    [SerializeField]
+    float rate = 130f;
 
     ParticleSystem system;
 
@@ -49,8 +86,6 @@ public class AttractParticles : MonoBehaviour
 
     ParticleSystem Build()
     {
-        // Deliberately mirrors the configuration that was verified to render in a build:
-        // default shape (cone), constant curves, local simulation space.
         GameObject host = new GameObject("AttractParticlesEffect");
         host.transform.position = this.transform.position + (Vector3.up * this.heightOffset);
         host.transform.rotation = Quaternion.identity;
@@ -66,15 +101,24 @@ public class AttractParticles : MonoBehaviour
         renderer.trailMaterial = renderer.sharedMaterial;
 
         ParticleSystem.MainModule main = ps.main;
-        main.startSize = 0.5f;
-        main.startLifetime = 0.9f;
-        main.startSpeed = 0.6f;
+        main.startSize = this.size;
+        main.startLifetime = this.lifetime;
         main.startColor = this.tint;
-        main.maxParticles = 300;
+        main.maxParticles = 700;
         main.simulationSpace = ParticleSystemSimulationSpace.Local;
 
         ParticleSystem.EmissionModule emission = ps.emission;
-        emission.rateOverTime = 80f;
+        emission.rateOverTime = this.rate;
+
+        // Particles spawn on the surface of a sphere and fly inwards, which is the
+        // "being pulled towards the player" look the original effect had.
+        ParticleSystem.ShapeModule shape = ps.shape;
+        shape.enabled = true;
+        shape.shapeType = ParticleSystemShapeType.Sphere;
+        shape.radius = this.spawnRadius;
+        shape.radiusThickness = 0f;
+
+        main.startSpeed = this.convergeSpeed;
 
         return ps;
     }
