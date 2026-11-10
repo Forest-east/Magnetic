@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-11-10T12:21:27.6477369Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu" at "2026-11-10T13:06:01.7657167Z"
 OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31931 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-10T12:21:27Z
+Date: 2026-11-10T13:06:01Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.5.5f1\Editor\Unity.exe
@@ -60,16 +60,16 @@ D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [18040]  Target information:
+Player connection [74484]  Target information:
 
-Player connection [18040]  * "[IP] 113.54.247.16 [Port] 55504 [Flags] 2 [Guid] 1739257392 [EditorId] 1739257392 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [74484]  * "[IP] 113.54.247.16 [Port] 55504 [Flags] 2 [Guid] 3090864436 [EditorId] 3090864436 [Version] 1048832 [Id] WindowsEditor(7,aishi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18040] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [74484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [74484] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-68128" after 0.5 seconds.
+[Package Manager] Connected to IPC stream "Upm-63164" after 0.4 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
@@ -77,21 +77,21 @@ Input System module state changed to: Initialized.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-sispu"
 [Licensing::IpcConnector] LicenseClient-sispu channel disconnected successfully.
 [Licensing::IpcConnector] Channel LicenseClient-sispu-6000.5.5 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 67568)
+[Licensing::Module] Successfully launched the LicensingClient (PId: 78160)
 Starting IPC server.
 Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-sispu-6000.5.5, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-11-10T12:21:32.5050437Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67568, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5" at "2026-11-10T13:06:05.6653047Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 78160, path: "D:/Unity/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              6b90ff2e29694252a8f52b5389ebd50d
-  Correlation Id:          13226e51b5d8a5e78fa6569286880f5f
-  External correlation Id: 2347109937140188805
+  Session Id:              844f07565ccc4fbaad8d20f3e5ee5c7b
+  Correlation Id:          092517c400e6019668fdba3ddbc9212a
+  External correlation Id: 5829975937385694135
   Machine Id:              jKSa9g6WzqcY9b9GLRjttsE4d1Y=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.85s, validation: 0.21s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-11-10T12:21:32.7335764Z"
-[Licensing::Module] Connected to LicensingClient (PId: 67568, launch time: 0.01, total connection time: 1.08s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sispu-6000.5.5" (connect: 0.57s, validation: 0.41s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sispu-6000.5.5-notifications" at "2026-11-10T13:06:06.0954602Z"
+[Licensing::Module] Connected to LicensingClient (PId: 78160, launch time: 0.01, total connection time: 1.00s)
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated the access token RF1JGaABgO...
 [Licensing::Client] Successfully resolved entitlement details
@@ -102,8 +102,8 @@ Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-sispu-6000.5.5, p
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 5.16s
-[Licensing::Module] Licensing is initialized (took 3.82s).
+[Licensing::Module] Licensing Background thread has ended after 4.41s
+[Licensing::Module] Licensing is initialized (took 3.14s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -112,7 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Artifact Garbage Collection - Removed 1 unused hashed content files
+Artifact Garbage Collection - Removed 16 unused hashed content files
 Initialize engine version: 6000.5.5f1 (d16e074b49fd)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Assets
@@ -128,36 +128,36 @@ Mono path[0] = 'D:/Unity/6000.5.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005189 seconds.
+Registered in 0.005579 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.604 seconds
-Domain Reload Profiling: 1482ms
-	BeginReloadAssembly (251ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (8ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (463ms)
-		LoadAssemblies (223ms)
-		AnalyzeDomain (327ms)
-			TypeCache.Refresh (325ms)
-				TypeCache.ScanAssembly (303ms)
-	FinalizeReload (608ms)
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (245ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (226ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (324ms)
+	FinalizeReload (612ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -216,7 +216,7 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.test-framework@1.7.0 (location: D:\Ê∏∏ÊàèÂºÄÂèë\Magnetic\Library\PackageCache\com.unity.test-framework@1405238725ab)
     com.unity.ext.nunit@2.1.0 (location: D:\Ê∏∏ÊàèÂºÄÂèë\Magnetic\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.04 seconds
+[Package Manager] Done registering packages in 0.05 seconds
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:80
 info: Microsoft.Hosting.Lifetime[0]
@@ -232,8 +232,8 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 48.5106ms
-Refreshing native plugins compatible for Editor in 9.26 ms, found 1 plugins.
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 49.0553ms
+Refreshing native plugins compatible for Editor in 3.88 ms, found 1 plugins.
 Starting: D:\Unity\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
@@ -251,17 +251,17 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 91.9532ms
-ExitCode: 0 Duration: 0s878ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 84.2363ms
+ExitCode: 0 Duration: 0s743ms
 [ 781/1004  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.81 seconds), 1 items updated, 1004 evaluated
-AssetDatabase: script compilation time: 1.680667s
+*** Tundra build success (0.67 seconds), 1 items updated, 1004 evaluated
+AssetDatabase: script compilation time: 1.521205s
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.55 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.06 ms, found 1 plugins.
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [McpToolRegistry] Discovered 20 MCP tools
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -329,103 +329,74 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-- Finished resetting the current domain, in  5.948 seconds
-Domain Reload Profiling: 7817ms
-	BeginReloadAssembly (482ms)
+- Finished resetting the current domain, in  5.956 seconds
+Domain Reload Profiling: 7737ms
+	BeginReloadAssembly (509ms)
 		DisableScriptedObjects (44ms)
-		CreateAndSetChildDomain (168ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (170ms)
-	LoadAllAssembliesAndSetupDomain (1169ms)
-		LoadAssemblies (721ms)
-		AnalyzeDomain (423ms)
-			TypeCache.Refresh (365ms)
-				TypeCache.ScanAssembly (345ms)
-			BuildScriptInfoCaches (53ms)
+		CreateAndSetChildDomain (194ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (1072ms)
+		LoadAssemblies (637ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (361ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (51ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (5951ms)
+	FinalizeReload (5959ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (195ms)
-			ProcessInitializeOnLoadAttributes (4906ms)
-			ProcessInitializeOnLoadMethodAttributes (509ms)
-			AfterProcessingInitializeOnLoad (22ms)
-		AwakeInstancesAfterBackupRestoration (68ms)
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '49f9b90536697a75c6b5164c551f6b8d') in 0.047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8e7628d9f9fdbb8aa4b933f3f326b13 DependenciesID=26006d51e3e0ea75c4163fb99125d30d StaticDependenciesID=9166aa56872d424f1d713c79f1d34dab 
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (4813ms)
+			ProcessInitializeOnLoadMethodAttributes (653ms)
+			AfterProcessingInitializeOnLoad (24ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
 Starting new worker id: 0 with log in D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Logs/AssetImportWorkerHW0.log
-Refreshing native plugins compatible for Editor in 3.56 ms, found 1 plugins.
 
-Asset Pipeline Refresh (id=73f80be6e32085d4eb6b9f9555c481fd): Total: 11.586 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=b5a1f1c0f41d6e54e9b6f0883a2b2356): Total: 10.388 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
-		Imports: total=1 (actual=1, local cache=0, cache server=0)
-		Asset DB Process Time: managed=3 ms, native=6870 ms
-		Asset DB Callback time: managed=844 ms, native=61 ms
-		Scripting: domain reloads=1, domain reload time=2006 ms, compile time=1686 ms, other=112 ms
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6715 ms
+		Asset DB Callback time: managed=54 ms, native=53 ms
+		Scripting: domain reloads=1, domain reload time=1926 ms, compile time=1527 ms, other=109 ms
 		Project Asset Count: scripts=1123, non-scripts=3467
-		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 54.985ms
-	ApplyChangesToAssetFolders: 1.439ms
-	Scan: 215.340ms
-	Collect global state as custom dependencies: 1.042ms
-	OnSourceAssetsModified: 1.482ms
-	CategorizeScriptCompilationAssets: 84.024ms
-	ProcessAssetsWithTransientArtifactChanges: 83.084ms
-	CategorizeAssets: 69.515ms
-	CompileScripts: 1686.069ms
-	ImportOutOfDateAssets: 6098.232ms (5979.154ms without children)
-		ImportManagerImport: 50.734ms (2.762ms without children)
-			UpdateCategorizedAssets: 0.067ms
-		UnloadImportedAssets: 0.244ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.958ms
-		ImportSchedulerStart: 67.122ms
-	PostProcessAllAssets: 847.089ms
-		VCAutoAddAssetPostprocess 1.867ms
-		XRBuildSystem.XRAssetImported 1.289ms
-		MonoPostProcessAllAssets: 843.220ms
-			AssetPostprocessor.OnPostprocessAllAssets 152.020ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 112.121ms
-			AssetReferenceReimportMonitor.OnPostprocessAllAssets 103.070ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 33.041ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 22.699ms
-			AssetChangedListener.OnPostprocessAllAssets 8.437ms
-			SyncVS.PostprocessSyncProject 4.006ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.955ms
-			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.802ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.059ms
-			AssetChangeDetector.OnPostprocessAllAssets 1.965ms
-			AssetEvents.OnPostprocessAllAssets 1.567ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.522ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.443ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.345ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 1.023ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.887ms
-			ModelAssetProcessor.OnPostprocessAllAssets 0.814ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.814ms
-			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.701ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.688ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.588ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.490ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.441ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.391ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.362ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.295ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.253ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.153ms
-			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.104ms
-	PostAssetChangesProfiler: 7.796ms
-	UnloadStreamsBegin: 4.635ms
-	PersistCurrentRevisions: 0.334ms
-	GenerateScriptTypeHashes: 4.005ms
-	GenerateScriptTypeSerializationHashes: 7.229ms
-	Untracked: 2416.792ms
+	InvokePackagesCallback: 58.089ms
+	ApplyChangesToAssetFolders: 1.444ms
+	Scan: 192.458ms
+	Collect global state as custom dependencies: 1.014ms
+	CategorizeScriptCompilationAssets: 55.053ms
+	ProcessAssetsWithTransientArtifactChanges: 79.844ms
+	CategorizeAssets: 73.707ms
+	CompileScripts: 1526.809ms
+	ImportOutOfDateAssets: 6060.242ms (5986.346ms without children)
+		UnloadImportedAssets: 0.198ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.957ms
+		ImportSchedulerStart: 72.723ms
+	PostProcessAllAssets: 54.899ms
+		MonoPostProcessAllAssets: 54.799ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.167ms
+			SyncVS.PostprocessSyncProject 3.860ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.548ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.743ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.614ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.411ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.431ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.412ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.257ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.130ms
+	UnloadStreamsBegin: 4.382ms
+	PersistCurrentRevisions: 0.283ms
+	GenerateScriptTypeHashes: 4.768ms
+	GenerateScriptTypeSerializationHashes: 8.349ms
+	Untracked: 2246.696ms
 
 Application.AssetDatabase Initial Refresh End
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Scanning for USB devices : 7.594ms
+Scanning for USB devices : 8.009ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -433,14 +404,14 @@ Initializing Unity extensions:
 Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
 LightingSettings: switching bake backend from 2 to 1.
 Loaded scene 'Assets/Scenes/WinMenu.unity'
-	Deserialize:            5.653 ms
-	Integration:            1610.953 ms
-	Integration of assets:  3.486 ms
-	Thread Wait Time:       0.054 ms
-	Total Operation Time:   1620.146 ms
-Unloading 4845 unused Assets / (16.6 MB). Loaded Objects now: 5567.
-Memory consumption went from 450.5 MB to 433.9 MB.
-Total: 38.641800 ms (FindLiveObjects: 0.826100 ms CreateObjectMapping: 2.049400 ms MarkObjects: 25.344600 ms  DeleteObjects: 10.415100 ms)
+	Deserialize:            10.427 ms
+	Integration:            1356.397 ms
+	Integration of assets:  3.236 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   1370.099 ms
+Unloading 4843 unused Assets / (16.9 MB). Loaded Objects now: 5556.
+Memory consumption went from 435.1 MB to 418.2 MB.
+Total: 35.061800 ms (FindLiveObjects: 0.724800 ms CreateObjectMapping: 1.747500 ms MarkObjects: 22.468900 ms  DeleteObjects: 10.115800 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 Worker ready: AssetImportWorkerHW0 0
@@ -451,19 +422,19 @@ Worker ready: AssetImportWorkerHW0 0
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 24.079 seconds
-	Project init time: 				19.795 seconds
+[Project] Loading completed in 22.010 seconds
+	Project init time: 				17.599 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		4.279 seconds
-		Asset Database init time: 		1.027 seconds
+		Package Manager init time: 		3.565 seconds
+		Asset Database init time: 		0.885 seconds
 		Global illumination init time: 	0.005 seconds
-		Assemblies load time: 			1.573 seconds
-		Unity extensions init time: 	0.022 seconds
-		Asset Database refresh time: 	11.586 seconds
-	Scene opening time: 			3.459 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794313311703,"processId":68128,"projectLoad":24.0792417,"projectInit":19.7954148,"templateInit":0.0,"packageManagerInit":4.2786302,"assetDatabaseInit":1.0267439,"globalIlluminationInit":0.0050773,"assembliesLoad":1.5729882,"unityExtensionsInit":0.0223956,"assetDatabaseRefresh":11.5863002,"sceneOpening":3.4586587}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794313311703,"processId":68128,"editorVersion":"6000.5.5f1 (d16e074b49fd)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=32ac564730250ca46bb955107373db38): Total: 0.111 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+		Assemblies load time: 			1.609 seconds
+		Unity extensions init time: 	0.040 seconds
+		Asset Database refresh time: 	10.388 seconds
+	Scene opening time: 			3.621 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794315983752,"processId":63164,"projectLoad":22.0101488,"projectInit":17.598638,"templateInit":0.0,"packageManagerInit":3.5645921,"assetDatabaseInit":0.8850035,"globalIlluminationInit":0.0048829,"assembliesLoad":1.6086734,"unityExtensionsInit":0.04002,"assetDatabaseRefresh":10.3879402,"sceneOpening":3.6207526}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794315983752,"processId":63164,"editorVersion":"6000.5.5f1 (d16e074b49fd)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=933dad2381e5f5043a814f7a16fd154e): Total: 0.112 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 [Start]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -485,7 +456,7 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-MCP Bridge V2 started using Named Pipe at \\.\pipe\unity-mcp-67f8bb11-68128 (OS=WindowsEditor)
+MCP Bridge V2 started using Named Pipe at \\.\pipe\unity-mcp-67f8bb11-63164 (OS=WindowsEditor)
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -505,7 +476,7 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-Saved connection info to C:\Users\sispu\.unity/mcp\connections\bridge-67f8bb11-68128.json
+Saved connection info to C:\Users\sispu\.unity/mcp\connections\bridge-67f8bb11-63164.json
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -536,7 +507,24 @@ UnityEngine.Debug:LogWarning (object)
 UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
 UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 
-Created GICache directory at C:/Users/sispu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.039s, timestamps: [26.541 - 26.580]
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[INFO ] [relay] relay.startup port=9001 mcpClientPort=9002 editorPid=63164
+[INFO ] [relay] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[INFO ] [relay] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=145
+[INFO ] [relay] log Starting relay server...
+[INFO ] [relay] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","63164","--shutdown-delay","180","--log-dir","D:\\Ê∏∏ÊàèÂºÄÂèë\\Magnetic\\Logs"]
+[INFO ] [relay] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"63164","shutdownDelaySeconds":180}
+[INFO ] [relay] log Initializing relay components...
+[INFO ] [relay] log Creating RelayEditor...
+[INFO ] [relay] log WebSocket server started
+[INFO ] [relay] log Relay server initialization completed
+[INFO ] [relay] log MCP Client initialized at port: 9002
+[WARN ] [relay] log [shell-env] Shell environment did not contain a PATH variable
+[INFO ] [relay] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[INFO ] [relay] log Unity client connected with ID: editor-63164-0fj06s (relay 1.0.12-build.99)
+[INFO ] [relay] connection.established clientId=editor-63164-0fj06s port=9001
+Created GICache directory at C:/Users/sispu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.036s, timestamps: [22.166 - 22.203]
 Created secure pipe via P/Invoke
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -555,78 +543,17 @@ UnityEditor.EditorApplication:Internal_InvokeTickEvents ()
 
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated access token: "RF1JGaAB"... (expires: 2026-11-10T13:15:07Z)
-Asset Pipeline Refresh (id=17455636374c81d4c91935ae8c132cbf): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
-[INFO ] [relay] relay.startup port=9001 mcpClientPort=9002 editorPid=68128
-[INFO ] [relay] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
-[INFO ] [relay] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=145
-[INFO ] [relay] log Starting relay server...
-[INFO ] [relay] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","68128","--shutdown-delay","180","--log-dir","D:\\Ê∏∏ÊàèÂºÄÂèë\\Magnetic\\Logs"]
-[INFO ] [relay] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"68128","shutdownDelaySeconds":180}
-[INFO ] [relay] log Initializing relay components...
-[INFO ] [relay] log Creating RelayEditor...
-[INFO ] [relay] log WebSocket server started
-[INFO ] [relay] log Relay server initialization completed
-[INFO ] [relay] log MCP Client initialized at port: 9002
-[WARN ] [relay] log [shell-env] Shell environment did not contain a PATH variable
-[INFO ] [relay] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
-Request Asset Garbage Collect because used heap size increased from 433.9 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (17.2 MB). Loaded Objects now: 6645.
-Memory consumption went from 0.67 GB to 0.66 GB.
-Total: 40.109200 ms (FindLiveObjects: 0.571700 ms CreateObjectMapping: 0.712400 ms MarkObjects: 32.088000 ms  DeleteObjects: 6.735000 ms)
-
-[INFO ] [relay] log Unity client connected with ID: editor-68128-hwcjng (relay 1.0.12-build.99)
-[INFO ] [relay] connection.established clientId=editor-68128-hwcjng port=9001
-[Licensing::Client] Successfully resolved entitlement details
-Starting new worker id: 1 with log in D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '21d63343b3963ed39dee0b999b852859') in 0.2180785 seconds
 Project ID request failed, Reason: The requested URL returned error: 403 (403).
 Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://serivices.unity.com/api/unity/legacy/v1/projects/fe6c33ca-ece0-4580-969d-85ed4e1bf517", HTTP error code 403
 .[Licensing::Client] Successfully resolved entitlement details
-Starting new worker id: 2 with log in D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Logs/AssetImportWorkerHW2.log
-[Worker0] Imported GUID: 50656ad0e7825c743903d54e9faba195 - Path: Assets/Prefabs/_CameraRig.prefab - Importer: PreviewImporter -> (ImportResultId: '6c7beff57d6171647d48a956b8e70e62') in 0.0388065 seconds
-[Worker0] Imported GUID: d84248d2cc7bd194b89b168755db7039 - Path: Assets/Prefabs/MenuButton.prefab - Importer: PreviewImporter -> (ImportResultId: 'bdac535559e765b04cde0d580cdc2294') in 0.0060043 seconds
-[Worker0] Imported GUID: 31183e815486ef94fb48d2dd38996009 - Path: Assets/Prefabs/LevelMusic.prefab - Importer: PreviewImporter -> (ImportResultId: '44183f621525b508cfd8e5f08f7aa1f4') in 0.0040466 seconds
-[Worker0] Imported GUID: 9cc5674f628f9674b8939171c5c8ad49 - Path: Assets/Prefabs/MenuMusic.prefab - Importer: PreviewImporter -> (ImportResultId: 'bf86ccdeb8e74d7f29621dc9faf8fd04') in 0.0036078 seconds
-[Worker0] Imported GUID: b8222041390a8f4409e4f997d249a1ae - Path: Assets/Prefabs/LevelController.prefab - Importer: PreviewImporter -> (ImportResultId: 'b872bcaf5a1d1600fe507aa411dc02b5') in 0.0053609 seconds
-[Worker0] Imported GUID: 8af93c6d4f0127a41adfa5c936d38090 - Path: Assets/Prefabs/Spikeball.prefab - Importer: PreviewImporter -> (ImportResultId: 'da10743dae4e1bc6f34835fbcdf840cf') in 0.1466762 seconds
-[Worker0] Imported GUID: 8398c31d48ef84d45bf99a83ac04cbb5 - Path: Assets/Prefabs/MetalBall.prefab - Importer: PreviewImporter -> (ImportResultId: 'e0457fa667b45a70f87e362662656e11') in 0.0464572 seconds
-[Worker0] Imported GUID: b3baaa63274156e42a7a353bf5140852 - Path: Assets/Prefabs/GameManager.prefab - Importer: PreviewImporter -> (ImportResultId: '6ff96460a6b9a08d08c4ec103df04993') in 0.7590426 seconds
-[Worker0] Imported GUID: 6dd865dbface5cd4c9387276bb88bb70 - Path: Assets/Prefabs/BackgroundCamera.prefab - Importer: PreviewImporter -> (ImportResultId: 'a5ce683bc9fd244fd4a8f05643247878') in 0.1725845 seconds
-[Worker0] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '0de6f460a9b106a2ba325e22ecb01752') in 0.0108612 seconds
-[Worker0] Imported GUID: a8299aa430f4fb34a8ee485aaf6eca2b - Path: Assets/Prefabs/Player.prefab - Importer: PreviewImporter -> (ImportResultId: 'c8cce055e7ca678468b0fd46ef460336') in 0.0470995 seconds
-[Worker0] Imported GUID: bf3595af0fe59cf478537bff69555249 - Path: Assets/Prefabs/DeathPlane.prefab - Importer: PreviewImporter -> (ImportResultId: '70e2f16451e562b41db08da88afbe833') in 0.0223543 seconds
-[Worker0] Imported GUID: ae40216a01bfa164eb3d30dca141f266 - Path: Assets/Prefabs/LevelSelectButton.prefab - Importer: PreviewImporter -> (ImportResultId: 'e0ba8e76251299c47b57aebc2479a90f') in 0.0303861 seconds
-[Worker0] Imported GUID: db35ddb9185729f43afaa28be7c4ef3b - Path: Assets/Prefabs/MetalCrate.prefab - Importer: PreviewImporter -> (ImportResultId: '297d545785c3736b198ae715be2e6c26') in 0.0362994 seconds
-[Worker0] Imported GUID: 7b373ba0038e1a44cbe0fb120c55f5ba - Path: Assets/Prefabs/LevelLight.prefab - Importer: PreviewImporter -> (ImportResultId: 'c01238029fc091c6c0b6dfa808feed56') in 0.0055997 seconds
-Worker ready: AssetImportWorkerHW1 1
-[Worker0] Imported GUID: c94e30b244636f54c86fe6a6a926ede6 - Path: Assets/Prefabs/UI - Importer: PreviewImporter -> (ImportResultId: 'd53185b84e9dde381ab2774b67194813') in 0.0030114 seconds
-[Worker0] Imported GUID: ef227b749a33fc74cae90a2ab1904866 - Path: Assets/Prefabs/UI/Virtual_DPad.prefab - Importer: PreviewImporter -> (ImportResultId: 'f382c42d16c79067ecfbe8c02169ef37') in 0.0090698 seconds
-Worker ready: AssetImportWorkerHW2 2
-Loaded scene 'Library/Unused/3a528369fa3800a48ba6b468f3f69613'
-	Deserialize:            1.367 ms
-	Integration:            0.430 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.026 ms
-	Total Operation Time:   1.826 ms
-Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (78.1 KB). Loaded Objects now: 6824.
-Memory consumption went from 0.68 GB to 0.68 GB.
-Total: 36.372300 ms (FindLiveObjects: 0.541500 ms CreateObjectMapping: 0.768600 ms MarkObjects: 34.948300 ms  DeleteObjects: 0.112100 ms)
-
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (83.6 KB). Loaded Objects now: 6825.
-Memory consumption went from 0.68 GB to 0.68 GB.
-Total: 37.902000 ms (FindLiveObjects: 0.577600 ms CreateObjectMapping: 0.728000 ms MarkObjects: 36.535200 ms  DeleteObjects: 0.059700 ms)
-
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (1.1 KB). Loaded Objects now: 6825.
-Memory consumption went from 0.68 GB to 0.68 GB.
-Total: 37.283800 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.805800 ms MarkObjects: 35.855700 ms  DeleteObjects: 0.016700 ms)
+Request Asset Garbage Collect because used heap size increased from 418.3 MB to 0.66 GB, exceeding the threshold of 256.0 MB.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (17.1 MB). Loaded Objects now: 6641.
+Memory consumption went from 0.66 GB to 0.64 GB.
+Total: 36.862500 ms (FindLiveObjects: 0.553100 ms CreateObjectMapping: 0.699200 ms MarkObjects: 28.933600 ms  DeleteObjects: 6.674700 ms)
 
 Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -666,227 +593,1322 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '0170da06e39cec380a306775ee37f2a5') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f90dcdf43795ef2ce12822d4def0d131 DependenciesID=a75638f9a0bd902cd4c247c66607b780 StaticDependenciesID=74494d3685798607d96edc344999a068 
-Refreshing native plugins compatible for Editor in 3.49 ms, found 1 plugins.
-Asset Pipeline Refresh (id=e96888b7f618b8247abe0cb30a9fcb33): Total: 0.135 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '2f6b57c8d23805dcab501fbdcd1298ed') in 0.0868595 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 1 plugins.
-Asset Pipeline Refresh (id=e7ddebb15a661c34bbbddc66b1aeebc2): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 3.98 ms, found 1 plugins.
-Asset Pipeline Refresh (id=68a3c02435d63704eb75b4d4924b4e22): Total: 0.090 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 TrimDiskCacheJob: Current cache size 0mb
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7da6bc383b393ad4a321de026800323') in 0.1854768 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 1 plugins.
-Asset Pipeline Refresh (id=a8df6e5f88debdb438864b98acc16c36): Total: 0.092 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '6573077c8683d1d8571258b7f813e7d9') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b18ee83e5c75159a57220d59d0bcdf29 DependenciesID=a2fd5514798b6bdcfe34db6ab21072db StaticDependenciesID=5b5d069f4dc3d1a7784ae4165a44f3a6 
-Refreshing native plugins compatible for Editor in 4.57 ms, found 1 plugins.
-Asset Pipeline Refresh (id=af8dfe877678a5c48b3f0993d85d41aa): Total: 0.107 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'b5c6cf114a0670fa68d48a5a16f6c5b7') in 0.0099372 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '15e10e46b506f1bc3c12a23b084622cd') in 0.0175116 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '5cd2bdc0c0140d53958897992d3fe110') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b62ab9b6db2adc0f5e559f0b2ae73613 DependenciesID=8b5543b12430eb3e6761f50b64abf3c8 StaticDependenciesID=e15492fb47556dc3fdf68f6f8bb47651 
-Refreshing native plugins compatible for Editor in 4.86 ms, found 1 plugins.
-Asset Pipeline Refresh (id=73d9279baf0397a4798cdb0ee215ba9b): Total: 0.113 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '1ea0f0e56ba2065abb8c2c3c861edf60') in 0.0106914 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fb9049e541837b3ba41834afdcea8a86') in 0.0190852 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'c6e36ce044899790634c5ad3e55dd1cc') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b30f2da9695921dda8a602485cecbbaf DependenciesID=7f0d59a773ded8518429da09cdf6f8ea StaticDependenciesID=fc3e39d1880f6b39a9170f13dffffdf6 
-Refreshing native plugins compatible for Editor in 4.13 ms, found 1 plugins.
-Asset Pipeline Refresh (id=502af943c63a0f940a60655ca80f9099): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'aeb62bc29cc9a2a04d2cd4a05c659067') in 0.0102785 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'be85bcaae13e7d65a23e2b490155222f') in 0.0205868 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '08264cb963556b07565b0fa5b8dd391b') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c690c559730fa8f0a6a9d092aed93206 DependenciesID=442e1c3eb5cef6be4c8878c9553c068c StaticDependenciesID=dd480cf6aa68fd98dcc359b230505976 
-Refreshing native plugins compatible for Editor in 4.25 ms, found 1 plugins.
-Asset Pipeline Refresh (id=ea51a2c0c95746e4d93359c8ad37f559): Total: 0.100 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '0b6fc7cc52263b660f75bbf525b9b65f') in 0.0100694 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '91fa7e0ca4dbe53d64b9a0c1511e362e') in 0.0182463 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9aa8c5e5aae4cede7cee12fc50030740') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d871e0175e26d3ef021082bd89fcba10 DependenciesID=353b6533286a7989cba379adba2a1332 StaticDependenciesID=0ca770cd59298aab0d94823094e55d23 
-Refreshing native plugins compatible for Editor in 3.84 ms, found 1 plugins.
-Asset Pipeline Refresh (id=2afd610746fa03143ac6f90d0867ff9c): Total: 0.104 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '36dca2c26f994b62ab6d12949a7d611a') in 0.0115526 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0bc24feaab19eb97d1709d594fb60d56') in 0.0171312 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '6849c0abcca61265140a9b4b6bde1b12') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b1f867ad64a37b4f3a73fd7bc15f23b DependenciesID=b47a8ac24011decbd30c4e512d4a985b StaticDependenciesID=1c531860350c337a07eb9443b95511f2 
-Refreshing native plugins compatible for Editor in 4.18 ms, found 1 plugins.
-Asset Pipeline Refresh (id=7ce55dc2933f8f74f87aa84186365dd8): Total: 0.102 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '9727793d92f4bf5ec0d2dbb64dfb73fd') in 0.0101607 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd139779648ab2d5e06fd20fb4383b71f') in 0.0168513 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'dcb68eded1955cc26ab6551c426ed782') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78b927cedb06680f08218ed01cc1b9bc DependenciesID=4bbb9aaf388a4797d8ec00cda3d7a7b2 StaticDependenciesID=5113f2977102e0eb3c58888b13cf1123 
-Refreshing native plugins compatible for Editor in 4.36 ms, found 1 plugins.
-Asset Pipeline Refresh (id=56b8c7620e1448b458bd66c6abf64193): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '66bf3af793e9b5040856a7205dea95fc') in 0.0102491 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cb3fc29a690e0ca170610ab551fc15bf') in 0.0206398 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '59f57a9956aafbeec42d753275033475') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6148f83b38d7f5ca48e668847013f2e4 DependenciesID=a83beddd65a1e2284d1b694b3e8dffd2 StaticDependenciesID=5cc4d8ae88e67ca9d65b7eb33e7a6d95 
-Refreshing native plugins compatible for Editor in 4.29 ms, found 1 plugins.
-Asset Pipeline Refresh (id=006ce245a226c7c489fbcce779eb8a54): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '11bb1d7a586b1559a318146181b05d72') in 0.010007 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bb0fba3d8d94d3fb30518a13884b92a8') in 0.0207895 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'dde251b52cbafc3b12d601ee2a755eeb') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70ccdc4bd7f8fdaa9fb85cf05f6f8b3a DependenciesID=f3fe4b21c25f45d1b5d0f5dceae16f0e StaticDependenciesID=ecb8a8196a4a6d1285ea602c53673a81 
-Refreshing native plugins compatible for Editor in 4.01 ms, found 1 plugins.
-Asset Pipeline Refresh (id=2219c2c86639817458929f434d5328fa): Total: 0.104 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'e2effd236f24b2d01d53e5ab9754623b') in 0.0109376 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16240c154d9e03ece06224e2b28ee166') in 0.0163313 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '03cedfe4365aa11b94b107cd65bd1338') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d92f53b74ccb8681142d775f0c6af63 DependenciesID=9cf64918635c8e18fbaa8c4c7e2b283e StaticDependenciesID=8320566ab9cff23d160497b409785cf4 
-Refreshing native plugins compatible for Editor in 3.87 ms, found 1 plugins.
-Asset Pipeline Refresh (id=b6a999facd032584d9207bd3863761b4): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '814562926655b9959755db8efa2a7a16') in 0.0104641 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c6c3d5281bb9dcaf4308cd19651eac3e') in 0.0199521 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'c875ddd900add9a36e3ee28a822cf31d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb5a96f49965e3b8802578bf5db3c74f DependenciesID=7caf2e641d4cc66afa89e44fb429bc90 StaticDependenciesID=2d82282f4631dd9a5ef5e59a94c385dd 
-Refreshing native plugins compatible for Editor in 3.49 ms, found 1 plugins.
-Asset Pipeline Refresh (id=0e6a7020bd08f88418282fa9e1f6de28): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'b4e7bcb7105e244abb2401c0ace37e08') in 0.0097435 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8f38d5c9d20e0c10227a0b974c66ea72') in 0.0196462 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '17712d931b9d68ee1077b5c79f7211e4') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ba2fd6a3e5a17b59ee39bd0d37ba2c5 DependenciesID=278918cfd75e74aabdcad29f6339d87b StaticDependenciesID=e11cb6950faa540dfd8cc584536e08b0 
-Refreshing native plugins compatible for Editor in 3.65 ms, found 1 plugins.
-Asset Pipeline Refresh (id=ccaa05b7c6a15b74aa686e049f57252c): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '2d79d7991ba8b4cc0fffccf4ed0ca1bf') in 0.0103016 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5def8139a4fbebab3011497e9fb78fab') in 0.0189374 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '6e42c61438c449d30ae65c2c02a61c92') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36b52ffdf5ce8da94dad0f42b2baaf33 DependenciesID=b945833e5fe347f04137b744c48bf238 StaticDependenciesID=1eee6dcd6abaef38f0e60f1ea16c2787 
-Refreshing native plugins compatible for Editor in 3.85 ms, found 1 plugins.
-Asset Pipeline Refresh (id=f76f04b3b7f25e6469e7d2eeffb9ac96): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'a948e059774a28cdb78591e43e0f231a') in 0.0114139 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7dc01238bb9682a5823c2b4815226050') in 0.0181603 seconds
-Asset Pipeline Refresh (id=eb23232c1a2d591438277ac3f26336d1): Total: 0.026 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '96566657f0e20d0be894524ef18519ac') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8761b03a2f849be8f3aab4e33f7e7765 DependenciesID=a4f490609805afa4efdb4455c5b2eef0 StaticDependenciesID=cedd1bee61fa8ec2bf8171ed0a94cbe8 
-Refreshing native plugins compatible for Editor in 3.77 ms, found 1 plugins.
-Asset Pipeline Refresh (id=24b42a1915cdf2b4d86ea36a72b388c7): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '27cb4f94aa65e85d86a76772a477700a') in 0.0111782 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e926d4bc41f16f08bebf6cc89ec90dd6') in 0.0181238 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '553b8216892453de2c501ace6a247b5c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=340cda44ad935a87df11c816485de1c5 DependenciesID=de7aac9924a09ea026f0c1b2aca0cfaf StaticDependenciesID=fb6ad436bf1d2e08401956b438008936 
-Refreshing native plugins compatible for Editor in 3.78 ms, found 1 plugins.
-Asset Pipeline Refresh (id=70bfd143b558c6344b1fec64a1f89a4f): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '9ae8fe658357ab241b940c9d794a7b21') in 0.0101808 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '047125cffbe3af040f27e3639c6f6a7c') in 0.0209083 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9c98ca79008a2fb02b2f68b70cc3c29b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0279c49ca8deb678b2a391e4aaeef56 DependenciesID=1c2ac39043eab74156d5f22fe2177dcb StaticDependenciesID=87c7c50f3c9827a97d0f29635902ecb4 
-Refreshing native plugins compatible for Editor in 3.67 ms, found 1 plugins.
-Asset Pipeline Refresh (id=c69df77764f5b274abdc59af2c751cdd): Total: 0.106 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '35a268a8e43ef2000eaf2a6346f2fe21') in 0.011156 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1747e2df72310399a884da627543ebfc') in 0.0206128 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '388d2bae5a4f4a8c521bbab0ee48f2f2') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c84feb09fa5c68df4cc5badd013f355 DependenciesID=b1d0ba84d0965bc772bad3e88770838e StaticDependenciesID=4dfce686e36d363c0b13ad5be3586775 
-Refreshing native plugins compatible for Editor in 3.72 ms, found 1 plugins.
-Asset Pipeline Refresh (id=818c82e1968e6e047a0d8bc671ec2eb7): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'ed459f162322447a6b5fc9aad1e57b37') in 0.0111871 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7d684c494593b8f2cc15acc72240f19') in 0.0185498 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '892c0820b37b5e9a852c1830ed97fd49') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a723edda24d4bfa5657830ea9698451 DependenciesID=5b55ba27698b0a71027b5380b2bd8de8 StaticDependenciesID=070c3cdef53517d0dca3ac5871afbe49 
-Refreshing native plugins compatible for Editor in 3.56 ms, found 1 plugins.
-Asset Pipeline Refresh (id=c72b3794f827e9a4cb7c181947e24b44): Total: 0.100 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '9493bcfefd9c07e9bc028be37296b703') in 0.0100021 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1d4ef5d9b5d8e5e7971c4a3861581a66') in 0.0172515 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '94416d70a3fdb246f47b86738281bec1') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3188a3b7773518a8975c13a53b7ce03 DependenciesID=00ce059062fe4cd48238f7d32f6e03c7 StaticDependenciesID=57f5658065637159edc4b552a807cd8d 
-Refreshing native plugins compatible for Editor in 3.61 ms, found 1 plugins.
-Asset Pipeline Refresh (id=920ca89ccfdfa0e4fbdedacb3aa4087a): Total: 0.104 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'e83744ded3f3922e60adc05581f7247d') in 0.0114141 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3aff3c613a6ff632f17d882e6041f633') in 0.0177691 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'd66d93113e5a418a29f1778b001eaff4') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a473bb3409346e53008d3ddc8552dfba DependenciesID=85a2db9f0a9b45440b37a5a880d569ac StaticDependenciesID=565e8ee64768fa92f66d35e2fe796c47 
-Refreshing native plugins compatible for Editor in 3.76 ms, found 1 plugins.
-Asset Pipeline Refresh (id=463ff66a7c28d9a45ae31d24214cb1af): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: '729278f35e064e1f72a8f8b54545ee85') in 0.0108858 seconds
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c140e3cf081590157e9a55426111485') in 0.0189614 seconds
+Asset Pipeline Refresh (id=130a3824e54032345a2b7a5e7bc5742d): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 1 with log in D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: e9c3ec9f284b5b842994f052a0f3ffb6 - Path: Assets/Scenes/MainMenu.unity - Importer: PreviewImporter -> (ImportResultId: '262e9170a8695773512e9cdfc27d5964') in 0.0184484 seconds
+Opening scene 'Assets/Scenes/MainMenu.unity'
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/MainMenu.unity'
+	Deserialize:            7.488 ms
+	Integration:            395.162 ms
+	Integration of assets:  3.474 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   406.154 ms
+Unloading 35 unused Assets / (223.0 KB). Loaded Objects now: 6937.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 31.825300 ms (FindLiveObjects: 0.618900 ms CreateObjectMapping: 0.708400 ms MarkObjects: 30.304800 ms  DeleteObjects: 0.191100 ms)
+
+Opening scene 'Assets/Scenes/Sanbox.unity'
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Scenes/Magnetic_Prototype/LightingData.asset"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Lighting data asset ‚ÄòLightingData‚Äô is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 469]
+
+Lighting data asset ‚ÄòLightingData‚Äô is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
+
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/Sanbox.unity'
+	Deserialize:            7.252 ms
+	Integration:            562.338 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.183 ms
+	Total Operation Time:   569.785 ms
+Unloading 43 unused Assets / (88.8 KB). Loaded Objects now: 8278.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 31.870400 ms (FindLiveObjects: 0.770200 ms CreateObjectMapping: 0.939500 ms MarkObjects: 29.940200 ms  DeleteObjects: 0.218700 ms)
+
+Opening scene 'Assets/Scenes/WinMenu.unity'
+Unloading 107 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/WinMenu.unity'
+	Deserialize:            2.285 ms
+	Integration:            362.081 ms
+	Integration of assets:  1.297 ms
+	Thread Wait Time:       0.041 ms
+	Total Operation Time:   365.703 ms
+Unloading 339 unused Assets / (2.6 MB). Loaded Objects now: 6781.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 32.840500 ms (FindLiveObjects: 0.616000 ms CreateObjectMapping: 0.777000 ms MarkObjects: 30.534100 ms  DeleteObjects: 0.911100 ms)
+
+Worker ready: AssetImportWorkerHW1 1
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelController.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/904e7537b2fc5b64c90d23c8738af378'
+	Deserialize:            0.703 ms
+	Integration:            0.191 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   0.922 ms
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (63.9 KB). Loaded Objects now: 6806.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 32.087500 ms (FindLiveObjects: 0.528800 ms CreateObjectMapping: 0.678400 ms MarkObjects: 30.818200 ms  DeleteObjects: 0.060600 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/GameManager.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/6e83257251362a941998f1bb02cf30d4'
+	Deserialize:            0.793 ms
+	Integration:            0.141 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   0.976 ms
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (66.5 KB). Loaded Objects now: 6810.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 32.152500 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.699500 ms MarkObjects: 30.777600 ms  DeleteObjects: 0.083000 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelLight.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/9c01559c6e2b0ba42baa5b03a10937c7'
+	Deserialize:            0.668 ms
+	Integration:            0.119 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.036 ms
+	Total Operation Time:   0.827 ms
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (60.7 KB). Loaded Objects now: 6818.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 32.392500 ms (FindLiveObjects: 0.448200 ms CreateObjectMapping: 0.691400 ms MarkObjects: 31.203400 ms  DeleteObjects: 0.047200 ms)
+
+Loaded scene 'Library/Unused/2450b11d87f926a4291dafe7a65dbb6e'
+	Deserialize:            1.769 ms
+	Integration:            3.194 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   4.988 ms
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (67.5 KB). Loaded Objects now: 6966.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 30.762100 ms (FindLiveObjects: 0.533200 ms CreateObjectMapping: 0.708400 ms MarkObjects: 29.439000 ms  DeleteObjects: 0.079700 ms)
+
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'f9b035c590f06f59f26e6891433704ab') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a92fbf2e406da6bd429ec7e883fa07bf DependenciesID=d9d8622010a5134103d7157798d1de93 StaticDependenciesID=13c5583e0c12ac3793210c41e8dafc86 
-Refreshing native plugins compatible for Editor in 4.29 ms, found 1 plugins.
-Asset Pipeline Refresh (id=6347e312bfe296b499bfff4382ad1e03): Total: 0.134 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '935f8df154fb86ac29c5ab1c15db3a41') in 0.0216033 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'cceb52b0352d1e7e932e0a5cc74168a9') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10a414668944eb14122e5bc506064f73 DependenciesID=5a6d2193fc23f55efc0c078d58cddfcc StaticDependenciesID=6c250cd30dbd6658e3632f128623dc00 
-Refreshing native plugins compatible for Editor in 4.10 ms, found 1 plugins.
-Asset Pipeline Refresh (id=87cb1cd7091967b42879209ffbe78b12): Total: 0.106 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1c03bcf1c7ab661b8b1855be35868743') in 0.0226167 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'e56e5ca145818a466809269544b4d61b') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62616814b9c039fd90c93c78465311b0 DependenciesID=73c1d1f7be5fdb39a771332596fb998c StaticDependenciesID=b38bc27b1c10a8d6ea9ce542fdc70e61 
-Refreshing native plugins compatible for Editor in 4.29 ms, found 1 plugins.
-Asset Pipeline Refresh (id=d8e20568b4b54074a8cf099f0fee6e54): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3176a8826a5198d88651d5f3215f6e95') in 0.0172423 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '29a77a5c4fc1034c1847e3160e6e0f07') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3e7d1f05ae3e07084e97d96483cb2b0 DependenciesID=ab17ede2030cb3af933f2c4d6299e28f StaticDependenciesID=b034aa206b3520417b4b8a833374a4fe 
-Refreshing native plugins compatible for Editor in 3.73 ms, found 1 plugins.
-Asset Pipeline Refresh (id=8a13637349e0f234d963b6ea4b6a2a9f): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '45e7a303f8d1f2db19b871f7c3089a40') in 0.0211282 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9efc8fc47b8208df5f1da70e9282850c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9347d57d0eb8ba5f80c98d526f76a82d DependenciesID=6f534a604a8162cdfec9931c70ad9f5e StaticDependenciesID=9d60de4648d53d012afc1af73537cc85 
-Refreshing native plugins compatible for Editor in 3.70 ms, found 1 plugins.
-Asset Pipeline Refresh (id=e89cc2512f357de469f5313121da2a0d): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '631f41db38a2aed7c59b329c909723bc') in 0.0206608 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '40fb1eded6b9e1438b1ff67f48b09e67') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f5108d8e9122630dc4a378c829cfeb0 DependenciesID=f61668340c5edfbedcdbe2018ed3c79d StaticDependenciesID=ffd66b3753ad6c755fd9067780392952 
-Refreshing native plugins compatible for Editor in 3.68 ms, found 1 plugins.
-Asset Pipeline Refresh (id=c693f2771afcb16428cb7dd5fd56e2c4): Total: 0.099 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8d8b36785a2ce71c72b63ae43d3a576d') in 0.0200411 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '1123a0256ad3e3297bb307629e01afe4') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d36d9295c6c4e433e6abc2f808b16f9 DependenciesID=3a076e1b071290208a57c55a04697dd2 StaticDependenciesID=8bf09868559da6c7696fe55dab4b212e 
-Refreshing native plugins compatible for Editor in 3.73 ms, found 1 plugins.
-Asset Pipeline Refresh (id=3ad1ec80508674c42b345b3d43b8cd42): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b2ad34117b338e188d552223bc36ac2') in 0.0191354 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '9db583b0439716b1ffa6164d75043c7c') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d46bdd1ab96df2895788e748d4f13ec DependenciesID=21a9e3800c0149b596123d6b9501ccda StaticDependenciesID=24c16ae8787a8052989588f5dd0f8c4a 
-Refreshing native plugins compatible for Editor in 4.03 ms, found 1 plugins.
-Asset Pipeline Refresh (id=546fc4e6497034d4bac0484228a2b973): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f21dbd49aa97562ea660244474577a1') in 0.0197082 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '6f78e78057dd74281b89f652a220eced') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4bdd76bef6676452ef547536a5593c45 DependenciesID=7a3a2345cb3ebbde08d7666ab0f478c2 StaticDependenciesID=a57caeec4ec9870dc7ac8e04eef714f9 
-Refreshing native plugins compatible for Editor in 4.11 ms, found 1 plugins.
-Asset Pipeline Refresh (id=ecb75663a0effa3488eb2ec6878ca971): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4690e4b5c3bbef660694773a6860ef9d') in 0.0195141 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'fb41f633806900221c5240d13d6f1eb1') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eb0426657db1b8ddfe08a7d0ab683c0 DependenciesID=54fb5ae4f486924593d2725d4eae84bc StaticDependenciesID=0f8612c6b46ab6f42f168fa7fe8fdcb2 
-Refreshing native plugins compatible for Editor in 3.85 ms, found 1 plugins.
-Asset Pipeline Refresh (id=7d5c1898c273aac4094718472f915485): Total: 0.102 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fba03d3c9335c6d28d296fe589fc41aa') in 0.0183709 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '89669e1b6cd04396793bdbeb7387df39') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77f32f1df92b5992254fdd6fe189a451 DependenciesID=986989cbc45c5725e61f82cf958662cc StaticDependenciesID=e8f188c17dca60e730fc368f958e4d16 
-Refreshing native plugins compatible for Editor in 4.49 ms, found 1 plugins.
-Asset Pipeline Refresh (id=3bfeb214d66073442b1514820567bb89): Total: 0.114 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b2ba9414f963a49d9e0adce069ea5db0') in 0.0222376 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '834a9e290c1b0040204e23780ca18003') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1cd4e341b8e2fefd051bc0e298fc5d4c DependenciesID=2922b3a8959e125147ec5b8d3499baf6 StaticDependenciesID=98a68d6578dc212a84e1a2a813a09771 
-Refreshing native plugins compatible for Editor in 4.34 ms, found 1 plugins.
-Asset Pipeline Refresh (id=0ff2a3cffa5560445a30b2a94f063902): Total: 0.102 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1ef0f6d784bd619ec89821db9bd0942') in 0.0196153 seconds
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '8d003ed28dd7c2264368b5d686fe01f6') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bc2c5cb99e527b6d73d078a68fb0dd0 DependenciesID=8ca1b650949a31a5c566d8184e2a773b StaticDependenciesID=a6a0bb42c4ba1fdea9b43cc15cd20ceb 
-Refreshing native plugins compatible for Editor in 3.83 ms, found 1 plugins.
-Asset Pipeline Refresh (id=fcd1dc7f34943a846bb1e4fe90327092): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ad62bec12316e0a75a29c41244b82db') in 0.0190343 seconds
-Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '0dfa0c5842eeddd243049a206a0c48e4') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=451b5ceb8c83b1a9b98095f3a69c1846 StaticDependenciesID=90a39cdd0630b2c68a6bbc8d7e6ec8cf 
-Refreshing native plugins compatible for Editor in 4.06 ms, found 1 plugins.
-Asset Pipeline Refresh (id=32fd694caab06584bb3a4b7650908668): Total: 0.078 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab' with importer (PrefabImporter)
-Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: 'aa50b05cd40540e0e60382e851aade8c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cef9077ead514258327bf9733f61247e DependenciesID=ace9196c95dd1608b16aed961cf790c6 StaticDependenciesID=8510442bf33ca51bca83b27b32169a86 
-Refreshing native plugins compatible for Editor in 3.87 ms, found 1 plugins.
-Asset Pipeline Refresh (id=2756b40c7adf6374c8bd4396775adbb8): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '646f76e93d97e75c8e5409b5ecccbcaf') in 0.0195333 seconds
-Starting new worker id: 3 with log in D:/Ê∏∏ÊàèÂºÄÂèë/Magnetic/Logs/AssetImportWorkerHW3.log
-[Worker0] Imported GUID: 83d5c1a8c4870e94f9a3a7a7c5f913d1 - Path: Assets/Models/crate.fbx - Importer: PreviewImporter -> (ImportResultId: 'f97b373d6858e9889bbe44f120df9701') in 0.1119836 seconds
-[Worker0] Imported GUID: bee0c160360a16f46a6ca9b9dd86a7e4 - Path: Assets/Models/tile.fbx - Importer: PreviewImporter -> (ImportResultId: '57414beb4a34c8aff5e20abd0437e486') in 0.0339005 seconds
-[Worker0] Imported GUID: b4d4ec743c4388f4da483b381fd361e5 - Path: Assets/Models/player.fbx - Importer: PreviewImporter -> (ImportResultId: '8ceba229ddfb5b3e3bc54a5624adea80') in 0.0330244 seconds
-[Worker0] Imported GUID: 951fe16e1b9734c4284cd4a8fcfa7080 - Path: Assets/Models/spawner.fbx - Importer: PreviewImporter -> (ImportResultId: 'd780c497d45d894616cfdc684f634f5f') in 0.034382 seconds
-[Worker0] Imported GUID: 6ca67fe09fd06ac49b709ef457c539cf - Path: Assets/Models/spikeball.fbx - Importer: PreviewImporter -> (ImportResultId: '6138dd7b0237944f9c206ca11985c86f') in 0.0347299 seconds
-[Worker2] Imported GUID: 1bc049922fb112d4697276ac0e2d9342 - Path: Assets/Models/button.fbx - Importer: PreviewImporter -> (ImportResultId: '1d35e4c88519d3d9b6a58ca07ba47755') in 0.2855999 seconds
-[Worker0] Imported GUID: bd50136336a22cf469983e8819c96e88 - Path: Assets/Models/hole.fbx - Importer: PreviewImporter -> (ImportResultId: '8645d7172214dc5f3f7b77eed1f05378') in 0.0364325 seconds
-[Worker2] Imported GUID: 26824a53cc52d6a49bdde286e4bce82d - Path: Assets/Models/portal.fbx - Importer: PreviewImporter -> (ImportResultId: '7daf3784104dc7dcbee2972035452917') in 0.0324636 seconds
-Worker ready: AssetImportWorkerHW3 3
-MonoPathRemapper: Attempts to remap: 79419; Successful remaps: 24348
-Serialized file version minimum: 23, current 23
+Imported 'GUID: 540aed3ba45625b4a98b67eed328236a' -> (Import Result ID: '375b3c35bfea8e625aa90e6a9ee4e580') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2a7fe5d524ba07df3b7b8053ca013ee DependenciesID=f20e268fea137a78a27b143afc1e426e StaticDependenciesID=8bc57955021e6060217f34580c409295 
+Refreshing native plugins compatible for Editor in 3.82 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=78ac6bbc63c3ece41a532bf03c2d894b): Total: 0.500 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=128 ms
+		Asset DB Callback time: managed=354 ms, native=15 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1123, non-scripts=3467
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.222ms
+	Scan: 26.049ms
+	Collect global state as custom dependencies: 0.737ms
+	OnSourceAssetsModified: 1.339ms
+	ProcessAssetsWithTransientArtifactChanges: 0.076ms
+	CategorizeAssets: 14.007ms
+	ImportOutOfDateAssets: 70.811ms (9.572ms without children)
+		ImportManagerImport: 21.501ms (1.990ms without children)
+		UnloadImportedAssets: 0.496ms
+		ReloadImportedAssets: 3.143ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.744ms
+		ImportSchedulerStart: 38.460ms
+	PostProcessAllAssets: 360.539ms
+		XRBuildSystem.XRAssetImported 6.509ms
+		MonoPostProcessAllAssets: 352.929ms
+			AssetPostprocessor.OnPostprocessAllAssets 47.330ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 39.819ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.775ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.905ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.147ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.037ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.917ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.799ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.764ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.574ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.560ms
+			AssetChangedListener.OnPostprocessAllAssets 0.507ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.467ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.455ms
+			AssetEvents.OnPostprocessAllAssets 0.288ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.288ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.272ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.212ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.200ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.113ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.102ms
+			SyncVS.PostprocessSyncProject 0.066ms
+	PostAssetChangesProfiler: 7.717ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.285ms
+	UnloadStreamsBegin: 3.328ms
+	PersistCurrentRevisions: 0.342ms
+	Untracked: 7.552ms
+
+[Worker0] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: PreviewImporter -> (ImportResultId: 'aef443c1e20af77655c8bee233352205') in 0.0747575 seconds
+[Worker0] Imported GUID: 540aed3ba45625b4a98b67eed328236a - Path: Assets/Prefabs/LevelMenuCanvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6baf186a68ad1b05815d36d77d75cfb2') in 0.1678697 seconds
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelMusic.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/9b4ce5e9c0453024aa5493ecfc71069b'
+	Deserialize:            0.514 ms
+	Integration:            0.098 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   0.645 ms
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (14.6 KB). Loaded Objects now: 6840.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 36.452500 ms (FindLiveObjects: 0.544400 ms CreateObjectMapping: 0.724100 ms MarkObjects: 34.872400 ms  DeleteObjects: 0.308700 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelSelectButton.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/cb1ec3de49d24784da74c542d37ff480'
+	Deserialize:            0.774 ms
+	Integration:            1.005 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   1.800 ms
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (83.9 KB). Loaded Objects now: 6881.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 36.215100 ms (FindLiveObjects: 0.525900 ms CreateObjectMapping: 0.698100 ms MarkObjects: 34.918300 ms  DeleteObjects: 0.070400 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/MenuButton.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/a11809e36690bfc4196be590ec7ef805'
+	Deserialize:            0.753 ms
+	Integration:            0.189 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   0.973 ms
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (68.0 KB). Loaded Objects now: 6905.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 34.436800 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.697100 ms MarkObjects: 33.169600 ms  DeleteObjects: 0.092900 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/MenuMusic.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/8a62648734153c340b07b2c2913c3ecb'
+	Deserialize:            0.524 ms
+	Integration:            0.100 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   0.654 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (1.0 KB). Loaded Objects now: 6904.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 34.923300 ms (FindLiveObjects: 0.468500 ms CreateObjectMapping: 0.736500 ms MarkObjects: 33.701400 ms  DeleteObjects: 0.014800 ms)
+
+[Worker0] Imported GUID: 7df6cdc9796bad4478e5f131bda17f9f - Path: Assets/Prefabs/Tiles - Importer: PreviewImporter -> (ImportResultId: 'ecbbb9187f9d64a7a6b3e0404e3e59d6') in 0.0028795 seconds
+[Worker0] Imported GUID: 88dbc9859af3b85499630b53a17d5412 - Path: Assets/Prefabs/Tiles/ExitTile.prefab - Importer: PreviewImporter -> (ImportResultId: '211e8cd7b2af8abc0678056c616f2a8a') in 0.156808 seconds
+[Worker1] Imported GUID: 87eaa0223eb82994c96f9c5cbc6ff4b3 - Path: Assets/Prefabs/Tiles/HoleTile.prefab - Importer: PreviewImporter -> (ImportResultId: '59742715583f64d6f6d75e70b837e270') in 0.157346 seconds
+[Worker1] Imported GUID: 43a27be5af60bf7419ad5c4b74a36a8d - Path: Assets/Prefabs/Tiles/NormalTile.prefab - Importer: PreviewImporter -> (ImportResultId: '35a60d082cb5c1cd7148b89718e7b186') in 0.026478 seconds
+[Worker0] Imported GUID: 8e732a942adb63d4eb7bc46d18259620 - Path: Assets/Prefabs/Tiles/SpawnerTile.prefab - Importer: PreviewImporter -> (ImportResultId: '5f0a875bd50162829ca6b3e23fa67cab') in 0.0311573 seconds
+[Worker1] Imported GUID: ab7282563d6a2264fb19af85caaba719 - Path: Assets/Prefabs/Tiles/SwitchTile.prefab - Importer: PreviewImporter -> (ImportResultId: '5b31ccd36664de92e1edbd752314047a') in 0.0409764 seconds
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/GameManager.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/f81a0e664243a9a4b81084e1fec9a8fa'
+	Deserialize:            0.620 ms
+	Integration:            0.106 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   0.759 ms
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (12.7 KB). Loaded Objects now: 6902.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 35.238500 ms (FindLiveObjects: 0.457600 ms CreateObjectMapping: 0.699300 ms MarkObjects: 33.994200 ms  DeleteObjects: 0.085500 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelController.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/c9d1ff6d7188d58499bb5f1b737b307c'
+	Deserialize:            0.530 ms
+	Integration:            0.112 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   0.662 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (374 B). Loaded Objects now: 6905.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 33.657800 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.665800 ms MarkObjects: 32.504800 ms  DeleteObjects: 0.049600 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelLight.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/127a80fd2719472478f00de8e2c22d99'
+	Deserialize:            0.522 ms
+	Integration:            0.112 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   0.661 ms
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (1.7 KB). Loaded Objects now: 6906.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 35.605700 ms (FindLiveObjects: 0.450200 ms CreateObjectMapping: 0.693000 ms MarkObjects: 34.394200 ms  DeleteObjects: 0.066600 ms)
+
+Loaded scene 'Library/Unused/8b44628f9e7207c4aab3bb1ca08a3bf6'
+	Deserialize:            1.615 ms
+	Integration:            0.288 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   1.931 ms
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (23.1 KB). Loaded Objects now: 7045.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 34.861000 ms (FindLiveObjects: 0.461500 ms CreateObjectMapping: 0.741200 ms MarkObjects: 33.577800 ms  DeleteObjects: 0.078600 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelMusic.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/d4329040510ac4c4eb00c12b17121ddd'
+	Deserialize:            0.421 ms
+	Integration:            0.089 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   0.538 ms
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.0 KB). Loaded Objects now: 6908.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 35.434400 ms (FindLiveObjects: 0.481000 ms CreateObjectMapping: 0.714500 ms MarkObjects: 34.042600 ms  DeleteObjects: 0.194000 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/LevelSelectButton.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/d79d24649589b7b42acf5f3c319affd7'
+	Deserialize:            0.781 ms
+	Integration:            0.176 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   0.981 ms
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (374 B). Loaded Objects now: 6926.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 35.601500 ms (FindLiveObjects: 0.464900 ms CreateObjectMapping: 0.694000 ms MarkObjects: 34.416600 ms  DeleteObjects: 0.024200 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (6.5 KB). Loaded Objects now: 6918.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 35.600100 ms (FindLiveObjects: 0.546800 ms CreateObjectMapping: 0.700400 ms MarkObjects: 34.259800 ms  DeleteObjects: 0.090700 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/MenuButton.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/1ab8dea5dbb2d9b45b5f5c7c715dab58'
+	Deserialize:            0.750 ms
+	Integration:            0.164 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   0.939 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (22.1 KB). Loaded Objects now: 6910.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 34.207200 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.695400 ms MarkObjects: 32.998300 ms  DeleteObjects: 0.084100 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/MenuMusic.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/4f2fe84aa2800b44181af926b97f9c64'
+	Deserialize:            0.506 ms
+	Integration:            0.093 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   0.626 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (374 B). Loaded Objects now: 6909.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 35.030500 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.721400 ms MarkObjects: 33.807500 ms  DeleteObjects: 0.025900 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/_CameraRig.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Problem detected while loading the contents of the Prefab file: 'Assets/Prefabs/_CameraRig.prefab'.
+Check the following logs for more details.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 860]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 71]
+
+Loaded scene 'Library/Unused/077bc354475abb94b9245447f7530fb4'
+	Deserialize:            0.867 ms
+	Integration:            1.104 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   2.002 ms
+Unloading 120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (83.5 KB). Loaded Objects now: 6946.
+Memory consumption went from 0.72 GB to 0.72 GB.
+Total: 35.639600 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.703900 ms MarkObjects: 34.323300 ms  DeleteObjects: 0.129400 ms)
+
+Serialized files [version 17] before 2019.1 are deprecated. Open and re-save the file: "Assets/Prefabs/UI/Virtual_DPad.prefab"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene_Internal (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.PrefabUtility:LoadPrefabContentsIntoPreviewScene (string,UnityEngine.SceneManagement.Scene,UnityEngine.GameObject&)
+UnityEditor.SceneManagement.PrefabStageUtility:LoadPrefabIntoPreviewScene (string,UnityEngine.SceneManagement.Scene)
+UnityEditor.SceneManagement.PrefabStage:LoadStage ()
+UnityEditor.SceneManagement.PrefabStage:OpenStage ()
+UnityEditor.SceneManagement.PrefabStage:OnOpenStage ()
+UnityEditor.SceneManagement.StageNavigationManager:SwitchToStage (UnityEditor.SceneManagement.Stage,bool,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefabMode (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStageUtility:OpenPrefab (string,UnityEngine.GameObject,UnityEditor.SceneManagement.PrefabStage/Mode,UnityEditor.SceneManagement.StageNavigationManager/Analytics/ChangeType)
+UnityEditor.SceneManagement.PrefabStage:OnOpenAsset (UnityEngine.EntityId,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId,int,int)
+UnityEditor.AssetDatabase:OpenAsset (UnityEngine.EntityId)
+UnityEditor.ProjectBrowser:OpenAssetSelection (UnityEngine.EntityId[])
+UnityEditor.ProjectBrowser:OpenListAreaSelection ()
+UnityEditor.ProjectBrowser:ListAreaItemSelectedCallback (bool)
+UnityEditor.ObjectListArea:SetSelection (UnityEngine.EntityId[],bool)
+UnityEditor.ObjectListArea/LocalGroup:HandleMouseWithDragging (UnityEngine.EntityId,int,UnityEngine.Rect)
+UnityEditor.ObjectListArea/LocalGroup:DrawItem (UnityEngine.Rect,UnityEditor.FilteredHierarchy/FilterResult,UnityEditor.BuiltinResource,bool)
+UnityEditor.ObjectListArea/LocalGroup:DrawInternal (int,int,single)
+UnityEditor.ObjectListArea/Group:Draw (single,UnityEngine.Vector2,int&)
+UnityEditor.ObjectListArea:HandleListArea ()
+UnityEditor.ObjectListArea:OnGUI (UnityEngine.Rect,int)
+UnityEditor.ProjectBrowser:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+[C:\build\output\unity\unity\Runtime\Serialize\SerializedFile.cpp line 835]
+
+Loaded scene 'Library/Unused/7bcd9801f89272649adf83b841bee030'
+	Deserialize:            1.522 ms
+	Integration:            0.430 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   1.978 ms
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (6.9 KB). Loaded Objects now: 7004.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 35.261500 ms (FindLiveObjects: 0.550700 ms CreateObjectMapping: 0.706300 ms MarkObjects: 33.905700 ms  DeleteObjects: 0.097000 ms)
+
+Asset Pipeline Refresh (id=6234d0cfa72e70e4589b7c400f554bf2): Total: 0.030 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 76957; Successful remaps: 24348
+Serialized file version minimum: 17, current 23
 [LAYOUT] About to save layout D:\Ê∏∏ÊàèÂºÄÂèë\Magnetic\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/sispu/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 Deleted discovery files
@@ -928,16 +1950,20 @@ UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
 
 (Filename: ./Library/PackageCache/com.unity.ai.assistant@ceb45b7b3ebd/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 313)
 
-[INFO ] [relay] log Shutdown request received from client editor-68128-hwcjng
+[INFO ] [relay] log Shutdown request received from client editor-63164-0fj06s
 [INFO ] [relay] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
 [INFO ] [relay] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
-≥…π¶: “—÷’÷π PID 64268 ( Ù”⁄ PID 63572 ◊”Ω¯≥Ã)µƒΩ¯≥Ã°£
-≥…π¶: “—÷’÷π PID 63572 ( Ù”⁄ PID 68128 ◊”Ω¯≥Ã)µƒΩ¯≥Ã°£
-Unloading 72 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (95.2 KB). Loaded Objects now: 6954.
-Memory consumption went from 0.74 GB to 0.74 GB.
-Total: 57.509800 ms (FindLiveObjects: 0.654400 ms CreateObjectMapping: 1.139400 ms MarkObjects: 55.548600 ms  DeleteObjects: 0.165200 ms)
+≥…π¶: “—÷’÷π PID 59104 ( Ù”⁄ PID 69920 ◊”Ω¯≥Ã)µƒΩ¯≥Ã°£
+≥…π¶: “—÷’÷π PID 69920 ( Ù”⁄ PID 63164 ◊”Ω¯≥Ã)µƒΩ¯≥Ã°£
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (1.8 KB). Loaded Objects now: 6958.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 36.167900 ms (FindLiveObjects: 0.542500 ms CreateObjectMapping: 0.707900 ms MarkObjects: 34.852200 ms  DeleteObjects: 0.063500 ms)
 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '0dfa0c5842eeddd243049a206a0c48e4') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=451b5ceb8c83b1a9b98095f3a69c1846 StaticDependenciesID=90a39cdd0630b2c68a6bbc8d7e6ec8cf 
+Refreshing native plugins compatible for Editor in 4.76 ms, found 1 plugins.
+Asset Pipeline Refresh (id=daab615d52d4dfd4dbfe576ef6e65280): Total: 0.093 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -949,12 +1975,16 @@ Shut down.
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 000000000000789C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000F170, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000789C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000C7C0, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 4892
+abort_threads: Failed aborting id: 000000000000F170, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000C7C0, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4880
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794313591478,"processId":68128,"allocatedMemory":52165479,"memoryLabels":[{"Default":237050},{"Permanent":15516},{"NewDelete":69405},{"Thread":4197560},{"Manager":43397},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":854953},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":368},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":51648},{"Input":42840},{"JobScheduler":256},{"TextLib":40150},{"Mono":48},{"MonoCode":256},{"ScriptingNativeRuntime":1684500},{"BaseObject":1678269},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":75289},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9872},{"StaticString":3808},{"Utility":2676146},{"Curl":1639},{"PoolAlloc":2792},{"AI":80},{"TypeTree":33332},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7240},{"WebRequest":12412},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33105264},{"Camera":42649},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1211224},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267869},{"EditorUtility":297427},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4930962},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36212},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794316156787,"processId":63164,"allocatedMemory":52033531,"memoryLabels":[{"Default":238686},{"Permanent":15516},{"NewDelete":68685},{"Thread":4197560},{"Manager":43397},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":854953},{"Material":24},{"GfxDevice":55328},{"Animation":25272},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":92632},{"Input":42840},{"JobScheduler":256},{"TextLib":40150},{"Mono":48},{"MonoCode":256},{"ScriptingNativeRuntime":1684500},{"BaseObject":1786749},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":140619},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9875},{"StaticString":3808},{"Utility":2676170},{"Curl":1755},{"PoolAlloc":2792},{"AI":80},{"TypeTree":14869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7856},{"CloudService":7240},{"WebRequest":6952},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33138688},{"Camera":2417},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1015944},{"CoreStats":13688},{"Identifiers":6768},{"Gui":275820},{"EditorUtility":276166},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4930922},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36212},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

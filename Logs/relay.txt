@@ -307,3 +307,39 @@
 [2026-11-10T13:04:03.792Z] [INFO] log Shutdown request received from client editor-35536-grfb7p
 [2026-11-10T13:04:03.793Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
 [2026-11-10T13:04:03.795Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-11-10T13:06:24.612Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=63164
+[2026-11-10T13:06:24.614Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-11-10T13:06:24.641Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=145
+[2026-11-10T13:06:24.642Z] [INFO] log Starting relay server...
+[2026-11-10T13:06:24.643Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","63164","--shutdown-delay","180","--log-dir","D:\\游戏开发\\Magnetic\\Logs"]
+[2026-11-10T13:06:24.644Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"63164","shutdownDelaySeconds":180}
+[2026-11-10T13:06:24.646Z] [INFO] log Initializing relay components...
+[2026-11-10T13:06:24.647Z] [INFO] log Creating RelayEditor...
+[2026-11-10T13:06:24.654Z] [INFO] log WebSocket server started
+[2026-11-10T13:06:24.655Z] [INFO] log Relay server initialization completed
+[2026-11-10T13:06:24.662Z] [INFO] log MCP Client initialized at port: 9002
+[2026-11-10T13:06:24.671Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-11-10T13:06:24.694Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-11-10T13:06:25.026Z] [INFO] log Unity client connected with ID: editor-63164-0fj06s (relay 1.0.12-build.99)
+[2026-11-10T13:06:25.027Z] [INFO] connection.established clientId=editor-63164-0fj06s port=9001
+[2026-11-10T13:09:13.094Z] [INFO] log Shutdown request received from client editor-63164-0fj06s
+[2026-11-10T13:09:13.096Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-10T13:09:13.097Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-11-10T13:16:21.507Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=70452
+[2026-11-10T13:16:21.509Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-11-10T13:16:21.535Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=145
+[2026-11-10T13:16:21.536Z] [INFO] log Starting relay server...
+[2026-11-10T13:16:21.537Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","70452","--shutdown-delay","180","--log-dir","D:\\游戏开发\\Magnetic\\Logs"]
+[2026-11-10T13:16:21.539Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"70452","shutdownDelaySeconds":180}
+[2026-11-10T13:16:21.542Z] [INFO] log Initializing relay components...
+[2026-11-10T13:16:21.543Z] [INFO] log Creating RelayEditor...
+[2026-11-10T13:16:21.550Z] [INFO] log WebSocket server started
+[2026-11-10T13:16:21.552Z] [INFO] log Relay server initialization completed
+[2026-11-10T13:16:21.559Z] [INFO] log MCP Client initialized at port: 9002
+[2026-11-10T13:16:21.567Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-11-10T13:16:21.595Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-11-10T13:16:21.874Z] [INFO] log Unity client connected with ID: editor-70452-jucyzz (relay 1.0.12-build.99)
+[2026-11-10T13:16:21.875Z] [INFO] connection.established clientId=editor-70452-jucyzz port=9001
+[2026-11-10T13:19:14.143Z] [INFO] log Shutdown request received from client editor-70452-jucyzz
+[2026-11-10T13:19:14.144Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-10T13:19:14.146Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client

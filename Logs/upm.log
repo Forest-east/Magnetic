@@ -1,32 +1,32 @@
-[2026-11-10T13:02:05.806Z][INFO] Command-line: D:\\Unity\\6000.5.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 35536 --ipc-path Unity-Upm-35536 -l 2 --log-file D:\\游戏开发\\Magnetic/Logs/upm.log
-[2026-11-10T13:02:05.893Z][INFO] IPC server started (IPC path=Unity-Upm-35536).
-[2026-11-10T13:02:05.894Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-35536.
-[2026-11-10T13:02:11.772Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:15:55.848Z][INFO] Command-line: D:\\Unity\\6000.5.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 70452 --ipc-path Unity-Upm-70452 -l 2 --log-file D:\\游戏开发\\Magnetic/Logs/upm.log
+[2026-11-10T13:15:55.935Z][INFO] IPC server started (IPC path=Unity-Upm-70452).
+[2026-11-10T13:15:55.935Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-70452.
+[2026-11-10T13:16:02.830Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:11.927Z][INFO] config:project:get-registries <-- Request received
+[2026-11-10T13:16:03.002Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-10T13:02:11.953Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:16:03.015Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:11.997Z][INFO] config:project:get-registries --> 200 (71 ms)
-[2026-11-10T13:02:12.311Z][INFO] project:list-packages --> 200 (540 ms)
-[2026-11-10T13:02:12.441Z][INFO] project:list-packages --> 200 (488 ms)
-[2026-11-10T13:02:17.204Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:16:03.076Z][INFO] config:project:get-registries --> 200 (74 ms)
+[2026-11-10T13:16:03.373Z][INFO] project:list-packages --> 200 (544 ms)
+[2026-11-10T13:16:03.511Z][INFO] project:list-packages --> 200 (496 ms)
+[2026-11-10T13:16:08.127Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:17.249Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:16:08.157Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:17.591Z][INFO] project:list-packages --> 200 (388 ms)
-[2026-11-10T13:02:17.604Z][INFO] project:list-packages --> 200 (355 ms)
-[2026-11-10T13:02:22.706Z][INFO] config:project:get-registries <-- Request received
+[2026-11-10T13:16:08.480Z][INFO] project:list-packages --> 200 (324 ms)
+[2026-11-10T13:16:08.482Z][INFO] project:list-packages --> 200 (355 ms)
+[2026-11-10T13:16:13.398Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-10T13:02:22.712Z][INFO] config:project:get-registries --> 200 (7 ms)
-[2026-11-10T13:02:28.202Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:16:13.406Z][INFO] config:project:get-registries --> 200 (8 ms)
+[2026-11-10T13:16:18.233Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:28.461Z][INFO] project:list-packages --> 200 (260 ms)
-[2026-11-10T13:02:30.854Z][INFO] packages:get-packageinfo <-- Request received
+[2026-11-10T13:16:18.448Z][INFO] project:list-packages --> 200 (215 ms)
+[2026-11-10T13:16:20.903Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.ai.assistant"
 }
-[2026-11-10T13:02:31.977Z][INFO] project:list-packages <-- Request received
+[2026-11-10T13:16:22.758Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-10T13:02:32.432Z][INFO] packages:get-packageinfo --> 200 (1578 ms)
-[2026-11-10T13:02:34.402Z][INFO] project:list-packages --> 200 (2426 ms)
+[2026-11-10T13:16:23.170Z][INFO] packages:get-packageinfo --> 200 (2267 ms)
+[2026-11-10T13:16:25.333Z][INFO] project:list-packages --> 200 (2575 ms)
