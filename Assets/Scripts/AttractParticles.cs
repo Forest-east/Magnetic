@@ -5,8 +5,12 @@ using UnityEngine;
 ///
 /// The ParticleSystem serialized in Player.prefab (authored in Unity 2017, resaved into the
 /// current binary format) no longer renders at all, whatever parameters or material it gets.
-/// This component rebuilds the same idea - particles spawned on a ring that converge inward
-/// towards the player - but brighter and bigger so the effect actually reads on screen.
+/// This component rebuilds the idea - particles appearing around the player and converging
+/// inwards - while keeping the particles OUTSIDE the player model so they never cover it.
+///
+/// The range is chosen so a particle dies just before it reaches the body:
+///   travel distance = |convergeSpeed| * lifetime
+///   end radius      = spawnRadius - travel distance   (kept above the player's half width)
 ///
 /// NOTE: every curve below is a plain constant on purpose. Two-constant MinMaxCurves
 /// (MinMaxCurve(min, max)) end up rendering nothing in a build, so they are avoided.
@@ -18,43 +22,48 @@ public class AttractParticles : MonoBehaviour
     Material particleMaterial;
 
     /// <summary>
-    /// Bright, slightly cyan white so the additive particles glow on the dark floor
+    /// Soft cyan white. Bright enough to read on the dark floor without washing out.
     /// </summary>
     [SerializeField]
-    Color tint = new Color(0.80f, 0.95f, 1f, 1f);
-
-    [SerializeField]
-    float heightOffset = 0.9f;
+    Color tint = new Color(0.72f, 0.90f, 1f, 1f);
 
     /// <summary>
-    /// Radius the particles spawn at, before converging on the player
+    /// Height of the ring centre relative to the player. Kept low so the halo surrounds
+    /// the body instead of hovering over it.
     /// </summary>
     [SerializeField]
-    float spawnRadius = 1.9f;
+    float heightOffset = 0.35f;
+
+    /// <summary>
+    /// Radius the particles spawn at
+    /// </summary>
+    [SerializeField]
+    float spawnRadius = 2.6f;
 
     /// <summary>
     /// Inward speed. Negative values pull the particles towards the centre.
     /// </summary>
     [SerializeField]
-    float convergeSpeed = -2.6f;
+    float convergeSpeed = -2.0f;
 
     /// <summary>
-    /// How long a particle lives. Long enough to travel from the ring to the centre.
+    /// Lifetime. Short enough that a particle fades out before it reaches the player model:
+    /// 2.0 * 0.55 = 1.1 units of travel, ending at radius 1.5.
     /// </summary>
     [SerializeField]
-    float lifetime = 0.75f;
+    float lifetime = 0.55f;
 
     /// <summary>
-    /// Particle size in world units (the original effect used 0.2, which was too small to read)
+    /// Particle size in world units
     /// </summary>
     [SerializeField]
-    float size = 0.45f;
+    float size = 0.32f;
 
     /// <summary>
-    /// Particles per second (the original used 20, which was too sparse)
+    /// Particles per second
     /// </summary>
     [SerializeField]
-    float rate = 130f;
+    float rate = 80f;
 
     ParticleSystem system;
 
@@ -104,14 +113,15 @@ public class AttractParticles : MonoBehaviour
         main.startSize = this.size;
         main.startLifetime = this.lifetime;
         main.startColor = this.tint;
-        main.maxParticles = 700;
+        main.maxParticles = 400;
         main.simulationSpace = ParticleSystemSimulationSpace.Local;
 
         ParticleSystem.EmissionModule emission = ps.emission;
         emission.rateOverTime = this.rate;
 
-        // Particles spawn on the surface of a sphere and fly inwards, which is the
-        // "being pulled towards the player" look the original effect had.
+        // Spawn on the surface of a sphere and fly inwards. The lifetime is tuned so a
+        // particle dies before it reaches the player, leaving a shrinking halo around the
+        // model rather than a cloud on top of it.
         ParticleSystem.ShapeModule shape = ps.shape;
         shape.enabled = true;
         shape.shapeType = ParticleSystemShapeType.Sphere;
